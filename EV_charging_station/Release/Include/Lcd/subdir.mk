@@ -17,7 +17,7 @@ C_DEPS += \
 Include/Lcd/%.o: ../Include/Lcd/%.c Include/Lcd/subdir.mk
 	@echo 'Building file: $<'
 	@echo 'Invoking: AVR Compiler'
-	avr-gcc -I"C:\Users\medo4\eclipse-workspace\EV_charging_station\FreeRtos" -I"C:\Users\medo4\eclipse-workspace\EV_charging_station\FreeRtos\include" -I"C:\Users\medo4\eclipse-workspace\EV_charging_station\Include" -I"C:\Users\medo4\eclipse-workspace\EV_charging_station\Include\Lcd" -Wall -Os -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32a -DF_CPU=8000000UL -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -c -o "$@" "$<"
+	avr-gcc -I"C:\Users\medo4\eclipse-workspace\EV_charging_station\FreeRtos" -I"C:\Users\medo4\eclipse-workspace\EV_charging_station\FreeRtos\include" -I"C:\Users\medo4\eclipse-workspace\EV_charging_station\Include" -I"C:\Users\medo4\eclipse-workspace\EV_charging_station\Include\Lcd" -I"C:\Users\medo4\eclipse-workspace\EV_charging_station\Include\MCAL" -I"C:\Users\medo4\eclipse-workspace\EV_charging_station\Include\MCAL\ADC" -Wall -Os -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32a -DF_CPU=8000000UL -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -c -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 

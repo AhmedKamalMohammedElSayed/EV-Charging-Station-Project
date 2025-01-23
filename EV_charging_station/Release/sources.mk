@@ -26,5 +26,6 @@ Debug/Include/Lcd \
 Debug \
 FreeRtos \
 Include/Lcd \
+Include/MCAL/ADC \
 . \
 

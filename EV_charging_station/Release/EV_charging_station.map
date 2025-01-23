@@ -1,27 +1,57 @@
 Archive member included to satisfy reference by file (symbol)
 
+c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_udivmodsi4.o)
+                              ./main.o (__udivmodsi4)
 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_exit.o)
                               c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/crtatmega32a.o (exit)
+c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_tablejump2.o)
+                              ./Include/MCAL/ADC/ADC.o (__tablejump2__)
 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_copy_data.o)
                               ./FreeRtos/tasks.o (__do_copy_data)
 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_clear_bss.o)
                               ./FreeRtos/croutine.o (__do_clear_bss)
+c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(divsf3.o)
+                              ./Include/MCAL/ADC/ADC.o (__divsf3)
+c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+                              c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(divsf3.o) (__divsf3x)
+c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+                              ./Include/MCAL/ADC/ADC.o (__floatunsisf)
+c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+                              c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(divsf3x.o) (__fp_inf)
+c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+                              c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(divsf3x.o) (__fp_nan)
+c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+                              c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(divsf3x.o) (__fp_pscA)
+c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+                              c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(divsf3x.o) (__fp_pscB)
+c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
+                              c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(divsf3.o) (__fp_round)
+c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+                              c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(divsf3x.o) (__fp_split3)
+c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+                              c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(divsf3x.o) (__fp_szero)
+c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+                              ./Include/MCAL/ADC/ADC.o (__mulsf3)
+c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+                              c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(mulsf3.o) (__mulsf3x)
 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(memcpy.o)
                               ./FreeRtos/queue.o (memcpy)
-
-Allocating common symbols
-Common symbol       size              file
-
-TaskDisplayRefreshHandle
-                    0x2               ./main.o
-TaskUserCommandHandle
-                    0x2               ./main.o
-TaskChargingStartHandle
-                    0x2               ./main.o
-TaskFaultDetectionHandle
-                    0x2               ./main.o
-TaskStopSessionHandle
-                    0x2               ./main.o
+c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(snprintf.o)
+                              ./main.o (snprintf)
+c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+                              c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(snprintf.o) (vfprintf)
+c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
+                              c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(vfprintf_std.o) (strnlen_P)
+c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(strnlen.o)
+                              c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(vfprintf_std.o) (strnlen)
+c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(fputc.o)
+                              c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(vfprintf_std.o) (fputc)
+c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
+                              c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(vfprintf_std.o) (__ultoa_invert)
+c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_prologue.o)
+                              c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(snprintf.o) (__prologue_saves__)
+c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_epilogue.o)
+                              c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(snprintf.o) (__epilogue_restores__)
 
 Memory Configuration
 
@@ -38,6 +68,7 @@ user_signatures  0x0000000000850000 0x0000000000000400 rw !x
 Linker script and memory map
 
 LOAD c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/crtatmega32a.o
+LOAD ./Include/MCAL/ADC/ADC.o
 LOAD ./Include/Lcd/Lcd.o
 LOAD ./FreeRtos/croutine.o
 LOAD ./FreeRtos/event_groups.o
@@ -155,7 +186,7 @@ END GROUP
 .rela.plt
  *(.rela.plt)
 
-.text           0x0000000000000000     0x366c
+.text           0x0000000000000000     0x407a
  *(.vectors)
  .vectors       0x0000000000000000       0x54 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/crtatmega32a.o
                 0x0000000000000000                __vector_default
@@ -234,6 +265,7 @@ END GROUP
                 0x000000000000008e                __vector_16
                 0x000000000000008e                __vector_18
                 0x000000000000008e                __vector_20
+ .text          0x0000000000000092        0x0 ./Include/MCAL/ADC/ADC.o
  .text          0x0000000000000092        0x0 ./Include/Lcd/Lcd.o
  .text          0x0000000000000092        0x0 ./FreeRtos/croutine.o
  .text          0x0000000000000092        0x0 ./FreeRtos/event_groups.o
@@ -245,433 +277,579 @@ END GROUP
  .text          0x0000000000000092        0x0 ./FreeRtos/tasks.o
  .text          0x0000000000000092        0x0 ./FreeRtos/timers.o
  .text          0x0000000000000092        0x0 ./main.o
+ .text          0x0000000000000092        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_udivmodsi4.o)
  .text          0x0000000000000092        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_exit.o)
+ .text          0x0000000000000092        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_tablejump2.o)
  .text          0x0000000000000092        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_copy_data.o)
  .text          0x0000000000000092        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_clear_bss.o)
+ .text          0x0000000000000092        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(divsf3.o)
+ .text          0x0000000000000092        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+ .text          0x0000000000000092        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+ .text          0x0000000000000092        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+ .text          0x0000000000000092        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+ .text          0x0000000000000092        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+ .text          0x0000000000000092        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+ .text          0x0000000000000092        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
+ .text          0x0000000000000092        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+ .text          0x0000000000000092        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+ .text          0x0000000000000092        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+ .text          0x0000000000000092        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
  .text          0x0000000000000092        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(memcpy.o)
+ .text          0x0000000000000092        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(snprintf.o)
+ .text          0x0000000000000092        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+ .text          0x0000000000000092        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
+ .text          0x0000000000000092        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(strnlen.o)
+ .text          0x0000000000000092        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(fputc.o)
+ .text          0x0000000000000092        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
+ .text          0x0000000000000092        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_prologue.o)
+ .text          0x0000000000000092        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_epilogue.o)
                 0x0000000000000092                . = ALIGN (0x2)
  *(.text.*)
+ .text.ADC_PRESCALER_SET
+                0x0000000000000092       0x50 ./Include/MCAL/ADC/ADC.o
+                0x0000000000000092                ADC_PRESCALER_SET
+ .text.ADC_voltage_Reference
+                0x00000000000000e2       0x26 ./Include/MCAL/ADC/ADC.o
+                0x00000000000000e2                ADC_voltage_Reference
+ .text.ADC_INIT
+                0x0000000000000108       0x16 ./Include/MCAL/ADC/ADC.o
+                0x0000000000000108                ADC_INIT
+ .text.ADC_READ
+                0x000000000000011e       0x5c ./Include/MCAL/ADC/ADC.o
+                0x000000000000011e                ADC_READ
+ .text.ADC_GetVoltage
+                0x000000000000017a       0x24 ./Include/MCAL/ADC/ADC.o
+                0x000000000000017a                ADC_GetVoltage
  .text.LCD_Command
-                0x0000000000000092       0x52 ./Include/Lcd/Lcd.o
-                0x0000000000000092                LCD_Command
+                0x000000000000019e       0x52 ./Include/Lcd/Lcd.o
+                0x000000000000019e                LCD_Command
  .text.LCD_Char
-                0x00000000000000e4       0x52 ./Include/Lcd/Lcd.o
-                0x00000000000000e4                LCD_Char
+                0x00000000000001f0       0x52 ./Include/Lcd/Lcd.o
+                0x00000000000001f0                LCD_Char
  .text.LCD_Init
-                0x0000000000000136       0x3c ./Include/Lcd/Lcd.o
-                0x0000000000000136                LCD_Init
+                0x0000000000000242       0x3c ./Include/Lcd/Lcd.o
+                0x0000000000000242                LCD_Init
  .text.LCD_String
-                0x0000000000000172       0x18 ./Include/Lcd/Lcd.o
-                0x0000000000000172                LCD_String
+                0x000000000000027e       0x18 ./Include/Lcd/Lcd.o
+                0x000000000000027e                LCD_String
  .text.LCD_String_xy
-                0x000000000000018a       0x2e ./Include/Lcd/Lcd.o
-                0x000000000000018a                LCD_String_xy
+                0x0000000000000296       0x2e ./Include/Lcd/Lcd.o
+                0x0000000000000296                LCD_String_xy
  .text.LCD_Clear
-                0x00000000000001b8       0x18 ./Include/Lcd/Lcd.o
-                0x00000000000001b8                LCD_Clear
+                0x00000000000002c4       0x18 ./Include/Lcd/Lcd.o
+                0x00000000000002c4                LCD_Clear
  .text.xCoRoutineCreate
-                0x00000000000001d0       0xe2 ./FreeRtos/croutine.o
-                0x00000000000001d0                xCoRoutineCreate
+                0x00000000000002dc       0xe2 ./FreeRtos/croutine.o
+                0x00000000000002dc                xCoRoutineCreate
  .text.vCoRoutineAddToDelayedList
-                0x00000000000002b2       0x84 ./FreeRtos/croutine.o
-                0x00000000000002b2                vCoRoutineAddToDelayedList
+                0x00000000000003be       0x84 ./FreeRtos/croutine.o
+                0x00000000000003be                vCoRoutineAddToDelayedList
  .text.vCoRoutineSchedule
-                0x0000000000000336      0x208 ./FreeRtos/croutine.o
-                0x0000000000000336                vCoRoutineSchedule
+                0x0000000000000442      0x208 ./FreeRtos/croutine.o
+                0x0000000000000442                vCoRoutineSchedule
  .text.xCoRoutineRemoveFromEventList
-                0x000000000000053e       0x48 ./FreeRtos/croutine.o
-                0x000000000000053e                xCoRoutineRemoveFromEventList
+                0x000000000000064a       0x48 ./FreeRtos/croutine.o
+                0x000000000000064a                xCoRoutineRemoveFromEventList
  .text.vCoRoutineResetState
-                0x0000000000000586       0x36 ./FreeRtos/croutine.o
-                0x0000000000000586                vCoRoutineResetState
+                0x0000000000000692       0x36 ./FreeRtos/croutine.o
+                0x0000000000000692                vCoRoutineResetState
  .text.xEventGroupCreate
-                0x00000000000005bc       0x26 ./FreeRtos/event_groups.o
-                0x00000000000005bc                xEventGroupCreate
+                0x00000000000006c8       0x26 ./FreeRtos/event_groups.o
+                0x00000000000006c8                xEventGroupCreate
  .text.xEventGroupWaitBits
-                0x00000000000005e2       0xec ./FreeRtos/event_groups.o
-                0x00000000000005e2                xEventGroupWaitBits
+                0x00000000000006ee       0xec ./FreeRtos/event_groups.o
+                0x00000000000006ee                xEventGroupWaitBits
  .text.xEventGroupClearBits
-                0x00000000000006ce       0x1e ./FreeRtos/event_groups.o
-                0x00000000000006ce                xEventGroupClearBits
+                0x00000000000007da       0x1e ./FreeRtos/event_groups.o
+                0x00000000000007da                xEventGroupClearBits
  .text.xEventGroupGetBitsFromISR
-                0x00000000000006ec        0x8 ./FreeRtos/event_groups.o
-                0x00000000000006ec                xEventGroupGetBitsFromISR
+                0x00000000000007f8        0x8 ./FreeRtos/event_groups.o
+                0x00000000000007f8                xEventGroupGetBitsFromISR
  .text.xEventGroupSetBits
-                0x00000000000006f4       0x9a ./FreeRtos/event_groups.o
-                0x00000000000006f4                xEventGroupSetBits
+                0x0000000000000800       0x9a ./FreeRtos/event_groups.o
+                0x0000000000000800                xEventGroupSetBits
  .text.xEventGroupSync
-                0x000000000000078e       0xd8 ./FreeRtos/event_groups.o
-                0x000000000000078e                xEventGroupSync
+                0x000000000000089a       0xd8 ./FreeRtos/event_groups.o
+                0x000000000000089a                xEventGroupSync
  .text.vEventGroupDelete
-                0x0000000000000866       0x2c ./FreeRtos/event_groups.o
-                0x0000000000000866                vEventGroupDelete
+                0x0000000000000972       0x2c ./FreeRtos/event_groups.o
+                0x0000000000000972                vEventGroupDelete
  .text.vEventGroupSetBitsCallback
-                0x0000000000000892        0x6 ./FreeRtos/event_groups.o
-                0x0000000000000892                vEventGroupSetBitsCallback
+                0x000000000000099e        0x6 ./FreeRtos/event_groups.o
+                0x000000000000099e                vEventGroupSetBitsCallback
  .text.vEventGroupClearBitsCallback
-                0x0000000000000898        0x6 ./FreeRtos/event_groups.o
-                0x0000000000000898                vEventGroupClearBitsCallback
+                0x00000000000009a4        0x6 ./FreeRtos/event_groups.o
+                0x00000000000009a4                vEventGroupClearBitsCallback
  .text.pvPortMalloc
-                0x000000000000089e       0x70 ./FreeRtos/heap_1.o
-                0x000000000000089e                pvPortMalloc
+                0x00000000000009aa       0x70 ./FreeRtos/heap_1.o
+                0x00000000000009aa                pvPortMalloc
  .text.vPortFree
-                0x000000000000090e        0x2 ./FreeRtos/heap_1.o
-                0x000000000000090e                vPortFree
+                0x0000000000000a1a        0x2 ./FreeRtos/heap_1.o
+                0x0000000000000a1a                vPortFree
  .text.vPortInitialiseBlocks
-                0x0000000000000910        0xa ./FreeRtos/heap_1.o
-                0x0000000000000910                vPortInitialiseBlocks
+                0x0000000000000a1c        0xa ./FreeRtos/heap_1.o
+                0x0000000000000a1c                vPortInitialiseBlocks
  .text.xPortGetFreeHeapSize
-                0x000000000000091a       0x12 ./FreeRtos/heap_1.o
-                0x000000000000091a                xPortGetFreeHeapSize
+                0x0000000000000a26       0x12 ./FreeRtos/heap_1.o
+                0x0000000000000a26                xPortGetFreeHeapSize
  .text.vPortHeapResetState
-                0x000000000000092c        0xa ./FreeRtos/heap_1.o
-                0x000000000000092c                vPortHeapResetState
+                0x0000000000000a38        0xa ./FreeRtos/heap_1.o
+                0x0000000000000a38                vPortHeapResetState
  .text.vListInitialise
-                0x0000000000000936       0x1c ./FreeRtos/list.o
-                0x0000000000000936                vListInitialise
+                0x0000000000000a42       0x1c ./FreeRtos/list.o
+                0x0000000000000a42                vListInitialise
  .text.vListInitialiseItem
-                0x0000000000000952        0x8 ./FreeRtos/list.o
-                0x0000000000000952                vListInitialiseItem
+                0x0000000000000a5e        0x8 ./FreeRtos/list.o
+                0x0000000000000a5e                vListInitialiseItem
  .text.vListInsertEnd
-                0x000000000000095a       0x40 ./FreeRtos/list.o
-                0x000000000000095a                vListInsertEnd
+                0x0000000000000a66       0x40 ./FreeRtos/list.o
+                0x0000000000000a66                vListInsertEnd
  .text.vListInsert
-                0x000000000000099a       0x6c ./FreeRtos/list.o
-                0x000000000000099a                vListInsert
+                0x0000000000000aa6       0x6c ./FreeRtos/list.o
+                0x0000000000000aa6                vListInsert
  .text.uxListRemove
-                0x0000000000000a06       0x46 ./FreeRtos/list.o
-                0x0000000000000a06                uxListRemove
+                0x0000000000000b12       0x46 ./FreeRtos/list.o
+                0x0000000000000b12                uxListRemove
  .text.pxPortInitialiseStack
-                0x0000000000000a4c       0xd8 ./FreeRtos/port.o
-                0x0000000000000a4c                pxPortInitialiseStack
+                0x0000000000000b58       0xd8 ./FreeRtos/port.o
+                0x0000000000000b58                pxPortInitialiseStack
  .text.xPortStartScheduler
-                0x0000000000000b24       0x6a ./FreeRtos/port.o
-                0x0000000000000b24                xPortStartScheduler
+                0x0000000000000c30       0x6a ./FreeRtos/port.o
+                0x0000000000000c30                xPortStartScheduler
  .text.vPortEndScheduler
-                0x0000000000000b8e        0x2 ./FreeRtos/port.o
-                0x0000000000000b8e                vPortEndScheduler
+                0x0000000000000c9a        0x2 ./FreeRtos/port.o
+                0x0000000000000c9a                vPortEndScheduler
  .text.vPortYield
-                0x0000000000000b90       0xb2 ./FreeRtos/port.o
-                0x0000000000000b90                vPortYield
+                0x0000000000000c9c       0xb2 ./FreeRtos/port.o
+                0x0000000000000c9c                vPortYield
  .text.vPortYieldFromTick
-                0x0000000000000c42       0xb8 ./FreeRtos/port.o
-                0x0000000000000c42                vPortYieldFromTick
+                0x0000000000000d4e       0xb8 ./FreeRtos/port.o
+                0x0000000000000d4e                vPortYieldFromTick
  .text.__vector_7
-                0x0000000000000cfa        0x6 ./FreeRtos/port.o
-                0x0000000000000cfa                __vector_7
+                0x0000000000000e06        0x6 ./FreeRtos/port.o
+                0x0000000000000e06                __vector_7
  .text.prvIsQueueEmpty
-                0x0000000000000d00       0x16 ./FreeRtos/queue.o
+                0x0000000000000e0c       0x16 ./FreeRtos/queue.o
  .text.prvCopyDataToQueue
-                0x0000000000000d16       0x94 ./FreeRtos/queue.o
+                0x0000000000000e22       0x94 ./FreeRtos/queue.o
  .text.prvCopyDataFromQueue
-                0x0000000000000daa       0x34 ./FreeRtos/queue.o
+                0x0000000000000eb6       0x34 ./FreeRtos/queue.o
  .text.prvUnlockQueue
-                0x0000000000000dde       0x7c ./FreeRtos/queue.o
+                0x0000000000000eea       0x7c ./FreeRtos/queue.o
  .text.xQueueGenericReset
-                0x0000000000000e5a       0x8c ./FreeRtos/queue.o
-                0x0000000000000e5a                xQueueGenericReset
+                0x0000000000000f66       0x8c ./FreeRtos/queue.o
+                0x0000000000000f66                xQueueGenericReset
  .text.xQueueGenericCreate
-                0x0000000000000ee6       0x58 ./FreeRtos/queue.o
-                0x0000000000000ee6                xQueueGenericCreate
+                0x0000000000000ff2       0x58 ./FreeRtos/queue.o
+                0x0000000000000ff2                xQueueGenericCreate
  .text.xQueueGenericSend
-                0x0000000000000f3e      0x12a ./FreeRtos/queue.o
-                0x0000000000000f3e                xQueueGenericSend
+                0x000000000000104a      0x12a ./FreeRtos/queue.o
+                0x000000000000104a                xQueueGenericSend
  .text.xQueueGenericSendFromISR
-                0x0000000000001068       0x68 ./FreeRtos/queue.o
-                0x0000000000001068                xQueueGenericSendFromISR
+                0x0000000000001174       0x68 ./FreeRtos/queue.o
+                0x0000000000001174                xQueueGenericSendFromISR
  .text.xQueueGiveFromISR
-                0x00000000000010d0       0x60 ./FreeRtos/queue.o
-                0x00000000000010d0                xQueueGiveFromISR
+                0x00000000000011dc       0x60 ./FreeRtos/queue.o
+                0x00000000000011dc                xQueueGiveFromISR
  .text.xQueueReceive
-                0x0000000000001130      0x122 ./FreeRtos/queue.o
-                0x0000000000001130                xQueueReceive
+                0x000000000000123c      0x122 ./FreeRtos/queue.o
+                0x000000000000123c                xQueueReceive
  .text.xQueueSemaphoreTake
-                0x0000000000001252      0x10a ./FreeRtos/queue.o
-                0x0000000000001252                xQueueSemaphoreTake
+                0x000000000000135e      0x10a ./FreeRtos/queue.o
+                0x000000000000135e                xQueueSemaphoreTake
  .text.xQueuePeek
-                0x000000000000135c      0x122 ./FreeRtos/queue.o
-                0x000000000000135c                xQueuePeek
+                0x0000000000001468      0x122 ./FreeRtos/queue.o
+                0x0000000000001468                xQueuePeek
  .text.xQueueReceiveFromISR
-                0x000000000000147e       0x68 ./FreeRtos/queue.o
-                0x000000000000147e                xQueueReceiveFromISR
+                0x000000000000158a       0x68 ./FreeRtos/queue.o
+                0x000000000000158a                xQueueReceiveFromISR
  .text.xQueuePeekFromISR
-                0x00000000000014e6       0x2e ./FreeRtos/queue.o
-                0x00000000000014e6                xQueuePeekFromISR
+                0x00000000000015f2       0x2e ./FreeRtos/queue.o
+                0x00000000000015f2                xQueuePeekFromISR
  .text.uxQueueMessagesWaiting
-                0x0000000000001514       0x10 ./FreeRtos/queue.o
-                0x0000000000001514                uxQueueMessagesWaiting
+                0x0000000000001620       0x10 ./FreeRtos/queue.o
+                0x0000000000001620                uxQueueMessagesWaiting
  .text.uxQueueSpacesAvailable
-                0x0000000000001524       0x14 ./FreeRtos/queue.o
-                0x0000000000001524                uxQueueSpacesAvailable
+                0x0000000000001630       0x14 ./FreeRtos/queue.o
+                0x0000000000001630                uxQueueSpacesAvailable
  .text.uxQueueMessagesWaitingFromISR
-                0x0000000000001538        0x6 ./FreeRtos/queue.o
-                0x0000000000001538                uxQueueMessagesWaitingFromISR
+                0x0000000000001644        0x6 ./FreeRtos/queue.o
+                0x0000000000001644                uxQueueMessagesWaitingFromISR
  .text.vQueueDelete
-                0x000000000000153e        0x4 ./FreeRtos/queue.o
-                0x000000000000153e                vQueueDelete
+                0x000000000000164a        0x4 ./FreeRtos/queue.o
+                0x000000000000164a                vQueueDelete
  .text.uxQueueGetQueueItemSize
-                0x0000000000001542        0x6 ./FreeRtos/queue.o
-                0x0000000000001542                uxQueueGetQueueItemSize
+                0x000000000000164e        0x6 ./FreeRtos/queue.o
+                0x000000000000164e                uxQueueGetQueueItemSize
  .text.uxQueueGetQueueLength
-                0x0000000000001548        0x6 ./FreeRtos/queue.o
-                0x0000000000001548                uxQueueGetQueueLength
+                0x0000000000001654        0x6 ./FreeRtos/queue.o
+                0x0000000000001654                uxQueueGetQueueLength
  .text.xQueueIsQueueEmptyFromISR
-                0x000000000000154e        0xc ./FreeRtos/queue.o
-                0x000000000000154e                xQueueIsQueueEmptyFromISR
+                0x000000000000165a        0xc ./FreeRtos/queue.o
+                0x000000000000165a                xQueueIsQueueEmptyFromISR
  .text.xQueueIsQueueFullFromISR
-                0x000000000000155a        0xe ./FreeRtos/queue.o
-                0x000000000000155a                xQueueIsQueueFullFromISR
+                0x0000000000001666        0xe ./FreeRtos/queue.o
+                0x0000000000001666                xQueueIsQueueFullFromISR
  .text.xQueueCRSend
-                0x0000000000001568       0x6e ./FreeRtos/queue.o
-                0x0000000000001568                xQueueCRSend
+                0x0000000000001674       0x6e ./FreeRtos/queue.o
+                0x0000000000001674                xQueueCRSend
  .text.xQueueCRReceive
-                0x00000000000015d6       0x8e ./FreeRtos/queue.o
-                0x00000000000015d6                xQueueCRReceive
+                0x00000000000016e2       0x8e ./FreeRtos/queue.o
+                0x00000000000016e2                xQueueCRReceive
  .text.xQueueCRSendFromISR
-                0x0000000000001664       0x3e ./FreeRtos/queue.o
-                0x0000000000001664                xQueueCRSendFromISR
+                0x0000000000001770       0x3e ./FreeRtos/queue.o
+                0x0000000000001770                xQueueCRSendFromISR
  .text.xQueueCRReceiveFromISR
-                0x00000000000016a2       0x78 ./FreeRtos/queue.o
-                0x00000000000016a2                xQueueCRReceiveFromISR
+                0x00000000000017ae       0x78 ./FreeRtos/queue.o
+                0x00000000000017ae                xQueueCRReceiveFromISR
  .text.prvBytesInBuffer
-                0x000000000000171a       0x26 ./FreeRtos/stream_buffer.o
+                0x0000000000001826       0x26 ./FreeRtos/stream_buffer.o
  .text.prvWriteBytesToBuffer
-                0x0000000000001740       0x88 ./FreeRtos/stream_buffer.o
+                0x000000000000184c       0x88 ./FreeRtos/stream_buffer.o
  .text.prvWriteMessageToBuffer
-                0x00000000000017c8       0x8c ./FreeRtos/stream_buffer.o
+                0x00000000000018d4       0x8c ./FreeRtos/stream_buffer.o
  .text.prvReadBytesFromBuffer
-                0x0000000000001854       0x88 ./FreeRtos/stream_buffer.o
+                0x0000000000001960       0x88 ./FreeRtos/stream_buffer.o
  .text.prvReadMessageFromBuffer
-                0x00000000000018dc       0x90 ./FreeRtos/stream_buffer.o
+                0x00000000000019e8       0x90 ./FreeRtos/stream_buffer.o
  .text.xStreamBufferGenericCreate
-                0x000000000000196c       0x70 ./FreeRtos/stream_buffer.o
-                0x000000000000196c                xStreamBufferGenericCreate
+                0x0000000000001a78       0x70 ./FreeRtos/stream_buffer.o
+                0x0000000000001a78                xStreamBufferGenericCreate
  .text.vStreamBufferDelete
-                0x00000000000019dc       0x14 ./FreeRtos/stream_buffer.o
-                0x00000000000019dc                vStreamBufferDelete
+                0x0000000000001ae8       0x14 ./FreeRtos/stream_buffer.o
+                0x0000000000001ae8                vStreamBufferDelete
  .text.xStreamBufferReset
-                0x00000000000019f0       0x40 ./FreeRtos/stream_buffer.o
-                0x00000000000019f0                xStreamBufferReset
+                0x0000000000001afc       0x40 ./FreeRtos/stream_buffer.o
+                0x0000000000001afc                xStreamBufferReset
  .text.xStreamBufferResetFromISR
-                0x0000000000001a30       0x36 ./FreeRtos/stream_buffer.o
-                0x0000000000001a30                xStreamBufferResetFromISR
+                0x0000000000001b3c       0x36 ./FreeRtos/stream_buffer.o
+                0x0000000000001b3c                xStreamBufferResetFromISR
  .text.xStreamBufferSetTriggerLevel
-                0x0000000000001a66       0x22 ./FreeRtos/stream_buffer.o
-                0x0000000000001a66                xStreamBufferSetTriggerLevel
+                0x0000000000001b72       0x22 ./FreeRtos/stream_buffer.o
+                0x0000000000001b72                xStreamBufferSetTriggerLevel
  .text.xStreamBufferSpacesAvailable
-                0x0000000000001a88       0x34 ./FreeRtos/stream_buffer.o
-                0x0000000000001a88                xStreamBufferSpacesAvailable
+                0x0000000000001b94       0x34 ./FreeRtos/stream_buffer.o
+                0x0000000000001b94                xStreamBufferSpacesAvailable
  .text.xStreamBufferBytesAvailable
-                0x0000000000001abc        0x4 ./FreeRtos/stream_buffer.o
-                0x0000000000001abc                xStreamBufferBytesAvailable
+                0x0000000000001bc8        0x4 ./FreeRtos/stream_buffer.o
+                0x0000000000001bc8                xStreamBufferBytesAvailable
  .text.xStreamBufferSend
-                0x0000000000001ac0      0x174 ./FreeRtos/stream_buffer.o
-                0x0000000000001ac0                xStreamBufferSend
+                0x0000000000001bcc      0x174 ./FreeRtos/stream_buffer.o
+                0x0000000000001bcc                xStreamBufferSend
  .text.xStreamBufferSendFromISR
-                0x0000000000001c34       0x8a ./FreeRtos/stream_buffer.o
-                0x0000000000001c34                xStreamBufferSendFromISR
+                0x0000000000001d40       0x8a ./FreeRtos/stream_buffer.o
+                0x0000000000001d40                xStreamBufferSendFromISR
  .text.xStreamBufferReceive
-                0x0000000000001cbe       0xfe ./FreeRtos/stream_buffer.o
-                0x0000000000001cbe                xStreamBufferReceive
+                0x0000000000001dca       0xfe ./FreeRtos/stream_buffer.o
+                0x0000000000001dca                xStreamBufferReceive
  .text.xStreamBufferNextMessageLengthBytes
-                0x0000000000001dbc       0x4e ./FreeRtos/stream_buffer.o
-                0x0000000000001dbc                xStreamBufferNextMessageLengthBytes
+                0x0000000000001ec8       0x4e ./FreeRtos/stream_buffer.o
+                0x0000000000001ec8                xStreamBufferNextMessageLengthBytes
  .text.xStreamBufferReceiveFromISR
-                0x0000000000001e0a       0x88 ./FreeRtos/stream_buffer.o
-                0x0000000000001e0a                xStreamBufferReceiveFromISR
+                0x0000000000001f16       0x88 ./FreeRtos/stream_buffer.o
+                0x0000000000001f16                xStreamBufferReceiveFromISR
  .text.xStreamBufferIsEmpty
-                0x0000000000001e92       0x16 ./FreeRtos/stream_buffer.o
-                0x0000000000001e92                xStreamBufferIsEmpty
+                0x0000000000001f9e       0x16 ./FreeRtos/stream_buffer.o
+                0x0000000000001f9e                xStreamBufferIsEmpty
  .text.xStreamBufferIsFull
-                0x0000000000001ea8       0x2a ./FreeRtos/stream_buffer.o
-                0x0000000000001ea8                xStreamBufferIsFull
+                0x0000000000001fb4       0x2a ./FreeRtos/stream_buffer.o
+                0x0000000000001fb4                xStreamBufferIsFull
  .text.xStreamBufferSendCompletedFromISR
-                0x0000000000001ed2       0x4c ./FreeRtos/stream_buffer.o
-                0x0000000000001ed2                xStreamBufferSendCompletedFromISR
+                0x0000000000001fde       0x4c ./FreeRtos/stream_buffer.o
+                0x0000000000001fde                xStreamBufferSendCompletedFromISR
  .text.xStreamBufferReceiveCompletedFromISR
-                0x0000000000001f1e       0x4c ./FreeRtos/stream_buffer.o
-                0x0000000000001f1e                xStreamBufferReceiveCompletedFromISR
+                0x000000000000202a       0x4c ./FreeRtos/stream_buffer.o
+                0x000000000000202a                xStreamBufferReceiveCompletedFromISR
  .text.uxStreamBufferGetStreamBufferNotificationIndex
-                0x0000000000001f6a        0x6 ./FreeRtos/stream_buffer.o
-                0x0000000000001f6a                uxStreamBufferGetStreamBufferNotificationIndex
+                0x0000000000002076        0x6 ./FreeRtos/stream_buffer.o
+                0x0000000000002076                uxStreamBufferGetStreamBufferNotificationIndex
  .text.vStreamBufferSetStreamBufferNotificationIndex
-                0x0000000000001f70        0x6 ./FreeRtos/stream_buffer.o
-                0x0000000000001f70                vStreamBufferSetStreamBufferNotificationIndex
+                0x000000000000207c        0x6 ./FreeRtos/stream_buffer.o
+                0x000000000000207c                vStreamBufferSetStreamBufferNotificationIndex
  .text.prvResetNextTaskUnblockTime
-                0x0000000000001f76       0x30 ./FreeRtos/tasks.o
+                0x0000000000002082       0x30 ./FreeRtos/tasks.o
  .text.prvAddCurrentTaskToDelayedList.isra.2
-                0x0000000000001fa6       0x9e ./FreeRtos/tasks.o
+                0x00000000000020b2       0x9e ./FreeRtos/tasks.o
  .text.prvCheckTasksWaitingTermination
-                0x0000000000002044       0x54 ./FreeRtos/tasks.o
+                0x0000000000002150       0x54 ./FreeRtos/tasks.o
  .text.prvIdleTask
-                0x0000000000002098       0x12 ./FreeRtos/tasks.o
+                0x00000000000021a4       0x12 ./FreeRtos/tasks.o
  .text.xTaskCreate
-                0x00000000000020aa      0x23a ./FreeRtos/tasks.o
-                0x00000000000020aa                xTaskCreate
+                0x00000000000021b6      0x23a ./FreeRtos/tasks.o
+                0x00000000000021b6                xTaskCreate
  .text.vTaskDelete
-                0x00000000000022e4       0xba ./FreeRtos/tasks.o
-                0x00000000000022e4                vTaskDelete
+                0x00000000000023f0       0xba ./FreeRtos/tasks.o
+                0x00000000000023f0                vTaskDelete
  .text.vTaskStartScheduler
-                0x000000000000239e       0x90 ./FreeRtos/tasks.o
-                0x000000000000239e                vTaskStartScheduler
+                0x00000000000024aa       0x90 ./FreeRtos/tasks.o
+                0x00000000000024aa                vTaskStartScheduler
  .text.vTaskEndScheduler
-                0x000000000000242e       0x1a ./FreeRtos/tasks.o
-                0x000000000000242e                vTaskEndScheduler
+                0x000000000000253a       0x1a ./FreeRtos/tasks.o
+                0x000000000000253a                vTaskEndScheduler
  .text.vTaskSuspendAll
-                0x0000000000002448        0xc ./FreeRtos/tasks.o
-                0x0000000000002448                vTaskSuspendAll
+                0x0000000000002554        0xc ./FreeRtos/tasks.o
+                0x0000000000002554                vTaskSuspendAll
  .text.xTaskGetTickCount
-                0x0000000000002454       0x14 ./FreeRtos/tasks.o
-                0x0000000000002454                xTaskGetTickCount
+                0x0000000000002560       0x14 ./FreeRtos/tasks.o
+                0x0000000000002560                xTaskGetTickCount
  .text.xTaskGetTickCountFromISR
-                0x0000000000002468        0xa ./FreeRtos/tasks.o
-                0x0000000000002468                xTaskGetTickCountFromISR
+                0x0000000000002574        0xa ./FreeRtos/tasks.o
+                0x0000000000002574                xTaskGetTickCountFromISR
  .text.uxTaskGetNumberOfTasks
-                0x0000000000002472        0x6 ./FreeRtos/tasks.o
-                0x0000000000002472                uxTaskGetNumberOfTasks
+                0x000000000000257e        0x6 ./FreeRtos/tasks.o
+                0x000000000000257e                uxTaskGetNumberOfTasks
  .text.pcTaskGetName
-                0x0000000000002478       0x10 ./FreeRtos/tasks.o
-                0x0000000000002478                pcTaskGetName
+                0x0000000000002584       0x10 ./FreeRtos/tasks.o
+                0x0000000000002584                pcTaskGetName
  .text.xTaskIncrementTick
-                0x0000000000002488      0x1f8 ./FreeRtos/tasks.o
-                0x0000000000002488                xTaskIncrementTick
+                0x0000000000002594      0x1f8 ./FreeRtos/tasks.o
+                0x0000000000002594                xTaskIncrementTick
  .text.xTaskResumeAll
-                0x0000000000002680      0x19a ./FreeRtos/tasks.o
-                0x0000000000002680                xTaskResumeAll
+                0x000000000000278c      0x19a ./FreeRtos/tasks.o
+                0x000000000000278c                xTaskResumeAll
  .text.xTaskDelayUntil
-                0x000000000000281a       0x64 ./FreeRtos/tasks.o
-                0x000000000000281a                xTaskDelayUntil
+                0x0000000000002926       0x64 ./FreeRtos/tasks.o
+                0x0000000000002926                xTaskDelayUntil
  .text.vTaskDelay
-                0x000000000000287e       0x28 ./FreeRtos/tasks.o
-                0x000000000000287e                vTaskDelay
+                0x000000000000298a       0x28 ./FreeRtos/tasks.o
+                0x000000000000298a                vTaskDelay
  .text.xTaskCatchUpTicks
-                0x00000000000028a6       0x30 ./FreeRtos/tasks.o
-                0x00000000000028a6                xTaskCatchUpTicks
+                0x00000000000029b2       0x30 ./FreeRtos/tasks.o
+                0x00000000000029b2                xTaskCatchUpTicks
  .text.vTaskSwitchContext
-                0x00000000000028d6       0x8c ./FreeRtos/tasks.o
-                0x00000000000028d6                vTaskSwitchContext
+                0x00000000000029e2       0x8c ./FreeRtos/tasks.o
+                0x00000000000029e2                vTaskSwitchContext
  .text.vTaskPlaceOnEventList
-                0x0000000000002962       0x20 ./FreeRtos/tasks.o
-                0x0000000000002962                vTaskPlaceOnEventList
+                0x0000000000002a6e       0x20 ./FreeRtos/tasks.o
+                0x0000000000002a6e                vTaskPlaceOnEventList
  .text.vTaskPlaceOnUnorderedEventList
-                0x0000000000002982       0x88 ./FreeRtos/tasks.o
-                0x0000000000002982                vTaskPlaceOnUnorderedEventList
+                0x0000000000002a8e       0x88 ./FreeRtos/tasks.o
+                0x0000000000002a8e                vTaskPlaceOnUnorderedEventList
  .text.xTaskRemoveFromEventList
-                0x0000000000002a0a      0x14a ./FreeRtos/tasks.o
-                0x0000000000002a0a                xTaskRemoveFromEventList
+                0x0000000000002b16      0x14a ./FreeRtos/tasks.o
+                0x0000000000002b16                xTaskRemoveFromEventList
  .text.vTaskRemoveFromUnorderedEventList
-                0x0000000000002b54      0x10e ./FreeRtos/tasks.o
-                0x0000000000002b54                vTaskRemoveFromUnorderedEventList
+                0x0000000000002c60      0x10e ./FreeRtos/tasks.o
+                0x0000000000002c60                vTaskRemoveFromUnorderedEventList
  .text.vTaskSetTimeOutState
-                0x0000000000002c62       0x20 ./FreeRtos/tasks.o
-                0x0000000000002c62                vTaskSetTimeOutState
+                0x0000000000002d6e       0x20 ./FreeRtos/tasks.o
+                0x0000000000002d6e                vTaskSetTimeOutState
  .text.vTaskInternalSetTimeOutState
-                0x0000000000002c82       0x16 ./FreeRtos/tasks.o
-                0x0000000000002c82                vTaskInternalSetTimeOutState
+                0x0000000000002d8e       0x16 ./FreeRtos/tasks.o
+                0x0000000000002d8e                vTaskInternalSetTimeOutState
  .text.xTaskCheckForTimeOut
-                0x0000000000002c98       0x58 ./FreeRtos/tasks.o
-                0x0000000000002c98                xTaskCheckForTimeOut
+                0x0000000000002da4       0x58 ./FreeRtos/tasks.o
+                0x0000000000002da4                xTaskCheckForTimeOut
  .text.vTaskMissedYield
-                0x0000000000002cf0        0x8 ./FreeRtos/tasks.o
-                0x0000000000002cf0                vTaskMissedYield
+                0x0000000000002dfc        0x8 ./FreeRtos/tasks.o
+                0x0000000000002dfc                vTaskMissedYield
  .text.xTaskGetCurrentTaskHandle
-                0x0000000000002cf8        0xa ./FreeRtos/tasks.o
-                0x0000000000002cf8                xTaskGetCurrentTaskHandle
+                0x0000000000002e04        0xa ./FreeRtos/tasks.o
+                0x0000000000002e04                xTaskGetCurrentTaskHandle
  .text.xTaskGetCurrentTaskHandleForCore
-                0x0000000000002d02       0x14 ./FreeRtos/tasks.o
-                0x0000000000002d02                xTaskGetCurrentTaskHandleForCore
+                0x0000000000002e0e       0x14 ./FreeRtos/tasks.o
+                0x0000000000002e0e                xTaskGetCurrentTaskHandleForCore
  .text.uxTaskResetEventItemValue
-                0x0000000000002d16       0x2e ./FreeRtos/tasks.o
-                0x0000000000002d16                uxTaskResetEventItemValue
+                0x0000000000002e22       0x2e ./FreeRtos/tasks.o
+                0x0000000000002e22                uxTaskResetEventItemValue
  .text.ulTaskGenericNotifyTake
-                0x0000000000002d44      0x102 ./FreeRtos/tasks.o
-                0x0000000000002d44                ulTaskGenericNotifyTake
+                0x0000000000002e50      0x102 ./FreeRtos/tasks.o
+                0x0000000000002e50                ulTaskGenericNotifyTake
  .text.xTaskGenericNotifyWait
-                0x0000000000002e46      0x16c ./FreeRtos/tasks.o
-                0x0000000000002e46                xTaskGenericNotifyWait
+                0x0000000000002f52      0x16c ./FreeRtos/tasks.o
+                0x0000000000002f52                xTaskGenericNotifyWait
  .text.xTaskGenericNotify
-                0x0000000000002fb2      0x1c0 ./FreeRtos/tasks.o
-                0x0000000000002fb2                xTaskGenericNotify
+                0x00000000000030be      0x1c0 ./FreeRtos/tasks.o
+                0x00000000000030be                xTaskGenericNotify
  .text.xTaskGenericNotifyFromISR
-                0x0000000000003172      0x212 ./FreeRtos/tasks.o
-                0x0000000000003172                xTaskGenericNotifyFromISR
+                0x000000000000327e      0x212 ./FreeRtos/tasks.o
+                0x000000000000327e                xTaskGenericNotifyFromISR
  .text.vTaskGenericNotifyGiveFromISR
-                0x0000000000003384      0x156 ./FreeRtos/tasks.o
-                0x0000000000003384                vTaskGenericNotifyGiveFromISR
+                0x0000000000003490      0x156 ./FreeRtos/tasks.o
+                0x0000000000003490                vTaskGenericNotifyGiveFromISR
  .text.xTaskGenericNotifyStateClear
-                0x00000000000034da       0x2c ./FreeRtos/tasks.o
-                0x00000000000034da                xTaskGenericNotifyStateClear
+                0x00000000000035e6       0x2c ./FreeRtos/tasks.o
+                0x00000000000035e6                xTaskGenericNotifyStateClear
  .text.ulTaskGenericNotifyValueClear
-                0x0000000000003506       0x5c ./FreeRtos/tasks.o
-                0x0000000000003506                ulTaskGenericNotifyValueClear
+                0x0000000000003612       0x5c ./FreeRtos/tasks.o
+                0x0000000000003612                ulTaskGenericNotifyValueClear
  .text.vTaskResetState
-                0x0000000000003562       0x42 ./FreeRtos/tasks.o
-                0x0000000000003562                vTaskResetState
- .text.TaskChargingStart
-                0x00000000000035a4        0x2 ./main.o
-                0x00000000000035a4                TaskChargingStart
- .text.TaskStopSession
-                0x00000000000035a6        0x2 ./main.o
-                0x00000000000035a6                TaskStopSession
- .text.TaskDisplayRefresh
-                0x00000000000035a8        0x2 ./main.o
-                0x00000000000035a8                TaskDisplayRefresh
- .text.TaskUserCommand
-                0x00000000000035aa        0x2 ./main.o
-                0x00000000000035aa                TaskUserCommand
- .text.TaskFaultDetection
-                0x00000000000035ac        0x2 ./main.o
-                0x00000000000035ac                TaskFaultDetection
+                0x000000000000366e       0x42 ./FreeRtos/tasks.o
+                0x000000000000366e                vTaskResetState
+ .text.UART_Init
+                0x00000000000036b0       0x24 ./main.o
+                0x00000000000036b0                UART_Init
+ .text.UART_Transmit
+                0x00000000000036d4        0x8 ./main.o
+                0x00000000000036d4                UART_Transmit
+ .text.UART_SendString
+                0x00000000000036dc       0x18 ./main.o
+                0x00000000000036dc                UART_SendString
  .text.startup.main
-                0x00000000000035ae       0xa8 ./main.o
-                0x00000000000035ae                main
+                0x00000000000036f4       0x7c ./main.o
+                0x00000000000036f4                main
  .text.libgcc.mul
-                0x0000000000003656        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_exit.o)
+                0x0000000000003770        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_udivmodsi4.o)
  .text.libgcc.div
-                0x0000000000003656        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_exit.o)
- .text.libgcc   0x0000000000003656        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_exit.o)
+                0x0000000000003770       0x44 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_udivmodsi4.o)
+                0x0000000000003770                __udivmodsi4
+ .text.libgcc   0x00000000000037b4        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_udivmodsi4.o)
  .text.libgcc.prologue
-                0x0000000000003656        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_exit.o)
+                0x00000000000037b4        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_udivmodsi4.o)
  .text.libgcc.builtins
-                0x0000000000003656        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_exit.o)
+                0x00000000000037b4        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_udivmodsi4.o)
  .text.libgcc.fmul
-                0x0000000000003656        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_exit.o)
+                0x00000000000037b4        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_udivmodsi4.o)
  .text.libgcc.fixed
-                0x0000000000003656        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_exit.o)
+                0x00000000000037b4        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_udivmodsi4.o)
  .text.libgcc.mul
-                0x0000000000003656        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_copy_data.o)
+                0x00000000000037b4        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_exit.o)
  .text.libgcc.div
-                0x0000000000003656        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_copy_data.o)
- .text.libgcc   0x0000000000003656        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_copy_data.o)
+                0x00000000000037b4        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x00000000000037b4        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_exit.o)
  .text.libgcc.prologue
-                0x0000000000003656        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_copy_data.o)
+                0x00000000000037b4        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_exit.o)
  .text.libgcc.builtins
-                0x0000000000003656        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_copy_data.o)
+                0x00000000000037b4        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_exit.o)
  .text.libgcc.fmul
-                0x0000000000003656        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_copy_data.o)
+                0x00000000000037b4        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_exit.o)
  .text.libgcc.fixed
-                0x0000000000003656        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_copy_data.o)
+                0x00000000000037b4        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_exit.o)
  .text.libgcc.mul
-                0x0000000000003656        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_clear_bss.o)
+                0x00000000000037b4        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_tablejump2.o)
  .text.libgcc.div
-                0x0000000000003656        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_clear_bss.o)
- .text.libgcc   0x0000000000003656        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_clear_bss.o)
+                0x00000000000037b4        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_tablejump2.o)
+ .text.libgcc   0x00000000000037b4        0xc c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_tablejump2.o)
+                0x00000000000037b4                __tablejump2__
  .text.libgcc.prologue
-                0x0000000000003656        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_clear_bss.o)
+                0x00000000000037c0        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_tablejump2.o)
  .text.libgcc.builtins
-                0x0000000000003656        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_clear_bss.o)
+                0x00000000000037c0        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_tablejump2.o)
  .text.libgcc.fmul
-                0x0000000000003656        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_clear_bss.o)
+                0x00000000000037c0        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_tablejump2.o)
  .text.libgcc.fixed
-                0x0000000000003656        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_clear_bss.o)
+                0x00000000000037c0        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_tablejump2.o)
+ .text.libgcc.mul
+                0x00000000000037c0        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x00000000000037c0        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00000000000037c0        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x00000000000037c0        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x00000000000037c0        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x00000000000037c0        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x00000000000037c0        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x00000000000037c0        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x00000000000037c0        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000000000037c0        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x00000000000037c0        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x00000000000037c0        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x00000000000037c0        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x00000000000037c0        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_clear_bss.o)
+ .text.avr-libc.fplib
+                0x00000000000037c0        0x8 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(divsf3.o)
+                0x00000000000037c0                __divsf3
+ .text.avr-libc.fplib
+                0x00000000000037c8       0xdc c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+                0x00000000000037e8                __divsf3x
+                0x00000000000037ee                __divsf3_pse
+ .text.avr-libc.fplib
+                0x00000000000038a4       0x7a c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+                0x00000000000038a4                __floatunsisf
+                0x00000000000038a8                __floatsisf
+ .text.avr-libc.fplib
+                0x000000000000391e        0xc c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+                0x000000000000391e                __fp_inf
+ .text.avr-libc.fplib
+                0x000000000000392a        0x6 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+                0x000000000000392a                __fp_nan
+ .text.avr-libc.fplib
+                0x0000000000003930        0xe c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+                0x0000000000003930                __fp_pscA
+ .text.avr-libc.fplib
+                0x000000000000393e        0xe c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+                0x000000000000393e                __fp_pscB
+ .text.avr-libc.fplib
+                0x000000000000394c       0x22 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
+                0x000000000000394c                __fp_round
+ .text.avr-libc.fplib
+                0x000000000000396e       0x44 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+                0x000000000000396e                __fp_split3
+                0x000000000000397e                __fp_splitA
+ .text.avr-libc.fplib
+                0x00000000000039b2        0xe c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+                0x00000000000039b2                __fp_zero
+                0x00000000000039b4                __fp_szero
+ .text.avr-libc.fplib
+                0x00000000000039c0        0x8 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+                0x00000000000039c0                __mulsf3
+ .text.avr-libc.fplib
+                0x00000000000039c8       0xd2 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+                0x00000000000039e6                __mulsf3x
+                0x00000000000039ec                __mulsf3_pse
  .text.avr-libc
-                0x0000000000003656       0x12 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(memcpy.o)
-                0x0000000000003656                memcpy
-                0x0000000000003668                . = ALIGN (0x2)
+                0x0000000000003a9a       0x12 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(memcpy.o)
+                0x0000000000003a9a                memcpy
+ .text.avr-libc
+                0x0000000000003aac       0x60 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(snprintf.o)
+                0x0000000000003aac                snprintf
+ .text.avr-libc
+                0x0000000000003b0c      0x3b4 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+                0x0000000000003b0c                vfprintf
+ .text.avr-libc
+                0x0000000000003ec0       0x16 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
+                0x0000000000003ec0                strnlen_P
+ .text.avr-libc
+                0x0000000000003ed6       0x16 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(strnlen.o)
+                0x0000000000003ed6                strnlen
+ .text.avr-libc
+                0x0000000000003eec       0x60 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(fputc.o)
+                0x0000000000003eec                fputc
+ .text.avr-libc
+                0x0000000000003f4c       0xbc c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
+                0x0000000000003f4c                __ultoa_invert
+ .text.libgcc.mul
+                0x0000000000004008        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_prologue.o)
+ .text.libgcc.div
+                0x0000000000004008        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_prologue.o)
+ .text.libgcc   0x0000000000004008        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_prologue.o)
+ .text.libgcc.prologue
+                0x0000000000004008       0x38 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_prologue.o)
+                0x0000000000004008                __prologue_saves__
+ .text.libgcc.builtins
+                0x0000000000004040        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_prologue.o)
+ .text.libgcc.fmul
+                0x0000000000004040        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_prologue.o)
+ .text.libgcc.fixed
+                0x0000000000004040        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_prologue.o)
+ .text.libgcc.mul
+                0x0000000000004040        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc.div
+                0x0000000000004040        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc   0x0000000000004040        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc.prologue
+                0x0000000000004040       0x36 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_epilogue.o)
+                0x0000000000004040                __epilogue_restores__
+ .text.libgcc.builtins
+                0x0000000000004076        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc.fmul
+                0x0000000000004076        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc.fixed
+                0x0000000000004076        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_epilogue.o)
+                0x0000000000004076                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x0000000000003668        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_exit.o)
-                0x0000000000003668                _exit
-                0x0000000000003668                exit
+ .fini9         0x0000000000004076        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_exit.o)
+                0x0000000000004076                _exit
+                0x0000000000004076                exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
@@ -690,14 +868,15 @@ END GROUP
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x0000000000003668        0x4 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_exit.o)
+ .fini0         0x0000000000004076        0x4 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_exit.o)
  *(.fini0)
-                0x000000000000366c                _etext = .
+                0x000000000000407a                _etext = .
 
-.data           0x0000000000800060       0x66 load address 0x000000000000366c
+.data           0x0000000000800060       0x10 load address 0x000000000000407a
                 0x0000000000800060                PROVIDE (__data_start, .)
  *(.data)
  .data          0x0000000000800060        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/crtatmega32a.o
+ .data          0x0000000000800060        0x0 ./Include/MCAL/ADC/ADC.o
  .data          0x0000000000800060        0x0 ./Include/Lcd/Lcd.o
  .data          0x0000000000800060        0x0 ./FreeRtos/croutine.o
  .data          0x0000000000800060        0x0 ./FreeRtos/event_groups.o
@@ -709,10 +888,32 @@ END GROUP
  .data          0x0000000000800060        0x0 ./FreeRtos/tasks.o
  .data          0x0000000000800060        0x0 ./FreeRtos/timers.o
  .data          0x0000000000800060        0x0 ./main.o
+ .data          0x0000000000800060        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_udivmodsi4.o)
  .data          0x0000000000800060        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_exit.o)
+ .data          0x0000000000800060        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_tablejump2.o)
  .data          0x0000000000800060        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_copy_data.o)
  .data          0x0000000000800060        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_clear_bss.o)
+ .data          0x0000000000800060        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(divsf3.o)
+ .data          0x0000000000800060        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+ .data          0x0000000000800060        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+ .data          0x0000000000800060        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+ .data          0x0000000000800060        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+ .data          0x0000000000800060        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+ .data          0x0000000000800060        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+ .data          0x0000000000800060        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
+ .data          0x0000000000800060        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+ .data          0x0000000000800060        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+ .data          0x0000000000800060        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+ .data          0x0000000000800060        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
  .data          0x0000000000800060        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(memcpy.o)
+ .data          0x0000000000800060        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(snprintf.o)
+ .data          0x0000000000800060        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+ .data          0x0000000000800060        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
+ .data          0x0000000000800060        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(strnlen.o)
+ .data          0x0000000000800060        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(fputc.o)
+ .data          0x0000000000800060        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
+ .data          0x0000000000800060        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_prologue.o)
+ .data          0x0000000000800060        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_epilogue.o)
  *(.data*)
  .data.uxTopUsedPriority
                 0x0000000000800060        0x1 ./FreeRtos/tasks.o
@@ -722,117 +923,135 @@ END GROUP
  .rodata.str1.1
                 0x0000000000800061        0x5 ./FreeRtos/tasks.o
  .rodata.main.str1.1
-                0x0000000000800066       0x60 ./main.o
+                0x0000000000800066        0x9 ./main.o
  *(.gnu.linkonce.r*)
-                0x00000000008000c6                . = ALIGN (0x2)
-                0x00000000008000c6                _edata = .
-                0x00000000008000c6                PROVIDE (__data_end, .)
+                0x0000000000800070                . = ALIGN (0x2)
+ *fill*         0x000000000080006f        0x1 
+                0x0000000000800070                _edata = .
+                0x0000000000800070                PROVIDE (__data_end, .)
 
-.bss            0x00000000008000c6      0x682
-                0x00000000008000c6                PROVIDE (__bss_start, .)
+.bss            0x0000000000800070      0x678
+                0x0000000000800070                PROVIDE (__bss_start, .)
  *(.bss)
- .bss           0x00000000008000c6        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/crtatmega32a.o
- .bss           0x00000000008000c6        0x0 ./Include/Lcd/Lcd.o
- .bss           0x00000000008000c6        0x0 ./FreeRtos/croutine.o
- .bss           0x00000000008000c6        0x0 ./FreeRtos/event_groups.o
- .bss           0x00000000008000c6        0x0 ./FreeRtos/heap_1.o
- .bss           0x00000000008000c6        0x0 ./FreeRtos/list.o
- .bss           0x00000000008000c6        0x0 ./FreeRtos/port.o
- .bss           0x00000000008000c6        0x0 ./FreeRtos/queue.o
- .bss           0x00000000008000c6        0x0 ./FreeRtos/stream_buffer.o
- .bss           0x00000000008000c6        0x0 ./FreeRtos/tasks.o
- .bss           0x00000000008000c6        0x0 ./FreeRtos/timers.o
- .bss           0x00000000008000c6        0x0 ./main.o
- .bss           0x00000000008000c6        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_exit.o)
- .bss           0x00000000008000c6        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_copy_data.o)
- .bss           0x00000000008000c6        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_clear_bss.o)
- .bss           0x00000000008000c6        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(memcpy.o)
+ .bss           0x0000000000800070        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/crtatmega32a.o
+ .bss           0x0000000000800070        0x0 ./Include/MCAL/ADC/ADC.o
+ .bss           0x0000000000800070        0x0 ./Include/Lcd/Lcd.o
+ .bss           0x0000000000800070        0x0 ./FreeRtos/croutine.o
+ .bss           0x0000000000800070        0x0 ./FreeRtos/event_groups.o
+ .bss           0x0000000000800070        0x0 ./FreeRtos/heap_1.o
+ .bss           0x0000000000800070        0x0 ./FreeRtos/list.o
+ .bss           0x0000000000800070        0x0 ./FreeRtos/port.o
+ .bss           0x0000000000800070        0x0 ./FreeRtos/queue.o
+ .bss           0x0000000000800070        0x0 ./FreeRtos/stream_buffer.o
+ .bss           0x0000000000800070        0x0 ./FreeRtos/tasks.o
+ .bss           0x0000000000800070        0x0 ./FreeRtos/timers.o
+ .bss           0x0000000000800070        0x0 ./main.o
+ .bss           0x0000000000800070        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_udivmodsi4.o)
+ .bss           0x0000000000800070        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_exit.o)
+ .bss           0x0000000000800070        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_tablejump2.o)
+ .bss           0x0000000000800070        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_copy_data.o)
+ .bss           0x0000000000800070        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_clear_bss.o)
+ .bss           0x0000000000800070        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(divsf3.o)
+ .bss           0x0000000000800070        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+ .bss           0x0000000000800070        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+ .bss           0x0000000000800070        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+ .bss           0x0000000000800070        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+ .bss           0x0000000000800070        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+ .bss           0x0000000000800070        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+ .bss           0x0000000000800070        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
+ .bss           0x0000000000800070        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+ .bss           0x0000000000800070        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+ .bss           0x0000000000800070        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+ .bss           0x0000000000800070        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+ .bss           0x0000000000800070        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(memcpy.o)
+ .bss           0x0000000000800070        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(snprintf.o)
+ .bss           0x0000000000800070        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+ .bss           0x0000000000800070        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
+ .bss           0x0000000000800070        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(strnlen.o)
+ .bss           0x0000000000800070        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(fputc.o)
+ .bss           0x0000000000800070        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
+ .bss           0x0000000000800070        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_prologue.o)
+ .bss           0x0000000000800070        0x0 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_epilogue.o)
  *(.bss*)
  .bss.xPassedTicks
-                0x00000000008000c6        0x2 ./FreeRtos/croutine.o
+                0x0000000000800070        0x2 ./FreeRtos/croutine.o
  .bss.xLastTickCount
-                0x00000000008000c8        0x2 ./FreeRtos/croutine.o
+                0x0000000000800072        0x2 ./FreeRtos/croutine.o
  .bss.xCoRoutineTickCount
-                0x00000000008000ca        0x2 ./FreeRtos/croutine.o
+                0x0000000000800074        0x2 ./FreeRtos/croutine.o
  .bss.uxTopCoRoutineReadyPriority
-                0x00000000008000cc        0x1 ./FreeRtos/croutine.o
+                0x0000000000800076        0x1 ./FreeRtos/croutine.o
  .bss.pxCurrentCoRoutine
-                0x00000000008000cd        0x2 ./FreeRtos/croutine.o
-                0x00000000008000cd                pxCurrentCoRoutine
+                0x0000000000800077        0x2 ./FreeRtos/croutine.o
+                0x0000000000800077                pxCurrentCoRoutine
  .bss.xPendingReadyCoRoutineList
-                0x00000000008000cf        0x9 ./FreeRtos/croutine.o
+                0x0000000000800079        0x9 ./FreeRtos/croutine.o
  .bss.pxOverflowDelayedCoRoutineList
-                0x00000000008000d8        0x2 ./FreeRtos/croutine.o
+                0x0000000000800082        0x2 ./FreeRtos/croutine.o
  .bss.pxDelayedCoRoutineList
-                0x00000000008000da        0x2 ./FreeRtos/croutine.o
+                0x0000000000800084        0x2 ./FreeRtos/croutine.o
  .bss.xDelayedCoRoutineList2
-                0x00000000008000dc        0x9 ./FreeRtos/croutine.o
+                0x0000000000800086        0x9 ./FreeRtos/croutine.o
  .bss.xDelayedCoRoutineList1
-                0x00000000008000e5        0x9 ./FreeRtos/croutine.o
+                0x000000000080008f        0x9 ./FreeRtos/croutine.o
  .bss.pxReadyCoRoutineLists
-                0x00000000008000ee       0x12 ./FreeRtos/croutine.o
+                0x0000000000800098       0x12 ./FreeRtos/croutine.o
  .bss.pucAlignedHeap.1975
-                0x0000000000800100        0x2 ./FreeRtos/heap_1.o
+                0x00000000008000aa        0x2 ./FreeRtos/heap_1.o
  .bss.xNextFreeByte
-                0x0000000000800102        0x2 ./FreeRtos/heap_1.o
- .bss.ucHeap    0x0000000000800104      0x5dc ./FreeRtos/heap_1.o
+                0x00000000008000ac        0x2 ./FreeRtos/heap_1.o
+ .bss.ucHeap    0x00000000008000ae      0x5dc ./FreeRtos/heap_1.o
  .bss.uxSchedulerSuspended
-                0x00000000008006e0        0x1 ./FreeRtos/tasks.o
+                0x000000000080068a        0x1 ./FreeRtos/tasks.o
  .bss.xIdleTaskHandles
-                0x00000000008006e1        0x2 ./FreeRtos/tasks.o
+                0x000000000080068b        0x2 ./FreeRtos/tasks.o
  .bss.xNextTaskUnblockTime
-                0x00000000008006e3        0x2 ./FreeRtos/tasks.o
+                0x000000000080068d        0x2 ./FreeRtos/tasks.o
  .bss.uxTaskNumber
-                0x00000000008006e5        0x1 ./FreeRtos/tasks.o
+                0x000000000080068f        0x1 ./FreeRtos/tasks.o
  .bss.xNumOfOverflows
-                0x00000000008006e6        0x1 ./FreeRtos/tasks.o
+                0x0000000000800690        0x1 ./FreeRtos/tasks.o
  .bss.xYieldPendings
-                0x00000000008006e7        0x1 ./FreeRtos/tasks.o
+                0x0000000000800691        0x1 ./FreeRtos/tasks.o
  .bss.xPendedTicks
-                0x00000000008006e8        0x2 ./FreeRtos/tasks.o
+                0x0000000000800692        0x2 ./FreeRtos/tasks.o
  .bss.xSchedulerRunning
-                0x00000000008006ea        0x1 ./FreeRtos/tasks.o
+                0x0000000000800694        0x1 ./FreeRtos/tasks.o
  .bss.uxTopReadyPriority
-                0x00000000008006eb        0x1 ./FreeRtos/tasks.o
+                0x0000000000800695        0x1 ./FreeRtos/tasks.o
  .bss.xTickCount
-                0x00000000008006ec        0x2 ./FreeRtos/tasks.o
+                0x0000000000800696        0x2 ./FreeRtos/tasks.o
  .bss.uxCurrentNumberOfTasks
-                0x00000000008006ee        0x1 ./FreeRtos/tasks.o
+                0x0000000000800698        0x1 ./FreeRtos/tasks.o
  .bss.uxDeletedTasksWaitingCleanUp
-                0x00000000008006ef        0x1 ./FreeRtos/tasks.o
+                0x0000000000800699        0x1 ./FreeRtos/tasks.o
  .bss.xTasksWaitingTermination
-                0x00000000008006f0        0x9 ./FreeRtos/tasks.o
+                0x000000000080069a        0x9 ./FreeRtos/tasks.o
  .bss.xPendingReadyList
-                0x00000000008006f9        0x9 ./FreeRtos/tasks.o
+                0x00000000008006a3        0x9 ./FreeRtos/tasks.o
  .bss.pxOverflowDelayedTaskList
-                0x0000000000800702        0x2 ./FreeRtos/tasks.o
+                0x00000000008006ac        0x2 ./FreeRtos/tasks.o
  .bss.pxDelayedTaskList
-                0x0000000000800704        0x2 ./FreeRtos/tasks.o
+                0x00000000008006ae        0x2 ./FreeRtos/tasks.o
  .bss.xDelayedTaskList2
-                0x0000000000800706        0x9 ./FreeRtos/tasks.o
+                0x00000000008006b0        0x9 ./FreeRtos/tasks.o
  .bss.xDelayedTaskList1
-                0x000000000080070f        0x9 ./FreeRtos/tasks.o
+                0x00000000008006b9        0x9 ./FreeRtos/tasks.o
  .bss.pxReadyTasksLists
-                0x0000000000800718       0x24 ./FreeRtos/tasks.o
+                0x00000000008006c2       0x24 ./FreeRtos/tasks.o
  .bss.pxCurrentTCB
-                0x000000000080073c        0x2 ./FreeRtos/tasks.o
-                0x000000000080073c                pxCurrentTCB
+                0x00000000008006e6        0x2 ./FreeRtos/tasks.o
+                0x00000000008006e6                pxCurrentTCB
  *(COMMON)
- COMMON         0x000000000080073e        0xa ./main.o
-                0x000000000080073e                TaskDisplayRefreshHandle
-                0x0000000000800740                TaskUserCommandHandle
-                0x0000000000800742                TaskChargingStartHandle
-                0x0000000000800744                TaskFaultDetectionHandle
-                0x0000000000800746                TaskStopSessionHandle
-                0x0000000000800748                PROVIDE (__bss_end, .)
-                0x000000000000366c                __data_load_start = LOADADDR (.data)
-                0x00000000000036d2                __data_load_end = (__data_load_start + SIZEOF (.data))
+                0x00000000008006e8                PROVIDE (__bss_end, .)
+                0x000000000000407a                __data_load_start = LOADADDR (.data)
+                0x000000000000408a                __data_load_end = (__data_load_start + SIZEOF (.data))
 
-.noinit         0x0000000000800748        0x0
+.noinit         0x00000000008006e8        0x0
                 [!provide]                        PROVIDE (__noinit_start, .)
  *(.noinit*)
                 [!provide]                        PROVIDE (__noinit_end, .)
-                0x0000000000800748                _end = .
+                0x00000000008006e8                _end = .
                 [!provide]                        PROVIDE (__heap_start, .)
 
 .eeprom         0x0000000000810000        0x0
@@ -872,10 +1091,11 @@ END GROUP
 .stab.indexstr
  *(.stab.indexstr)
 
-.comment        0x0000000000000000       0x30
+.comment        0x0000000000000000       0x5c
  *(.comment)
- .comment       0x0000000000000000       0x30 ./Include/Lcd/Lcd.o
+ .comment       0x0000000000000000       0x30 ./Include/MCAL/ADC/ADC.o
                                          0x31 (size before relaxing)
+ .comment       0x0000000000000030       0x31 ./Include/Lcd/Lcd.o
  .comment       0x0000000000000030       0x31 ./FreeRtos/croutine.o
  .comment       0x0000000000000030       0x31 ./FreeRtos/event_groups.o
  .comment       0x0000000000000030       0x31 ./FreeRtos/heap_1.o
@@ -886,11 +1106,18 @@ END GROUP
  .comment       0x0000000000000030       0x31 ./FreeRtos/tasks.o
  .comment       0x0000000000000030       0x31 ./FreeRtos/timers.o
  .comment       0x0000000000000030       0x31 ./main.o
+ .comment       0x0000000000000030       0x31 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(snprintf.o)
+ .comment       0x0000000000000030       0x2c c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+                                         0x2d (size before relaxing)
+ .comment       0x000000000000005c       0x31 c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(fputc.o)
 
 .note.gnu.avr.deviceinfo
                 0x0000000000000000       0x3c
  .note.gnu.avr.deviceinfo
                 0x0000000000000000       0x3c c:/users/medo4/downloads/compressed/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/crtatmega32a.o
+
+.avr.prop       0x0000000000000000       0x16
+ .avr.prop      0x0000000000000000       0x16 ./Include/MCAL/ADC/ADC.o
 
 .note.gnu.build-id
  *(.note.gnu.build-id)
