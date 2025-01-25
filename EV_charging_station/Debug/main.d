@@ -16,7 +16,11 @@ main.d main.o: .././main.c ../FreeRtos/include/FreeRTOS.h \
  ../FreeRtos/include/deprecated_definitions.h \
  ../FreeRtos/include/portmacro.h ../FreeRtos/include/mpu_wrappers.h \
  ../FreeRtos/include/task.h ../FreeRtos/include/list.h \
- ../Include/Lcd/LCD.h \
+ ../Include/HAL/Lcd/LCD.h ../Include/MCAL/Gpio/Gpio.h \
+ ../Include/MCAL/Adc/ADC_Config.h ../Include/MCAL/Adc/ADC.h \
+ ../Include/OS/Os.h ../Include/MCAL/Gpio/Gpio_Config.h \
+ ../Include/MCAL/Gpio/Gpio.h \
+ d:\atmel\ software\ ide\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\delay.h \
  d:\atmel\ software\ ide\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\delay.h \
  d:\atmel\ software\ ide\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\delay_basic.h \
  d:\atmel\ software\ ide\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\math.h
@@ -63,7 +67,21 @@ d:\atmel\ software\ ide\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\lo
 
 ../FreeRtos/include/list.h:
 
-../Include/Lcd/LCD.h:
+../Include/HAL/Lcd/LCD.h:
+
+../Include/MCAL/Gpio/Gpio.h:
+
+../Include/MCAL/Adc/ADC_Config.h:
+
+../Include/MCAL/Adc/ADC.h:
+
+../Include/OS/Os.h:
+
+../Include/MCAL/Gpio/Gpio_Config.h:
+
+../Include/MCAL/Gpio/Gpio.h:
+
+d:\atmel\ software\ ide\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\delay.h:
 
 d:\atmel\ software\ ide\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\delay.h:
 

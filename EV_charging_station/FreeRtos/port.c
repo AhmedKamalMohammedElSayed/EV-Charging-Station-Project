@@ -402,27 +402,27 @@ static void prvSetupTimerInterrupt( void )
 
 #if configUSE_PREEMPTION == 1
 
-/*
- * Tick ISR for preemptive scheduler.  We can use a naked attribute as
- * the context is saved at the start of vPortYieldFromTick().  The tick
- * count is incremented after the context is saved.
- */
-    void TIMER1_COMPA_vect( void ) __attribute__( ( signal, naked ) );
-    void TIMER1_COMPA_vect( void )
-    {
-        vPortYieldFromTick();
-        asm volatile ( "reti" );
-    }
-#else
-
-/*
- * Tick ISR for the cooperative scheduler.  All this does is increment the
- * tick count.  We don't need to switch context, this can only be done by
- * manual calls to taskYIELD();
- */
-    void TIMER1_COMPA_vect( void ) __attribute__( ( signal ) );
-    void TIMER1_COMPA_vect( void )
-    {
-        xTaskIncrementTick();
-    }
+///*
+ //* Tick ISR for preemptive scheduler.  We can use a naked attribute as
+ //* the context is saved at the start of vPortYieldFromTick().  The tick
+ //* count is incremented after the context is saved.
+ //*/
+    //void TIMER1_COMPA_vect( void ) __attribute__( ( signal, naked ) );
+    //void TIMER1_COMPA_vect( void )
+    //{
+        //vPortYieldFromTick();
+        //asm volatile ( "reti" );
+    //}
+//#else
+//
+///*
+ //* Tick ISR for the cooperative scheduler.  All this does is increment the
+ //* tick count.  We don't need to switch context, this can only be done by
+ //* manual calls to taskYIELD();
+ //*/
+    //void TIMER1_COMPA_vect( void ) __attribute__( ( signal ) );
+    //void TIMER1_COMPA_vect( void )
+    //{
+        //xTaskIncrementTick();
+    //}
 #endif /* if configUSE_PREEMPTION == 1 */

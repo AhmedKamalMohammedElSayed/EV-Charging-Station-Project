@@ -101,7 +101,18 @@
       <Value>../FreeRtos</Value>
       <Value>../FreeRtos/include</Value>
       <Value>../Include</Value>
-      <Value>../Include/Lcd</Value>
+      <Value>../Include/MCAL</Value>
+      <Value>../Include/HAL</Value>
+      <Value>../Include/MCAL/Adc</Value>
+      <Value>../Include/HAL/Lcd</Value>
+      <Value>../Include/COMMUNICATION</Value>
+      <Value>../Include/COMMUNICATION/Uart</Value>
+      <Value>../Include/LOGIC</Value>
+      <Value>../Include/MCAL/Gpio</Value>
+      <Value>../Include/Configrations</Value>
+      <Value>../Include/OS</Value>
+      <Value>../Include/MCAL/Timer</Value>
+      <Value>../Include/LOGIC/Polling</Value>
     </ListValues>
   </avrgcc.compiler.directories.IncludePaths>
   <avrgcc.compiler.optimization.level>Optimize (-O1)</avrgcc.compiler.optimization.level>
@@ -217,13 +228,70 @@
     <Compile Include="FreeRtos\timers.c">
       <SubType>compile</SubType>
     </Compile>
+    <Compile Include="Include\COMMUNICATION\Uart\Uart.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Include\COMMUNICATION\Uart\Uart.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Include\Configrations\Std_Types.h">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="Include\FreeRTOSConfig.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="Include\Lcd\Lcd.c">
+    <Compile Include="Include\HAL\Lcd\Lcd.c">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="Include\Lcd\Lcd.h">
+    <Compile Include="Include\HAL\Lcd\Lcd.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Include\LOGIC\Logic.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Include\LOGIC\Logic.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Include\LOGIC\Polling\poller.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Include\LOGIC\Polling\poller.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Include\MCAL\Adc\ADC.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Include\MCAL\Adc\ADC.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Include\MCAL\Adc\ADC_Config.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Include\MCAL\Gpio\Gpio.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Include\MCAL\Gpio\Gpio.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Include\MCAL\Gpio\Gpio_Config.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Include\MCAL\Gpio\Gpio_Config.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Include\MCAL\Timer\timer.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Include\MCAL\Timer\timer.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Include\MCAL\Timer\timer_cfg.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Include\OS\Os.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Include\OS\Os.h">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="main.c">
@@ -234,7 +302,18 @@
     <Folder Include="FreeRtos\include" />
     <Folder Include="Include" />
     <Folder Include="FreeRtos" />
-    <Folder Include="Include\Lcd" />
+    <Folder Include="Include\COMMUNICATION\Uart" />
+    <Folder Include="Include\HAL\Lcd" />
+    <Folder Include="Include\HAL" />
+    <Folder Include="Include\LOGIC\Polling" />
+    <Folder Include="Include\MCAL" />
+    <Folder Include="Include\MCAL\Adc" />
+    <Folder Include="Include\COMMUNICATION" />
+    <Folder Include="Include\LOGIC" />
+    <Folder Include="Include\MCAL\Gpio" />
+    <Folder Include="Include\Configrations" />
+    <Folder Include="Include\MCAL\Timer" />
+    <Folder Include="Include\OS" />
     <Folder Include="Src" />
   </ItemGroup>
   <ItemGroup>

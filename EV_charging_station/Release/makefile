@@ -8,10 +8,24 @@ RM := rm -rf
 
 # All of the sources participating in the build are defined here
 -include sources.mk
+-include Include/OS/subdir.mk
+-include Include/MCAL/Timer/subdir.mk
+-include Include/MCAL/Gpio/subdir.mk
 -include Include/MCAL/ADC/subdir.mk
--include Include/Lcd/subdir.mk
+-include Include/LOGIC/Polling/subdir.mk
+-include Include/LOGIC/subdir.mk
+-include Include/HAL/Lcd/subdir.mk
+-include Include/COMMUNICATION/Uart/subdir.mk
 -include FreeRtos/subdir.mk
+-include Debug/Include/OS/subdir.mk
+-include Debug/Include/MCAL/Timer/subdir.mk
+-include Debug/Include/MCAL/Gpio/subdir.mk
+-include Debug/Include/MCAL/Adc/subdir.mk
 -include Debug/Include/Lcd/subdir.mk
+-include Debug/Include/LOGIC/Polling/subdir.mk
+-include Debug/Include/LOGIC/subdir.mk
+-include Debug/Include/HAL/Lcd/subdir.mk
+-include Debug/Include/COMMUNICATION/Uart/subdir.mk
 -include Debug/FreeRtos/subdir.mk
 -include Debug/subdir.mk
 -include subdir.mk

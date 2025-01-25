@@ -20,7 +20,23 @@ FreeRtos\tasks.c
 
 FreeRtos\timers.c
 
-Include\Lcd\Lcd.c
+Include\COMMUNICATION\Uart\Uart.c
+
+Include\HAL\Lcd\Lcd.c
+
+Include\LOGIC\Logic.c
+
+Include\LOGIC\Polling\poller.c
+
+Include\MCAL\Adc\ADC.c
+
+Include\MCAL\Gpio\Gpio.c
+
+Include\MCAL\Gpio\Gpio_Config.c
+
+Include\MCAL\Timer\timer.c
+
+Include\OS\Os.c
 
 main.c
 
