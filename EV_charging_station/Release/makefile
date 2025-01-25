@@ -69,7 +69,7 @@ main-build: EV_charging_station.elf secondary-outputs
 EV_charging_station.elf: $(OBJS) $(USER_OBJS) makefile objects.mk $(OPTIONAL_TOOL_DEPS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: AVR C Linker'
-	avr-gcc -Wl,-Map,EV_charging_station.map -mmcu=atmega32a -o "EV_charging_station.elf" $(OBJS) $(USER_OBJS) $(LIBS)
+	avr-gcc -Wl,-Map,EV_charging_station.map -mmcu=atmega32a -o "EV_charging_station.elf" $(OBJS) $(USER_OBJS) $(LIBS) -lm
 	@echo 'Finished building target: $@'
 	@echo ' '
 

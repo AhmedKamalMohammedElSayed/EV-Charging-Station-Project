@@ -1,15 +1,5 @@
 Archive member included to satisfy reference by file (symbol)
 
-c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_udivmodsi4.o)
-                              ./main.o (__udivmodsi4)
-c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_exit.o)
-                              c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/crtatmega32a.o (exit)
-c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_tablejump2.o)
-                              ./Include/MCAL/ADC/ADC.o (__tablejump2__)
-c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_copy_data.o)
-                              ./FreeRtos/tasks.o (__do_copy_data)
-c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_clear_bss.o)
-                              ./FreeRtos/croutine.o (__do_clear_bss)
 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(divsf3.o)
                               ./Include/MCAL/ADC/ADC.o (__divsf3)
 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
@@ -34,12 +24,28 @@ c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../av
                               ./Include/MCAL/ADC/ADC.o (__mulsf3)
 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
                               c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(mulsf3.o) (__mulsf3x)
+c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_udivmodsi4.o)
+                              ./main.o (__udivmodsi4)
+c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_exit.o)
+                              c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/crtatmega32a.o (exit)
+c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_tablejump2.o)
+                              ./Include/MCAL/ADC/ADC.o (__tablejump2__)
+c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_copy_data.o)
+                              ./FreeRtos/tasks.o (__do_copy_data)
+c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_clear_bss.o)
+                              ./FreeRtos/croutine.o (__do_clear_bss)
+c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(dtostrf.o)
+                              ./main.o (dtostrf)
 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(memcpy.o)
                               ./FreeRtos/queue.o (memcpy)
 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(snprintf.o)
                               ./main.o (snprintf)
 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
                               c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(snprintf.o) (vfprintf)
+c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(dtoa_prf.o)
+                              c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(dtostrf.o) (dtoa_prf)
+c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(ftoa_engine.o)
+                              c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(dtoa_prf.o) (__ftoa_engine)
 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
                               c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(vfprintf_std.o) (strnlen_P)
 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(strnlen.o)
@@ -80,6 +86,8 @@ LOAD ./FreeRtos/stream_buffer.o
 LOAD ./FreeRtos/tasks.o
 LOAD ./FreeRtos/timers.o
 LOAD ./main.o
+LOAD c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a
+LOAD c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a
 START GROUP
 LOAD c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a
 LOAD c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a
@@ -186,7 +194,7 @@ END GROUP
 .rela.plt
  *(.rela.plt)
 
-.text           0x0000000000000000     0x407a
+.text           0x0000000000000000     0x47a2
  *(.vectors)
  .vectors       0x0000000000000000       0x54 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/crtatmega32a.o
                 0x0000000000000000                __vector_default
@@ -201,36 +209,37 @@ END GROUP
                 0x0000000000000054                __trampolines_end = .
  *libprintf_flt.a:*(.progmem.data)
  *libc.a:*(.progmem.data)
+ .progmem.data  0x0000000000000054       0xfa c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(ftoa_engine.o)
  *(.progmem*)
-                0x0000000000000054                . = ALIGN (0x2)
+                0x000000000000014e                . = ALIGN (0x2)
  *(.jumptables)
  *(.jumptables*)
  *(.lowtext)
  *(.lowtext*)
-                0x0000000000000054                __ctors_start = .
+                0x000000000000014e                __ctors_start = .
  *(.ctors)
-                0x0000000000000054                __ctors_end = .
-                0x0000000000000054                __dtors_start = .
+                0x000000000000014e                __ctors_end = .
+                0x000000000000014e                __dtors_start = .
  *(.dtors)
-                0x0000000000000054                __dtors_end = .
+                0x000000000000014e                __dtors_end = .
  SORT(*)(.ctors)
  SORT(*)(.dtors)
  *(.init0)
- .init0         0x0000000000000054        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/crtatmega32a.o
-                0x0000000000000054                __init
+ .init0         0x000000000000014e        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/crtatmega32a.o
+                0x000000000000014e                __init
  *(.init0)
  *(.init1)
  *(.init1)
  *(.init2)
- .init2         0x0000000000000054        0xc c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/crtatmega32a.o
+ .init2         0x000000000000014e        0xc c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/crtatmega32a.o
  *(.init2)
  *(.init3)
  *(.init3)
  *(.init4)
- .init4         0x0000000000000060       0x16 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_copy_data.o)
-                0x0000000000000060                __do_copy_data
- .init4         0x0000000000000076       0x10 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_clear_bss.o)
-                0x0000000000000076                __do_clear_bss
+ .init4         0x000000000000015a       0x16 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_copy_data.o)
+                0x000000000000015a                __do_copy_data
+ .init4         0x0000000000000170       0x10 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_clear_bss.o)
+                0x0000000000000170                __do_clear_bss
  *(.init4)
  *(.init5)
  *(.init5)
@@ -241,615 +250,636 @@ END GROUP
  *(.init8)
  *(.init8)
  *(.init9)
- .init9         0x0000000000000086        0x8 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/crtatmega32a.o
+ .init9         0x0000000000000180        0x8 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/crtatmega32a.o
  *(.init9)
  *(.text)
- .text          0x000000000000008e        0x4 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/crtatmega32a.o
-                0x000000000000008e                __vector_1
-                0x000000000000008e                __vector_12
-                0x000000000000008e                __bad_interrupt
-                0x000000000000008e                __vector_6
-                0x000000000000008e                __vector_3
-                0x000000000000008e                __vector_11
-                0x000000000000008e                __vector_13
-                0x000000000000008e                __vector_17
-                0x000000000000008e                __vector_19
-                0x000000000000008e                __vector_5
-                0x000000000000008e                __vector_4
-                0x000000000000008e                __vector_9
-                0x000000000000008e                __vector_2
-                0x000000000000008e                __vector_15
-                0x000000000000008e                __vector_8
-                0x000000000000008e                __vector_14
-                0x000000000000008e                __vector_10
-                0x000000000000008e                __vector_16
-                0x000000000000008e                __vector_18
-                0x000000000000008e                __vector_20
- .text          0x0000000000000092        0x0 ./Include/MCAL/ADC/ADC.o
- .text          0x0000000000000092        0x0 ./Include/Lcd/Lcd.o
- .text          0x0000000000000092        0x0 ./FreeRtos/croutine.o
- .text          0x0000000000000092        0x0 ./FreeRtos/event_groups.o
- .text          0x0000000000000092        0x0 ./FreeRtos/heap_1.o
- .text          0x0000000000000092        0x0 ./FreeRtos/list.o
- .text          0x0000000000000092        0x0 ./FreeRtos/port.o
- .text          0x0000000000000092        0x0 ./FreeRtos/queue.o
- .text          0x0000000000000092        0x0 ./FreeRtos/stream_buffer.o
- .text          0x0000000000000092        0x0 ./FreeRtos/tasks.o
- .text          0x0000000000000092        0x0 ./FreeRtos/timers.o
- .text          0x0000000000000092        0x0 ./main.o
- .text          0x0000000000000092        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_udivmodsi4.o)
- .text          0x0000000000000092        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_exit.o)
- .text          0x0000000000000092        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_tablejump2.o)
- .text          0x0000000000000092        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_copy_data.o)
- .text          0x0000000000000092        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_clear_bss.o)
- .text          0x0000000000000092        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(divsf3.o)
- .text          0x0000000000000092        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
- .text          0x0000000000000092        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
- .text          0x0000000000000092        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
- .text          0x0000000000000092        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
- .text          0x0000000000000092        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
- .text          0x0000000000000092        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
- .text          0x0000000000000092        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
- .text          0x0000000000000092        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
- .text          0x0000000000000092        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
- .text          0x0000000000000092        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
- .text          0x0000000000000092        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
- .text          0x0000000000000092        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(memcpy.o)
- .text          0x0000000000000092        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(snprintf.o)
- .text          0x0000000000000092        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
- .text          0x0000000000000092        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
- .text          0x0000000000000092        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(strnlen.o)
- .text          0x0000000000000092        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(fputc.o)
- .text          0x0000000000000092        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
- .text          0x0000000000000092        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_prologue.o)
- .text          0x0000000000000092        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_epilogue.o)
-                0x0000000000000092                . = ALIGN (0x2)
+ .text          0x0000000000000188        0x4 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/crtatmega32a.o
+                0x0000000000000188                __vector_1
+                0x0000000000000188                __vector_12
+                0x0000000000000188                __bad_interrupt
+                0x0000000000000188                __vector_6
+                0x0000000000000188                __vector_3
+                0x0000000000000188                __vector_11
+                0x0000000000000188                __vector_13
+                0x0000000000000188                __vector_17
+                0x0000000000000188                __vector_19
+                0x0000000000000188                __vector_5
+                0x0000000000000188                __vector_4
+                0x0000000000000188                __vector_9
+                0x0000000000000188                __vector_2
+                0x0000000000000188                __vector_15
+                0x0000000000000188                __vector_8
+                0x0000000000000188                __vector_14
+                0x0000000000000188                __vector_10
+                0x0000000000000188                __vector_16
+                0x0000000000000188                __vector_18
+                0x0000000000000188                __vector_20
+ .text          0x000000000000018c        0x0 ./Include/MCAL/ADC/ADC.o
+ .text          0x000000000000018c        0x0 ./Include/Lcd/Lcd.o
+ .text          0x000000000000018c        0x0 ./FreeRtos/croutine.o
+ .text          0x000000000000018c        0x0 ./FreeRtos/event_groups.o
+ .text          0x000000000000018c        0x0 ./FreeRtos/heap_1.o
+ .text          0x000000000000018c        0x0 ./FreeRtos/list.o
+ .text          0x000000000000018c        0x0 ./FreeRtos/port.o
+ .text          0x000000000000018c        0x0 ./FreeRtos/queue.o
+ .text          0x000000000000018c        0x0 ./FreeRtos/stream_buffer.o
+ .text          0x000000000000018c        0x0 ./FreeRtos/tasks.o
+ .text          0x000000000000018c        0x0 ./FreeRtos/timers.o
+ .text          0x000000000000018c        0x0 ./main.o
+ .text          0x000000000000018c        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(divsf3.o)
+ .text          0x000000000000018c        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+ .text          0x000000000000018c        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+ .text          0x000000000000018c        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+ .text          0x000000000000018c        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+ .text          0x000000000000018c        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+ .text          0x000000000000018c        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+ .text          0x000000000000018c        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
+ .text          0x000000000000018c        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+ .text          0x000000000000018c        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+ .text          0x000000000000018c        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+ .text          0x000000000000018c        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+ .text          0x000000000000018c        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text          0x000000000000018c        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_exit.o)
+ .text          0x000000000000018c        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_tablejump2.o)
+ .text          0x000000000000018c        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_copy_data.o)
+ .text          0x000000000000018c        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_clear_bss.o)
+ .text          0x000000000000018c        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(dtostrf.o)
+ .text          0x000000000000018c        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(memcpy.o)
+ .text          0x000000000000018c        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(snprintf.o)
+ .text          0x000000000000018c        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+ .text          0x000000000000018c        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(dtoa_prf.o)
+ .text          0x000000000000018c        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(ftoa_engine.o)
+ .text          0x000000000000018c        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
+ .text          0x000000000000018c        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(strnlen.o)
+ .text          0x000000000000018c        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(fputc.o)
+ .text          0x000000000000018c        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
+ .text          0x000000000000018c        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_prologue.o)
+ .text          0x000000000000018c        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_epilogue.o)
+                0x000000000000018c                . = ALIGN (0x2)
  *(.text.*)
  .text.ADC_PRESCALER_SET
-                0x0000000000000092       0x50 ./Include/MCAL/ADC/ADC.o
-                0x0000000000000092                ADC_PRESCALER_SET
+                0x000000000000018c       0x50 ./Include/MCAL/ADC/ADC.o
+                0x000000000000018c                ADC_PRESCALER_SET
  .text.ADC_voltage_Reference
-                0x00000000000000e2       0x26 ./Include/MCAL/ADC/ADC.o
-                0x00000000000000e2                ADC_voltage_Reference
+                0x00000000000001dc       0x26 ./Include/MCAL/ADC/ADC.o
+                0x00000000000001dc                ADC_voltage_Reference
  .text.ADC_INIT
-                0x0000000000000108       0x16 ./Include/MCAL/ADC/ADC.o
-                0x0000000000000108                ADC_INIT
+                0x0000000000000202       0x16 ./Include/MCAL/ADC/ADC.o
+                0x0000000000000202                ADC_INIT
  .text.ADC_READ
-                0x000000000000011e       0x5c ./Include/MCAL/ADC/ADC.o
-                0x000000000000011e                ADC_READ
+                0x0000000000000218       0x5c ./Include/MCAL/ADC/ADC.o
+                0x0000000000000218                ADC_READ
  .text.ADC_GetVoltage
-                0x000000000000017a       0x24 ./Include/MCAL/ADC/ADC.o
-                0x000000000000017a                ADC_GetVoltage
+                0x0000000000000274       0x78 ./Include/MCAL/ADC/ADC.o
+                0x0000000000000274                ADC_GetVoltage
  .text.LCD_Command
-                0x000000000000019e       0x52 ./Include/Lcd/Lcd.o
-                0x000000000000019e                LCD_Command
+                0x00000000000002ec       0x52 ./Include/Lcd/Lcd.o
+                0x00000000000002ec                LCD_Command
  .text.LCD_Char
-                0x00000000000001f0       0x52 ./Include/Lcd/Lcd.o
-                0x00000000000001f0                LCD_Char
+                0x000000000000033e       0x52 ./Include/Lcd/Lcd.o
+                0x000000000000033e                LCD_Char
  .text.LCD_Init
-                0x0000000000000242       0x3c ./Include/Lcd/Lcd.o
-                0x0000000000000242                LCD_Init
+                0x0000000000000390       0x3c ./Include/Lcd/Lcd.o
+                0x0000000000000390                LCD_Init
  .text.LCD_String
-                0x000000000000027e       0x18 ./Include/Lcd/Lcd.o
-                0x000000000000027e                LCD_String
+                0x00000000000003cc       0x18 ./Include/Lcd/Lcd.o
+                0x00000000000003cc                LCD_String
  .text.LCD_String_xy
-                0x0000000000000296       0x2e ./Include/Lcd/Lcd.o
-                0x0000000000000296                LCD_String_xy
+                0x00000000000003e4       0x2e ./Include/Lcd/Lcd.o
+                0x00000000000003e4                LCD_String_xy
  .text.LCD_Clear
-                0x00000000000002c4       0x18 ./Include/Lcd/Lcd.o
-                0x00000000000002c4                LCD_Clear
+                0x0000000000000412       0x18 ./Include/Lcd/Lcd.o
+                0x0000000000000412                LCD_Clear
  .text.xCoRoutineCreate
-                0x00000000000002dc       0xe2 ./FreeRtos/croutine.o
-                0x00000000000002dc                xCoRoutineCreate
+                0x000000000000042a       0xe2 ./FreeRtos/croutine.o
+                0x000000000000042a                xCoRoutineCreate
  .text.vCoRoutineAddToDelayedList
-                0x00000000000003be       0x84 ./FreeRtos/croutine.o
-                0x00000000000003be                vCoRoutineAddToDelayedList
+                0x000000000000050c       0x84 ./FreeRtos/croutine.o
+                0x000000000000050c                vCoRoutineAddToDelayedList
  .text.vCoRoutineSchedule
-                0x0000000000000442      0x208 ./FreeRtos/croutine.o
-                0x0000000000000442                vCoRoutineSchedule
+                0x0000000000000590      0x208 ./FreeRtos/croutine.o
+                0x0000000000000590                vCoRoutineSchedule
  .text.xCoRoutineRemoveFromEventList
-                0x000000000000064a       0x48 ./FreeRtos/croutine.o
-                0x000000000000064a                xCoRoutineRemoveFromEventList
+                0x0000000000000798       0x48 ./FreeRtos/croutine.o
+                0x0000000000000798                xCoRoutineRemoveFromEventList
  .text.vCoRoutineResetState
-                0x0000000000000692       0x36 ./FreeRtos/croutine.o
-                0x0000000000000692                vCoRoutineResetState
+                0x00000000000007e0       0x36 ./FreeRtos/croutine.o
+                0x00000000000007e0                vCoRoutineResetState
  .text.xEventGroupCreate
-                0x00000000000006c8       0x26 ./FreeRtos/event_groups.o
-                0x00000000000006c8                xEventGroupCreate
+                0x0000000000000816       0x26 ./FreeRtos/event_groups.o
+                0x0000000000000816                xEventGroupCreate
  .text.xEventGroupWaitBits
-                0x00000000000006ee       0xec ./FreeRtos/event_groups.o
-                0x00000000000006ee                xEventGroupWaitBits
+                0x000000000000083c       0xec ./FreeRtos/event_groups.o
+                0x000000000000083c                xEventGroupWaitBits
  .text.xEventGroupClearBits
-                0x00000000000007da       0x1e ./FreeRtos/event_groups.o
-                0x00000000000007da                xEventGroupClearBits
+                0x0000000000000928       0x1e ./FreeRtos/event_groups.o
+                0x0000000000000928                xEventGroupClearBits
  .text.xEventGroupGetBitsFromISR
-                0x00000000000007f8        0x8 ./FreeRtos/event_groups.o
-                0x00000000000007f8                xEventGroupGetBitsFromISR
+                0x0000000000000946        0x8 ./FreeRtos/event_groups.o
+                0x0000000000000946                xEventGroupGetBitsFromISR
  .text.xEventGroupSetBits
-                0x0000000000000800       0x9a ./FreeRtos/event_groups.o
-                0x0000000000000800                xEventGroupSetBits
+                0x000000000000094e       0x9a ./FreeRtos/event_groups.o
+                0x000000000000094e                xEventGroupSetBits
  .text.xEventGroupSync
-                0x000000000000089a       0xd8 ./FreeRtos/event_groups.o
-                0x000000000000089a                xEventGroupSync
+                0x00000000000009e8       0xd8 ./FreeRtos/event_groups.o
+                0x00000000000009e8                xEventGroupSync
  .text.vEventGroupDelete
-                0x0000000000000972       0x2c ./FreeRtos/event_groups.o
-                0x0000000000000972                vEventGroupDelete
+                0x0000000000000ac0       0x2c ./FreeRtos/event_groups.o
+                0x0000000000000ac0                vEventGroupDelete
  .text.vEventGroupSetBitsCallback
-                0x000000000000099e        0x6 ./FreeRtos/event_groups.o
-                0x000000000000099e                vEventGroupSetBitsCallback
+                0x0000000000000aec        0x6 ./FreeRtos/event_groups.o
+                0x0000000000000aec                vEventGroupSetBitsCallback
  .text.vEventGroupClearBitsCallback
-                0x00000000000009a4        0x6 ./FreeRtos/event_groups.o
-                0x00000000000009a4                vEventGroupClearBitsCallback
+                0x0000000000000af2        0x6 ./FreeRtos/event_groups.o
+                0x0000000000000af2                vEventGroupClearBitsCallback
  .text.pvPortMalloc
-                0x00000000000009aa       0x70 ./FreeRtos/heap_1.o
-                0x00000000000009aa                pvPortMalloc
+                0x0000000000000af8       0x70 ./FreeRtos/heap_1.o
+                0x0000000000000af8                pvPortMalloc
  .text.vPortFree
-                0x0000000000000a1a        0x2 ./FreeRtos/heap_1.o
-                0x0000000000000a1a                vPortFree
+                0x0000000000000b68        0x2 ./FreeRtos/heap_1.o
+                0x0000000000000b68                vPortFree
  .text.vPortInitialiseBlocks
-                0x0000000000000a1c        0xa ./FreeRtos/heap_1.o
-                0x0000000000000a1c                vPortInitialiseBlocks
+                0x0000000000000b6a        0xa ./FreeRtos/heap_1.o
+                0x0000000000000b6a                vPortInitialiseBlocks
  .text.xPortGetFreeHeapSize
-                0x0000000000000a26       0x12 ./FreeRtos/heap_1.o
-                0x0000000000000a26                xPortGetFreeHeapSize
+                0x0000000000000b74       0x12 ./FreeRtos/heap_1.o
+                0x0000000000000b74                xPortGetFreeHeapSize
  .text.vPortHeapResetState
-                0x0000000000000a38        0xa ./FreeRtos/heap_1.o
-                0x0000000000000a38                vPortHeapResetState
+                0x0000000000000b86        0xa ./FreeRtos/heap_1.o
+                0x0000000000000b86                vPortHeapResetState
  .text.vListInitialise
-                0x0000000000000a42       0x1c ./FreeRtos/list.o
-                0x0000000000000a42                vListInitialise
+                0x0000000000000b90       0x1c ./FreeRtos/list.o
+                0x0000000000000b90                vListInitialise
  .text.vListInitialiseItem
-                0x0000000000000a5e        0x8 ./FreeRtos/list.o
-                0x0000000000000a5e                vListInitialiseItem
+                0x0000000000000bac        0x8 ./FreeRtos/list.o
+                0x0000000000000bac                vListInitialiseItem
  .text.vListInsertEnd
-                0x0000000000000a66       0x40 ./FreeRtos/list.o
-                0x0000000000000a66                vListInsertEnd
+                0x0000000000000bb4       0x40 ./FreeRtos/list.o
+                0x0000000000000bb4                vListInsertEnd
  .text.vListInsert
-                0x0000000000000aa6       0x6c ./FreeRtos/list.o
-                0x0000000000000aa6                vListInsert
+                0x0000000000000bf4       0x6c ./FreeRtos/list.o
+                0x0000000000000bf4                vListInsert
  .text.uxListRemove
-                0x0000000000000b12       0x46 ./FreeRtos/list.o
-                0x0000000000000b12                uxListRemove
+                0x0000000000000c60       0x46 ./FreeRtos/list.o
+                0x0000000000000c60                uxListRemove
  .text.pxPortInitialiseStack
-                0x0000000000000b58       0xd8 ./FreeRtos/port.o
-                0x0000000000000b58                pxPortInitialiseStack
+                0x0000000000000ca6       0xd8 ./FreeRtos/port.o
+                0x0000000000000ca6                pxPortInitialiseStack
  .text.xPortStartScheduler
-                0x0000000000000c30       0x6a ./FreeRtos/port.o
-                0x0000000000000c30                xPortStartScheduler
+                0x0000000000000d7e       0x6a ./FreeRtos/port.o
+                0x0000000000000d7e                xPortStartScheduler
  .text.vPortEndScheduler
-                0x0000000000000c9a        0x2 ./FreeRtos/port.o
-                0x0000000000000c9a                vPortEndScheduler
+                0x0000000000000de8        0x2 ./FreeRtos/port.o
+                0x0000000000000de8                vPortEndScheduler
  .text.vPortYield
-                0x0000000000000c9c       0xb2 ./FreeRtos/port.o
-                0x0000000000000c9c                vPortYield
+                0x0000000000000dea       0xb2 ./FreeRtos/port.o
+                0x0000000000000dea                vPortYield
  .text.vPortYieldFromTick
-                0x0000000000000d4e       0xb8 ./FreeRtos/port.o
-                0x0000000000000d4e                vPortYieldFromTick
+                0x0000000000000e9c       0xb8 ./FreeRtos/port.o
+                0x0000000000000e9c                vPortYieldFromTick
  .text.__vector_7
-                0x0000000000000e06        0x6 ./FreeRtos/port.o
-                0x0000000000000e06                __vector_7
+                0x0000000000000f54        0x6 ./FreeRtos/port.o
+                0x0000000000000f54                __vector_7
  .text.prvIsQueueEmpty
-                0x0000000000000e0c       0x16 ./FreeRtos/queue.o
+                0x0000000000000f5a       0x16 ./FreeRtos/queue.o
  .text.prvCopyDataToQueue
-                0x0000000000000e22       0x94 ./FreeRtos/queue.o
+                0x0000000000000f70       0x94 ./FreeRtos/queue.o
  .text.prvCopyDataFromQueue
-                0x0000000000000eb6       0x34 ./FreeRtos/queue.o
+                0x0000000000001004       0x34 ./FreeRtos/queue.o
  .text.prvUnlockQueue
-                0x0000000000000eea       0x7c ./FreeRtos/queue.o
+                0x0000000000001038       0x7c ./FreeRtos/queue.o
  .text.xQueueGenericReset
-                0x0000000000000f66       0x8c ./FreeRtos/queue.o
-                0x0000000000000f66                xQueueGenericReset
+                0x00000000000010b4       0x8c ./FreeRtos/queue.o
+                0x00000000000010b4                xQueueGenericReset
  .text.xQueueGenericCreate
-                0x0000000000000ff2       0x58 ./FreeRtos/queue.o
-                0x0000000000000ff2                xQueueGenericCreate
+                0x0000000000001140       0x58 ./FreeRtos/queue.o
+                0x0000000000001140                xQueueGenericCreate
  .text.xQueueGenericSend
-                0x000000000000104a      0x12a ./FreeRtos/queue.o
-                0x000000000000104a                xQueueGenericSend
+                0x0000000000001198      0x12a ./FreeRtos/queue.o
+                0x0000000000001198                xQueueGenericSend
  .text.xQueueGenericSendFromISR
-                0x0000000000001174       0x68 ./FreeRtos/queue.o
-                0x0000000000001174                xQueueGenericSendFromISR
+                0x00000000000012c2       0x68 ./FreeRtos/queue.o
+                0x00000000000012c2                xQueueGenericSendFromISR
  .text.xQueueGiveFromISR
-                0x00000000000011dc       0x60 ./FreeRtos/queue.o
-                0x00000000000011dc                xQueueGiveFromISR
+                0x000000000000132a       0x60 ./FreeRtos/queue.o
+                0x000000000000132a                xQueueGiveFromISR
  .text.xQueueReceive
-                0x000000000000123c      0x122 ./FreeRtos/queue.o
-                0x000000000000123c                xQueueReceive
+                0x000000000000138a      0x122 ./FreeRtos/queue.o
+                0x000000000000138a                xQueueReceive
  .text.xQueueSemaphoreTake
-                0x000000000000135e      0x10a ./FreeRtos/queue.o
-                0x000000000000135e                xQueueSemaphoreTake
+                0x00000000000014ac      0x10a ./FreeRtos/queue.o
+                0x00000000000014ac                xQueueSemaphoreTake
  .text.xQueuePeek
-                0x0000000000001468      0x122 ./FreeRtos/queue.o
-                0x0000000000001468                xQueuePeek
+                0x00000000000015b6      0x122 ./FreeRtos/queue.o
+                0x00000000000015b6                xQueuePeek
  .text.xQueueReceiveFromISR
-                0x000000000000158a       0x68 ./FreeRtos/queue.o
-                0x000000000000158a                xQueueReceiveFromISR
+                0x00000000000016d8       0x68 ./FreeRtos/queue.o
+                0x00000000000016d8                xQueueReceiveFromISR
  .text.xQueuePeekFromISR
-                0x00000000000015f2       0x2e ./FreeRtos/queue.o
-                0x00000000000015f2                xQueuePeekFromISR
+                0x0000000000001740       0x2e ./FreeRtos/queue.o
+                0x0000000000001740                xQueuePeekFromISR
  .text.uxQueueMessagesWaiting
-                0x0000000000001620       0x10 ./FreeRtos/queue.o
-                0x0000000000001620                uxQueueMessagesWaiting
+                0x000000000000176e       0x10 ./FreeRtos/queue.o
+                0x000000000000176e                uxQueueMessagesWaiting
  .text.uxQueueSpacesAvailable
-                0x0000000000001630       0x14 ./FreeRtos/queue.o
-                0x0000000000001630                uxQueueSpacesAvailable
+                0x000000000000177e       0x14 ./FreeRtos/queue.o
+                0x000000000000177e                uxQueueSpacesAvailable
  .text.uxQueueMessagesWaitingFromISR
-                0x0000000000001644        0x6 ./FreeRtos/queue.o
-                0x0000000000001644                uxQueueMessagesWaitingFromISR
+                0x0000000000001792        0x6 ./FreeRtos/queue.o
+                0x0000000000001792                uxQueueMessagesWaitingFromISR
  .text.vQueueDelete
-                0x000000000000164a        0x4 ./FreeRtos/queue.o
-                0x000000000000164a                vQueueDelete
+                0x0000000000001798        0x4 ./FreeRtos/queue.o
+                0x0000000000001798                vQueueDelete
  .text.uxQueueGetQueueItemSize
-                0x000000000000164e        0x6 ./FreeRtos/queue.o
-                0x000000000000164e                uxQueueGetQueueItemSize
+                0x000000000000179c        0x6 ./FreeRtos/queue.o
+                0x000000000000179c                uxQueueGetQueueItemSize
  .text.uxQueueGetQueueLength
-                0x0000000000001654        0x6 ./FreeRtos/queue.o
-                0x0000000000001654                uxQueueGetQueueLength
+                0x00000000000017a2        0x6 ./FreeRtos/queue.o
+                0x00000000000017a2                uxQueueGetQueueLength
  .text.xQueueIsQueueEmptyFromISR
-                0x000000000000165a        0xc ./FreeRtos/queue.o
-                0x000000000000165a                xQueueIsQueueEmptyFromISR
+                0x00000000000017a8        0xc ./FreeRtos/queue.o
+                0x00000000000017a8                xQueueIsQueueEmptyFromISR
  .text.xQueueIsQueueFullFromISR
-                0x0000000000001666        0xe ./FreeRtos/queue.o
-                0x0000000000001666                xQueueIsQueueFullFromISR
+                0x00000000000017b4        0xe ./FreeRtos/queue.o
+                0x00000000000017b4                xQueueIsQueueFullFromISR
  .text.xQueueCRSend
-                0x0000000000001674       0x6e ./FreeRtos/queue.o
-                0x0000000000001674                xQueueCRSend
+                0x00000000000017c2       0x6e ./FreeRtos/queue.o
+                0x00000000000017c2                xQueueCRSend
  .text.xQueueCRReceive
-                0x00000000000016e2       0x8e ./FreeRtos/queue.o
-                0x00000000000016e2                xQueueCRReceive
+                0x0000000000001830       0x8e ./FreeRtos/queue.o
+                0x0000000000001830                xQueueCRReceive
  .text.xQueueCRSendFromISR
-                0x0000000000001770       0x3e ./FreeRtos/queue.o
-                0x0000000000001770                xQueueCRSendFromISR
+                0x00000000000018be       0x3e ./FreeRtos/queue.o
+                0x00000000000018be                xQueueCRSendFromISR
  .text.xQueueCRReceiveFromISR
-                0x00000000000017ae       0x78 ./FreeRtos/queue.o
-                0x00000000000017ae                xQueueCRReceiveFromISR
+                0x00000000000018fc       0x78 ./FreeRtos/queue.o
+                0x00000000000018fc                xQueueCRReceiveFromISR
  .text.prvBytesInBuffer
-                0x0000000000001826       0x26 ./FreeRtos/stream_buffer.o
+                0x0000000000001974       0x26 ./FreeRtos/stream_buffer.o
  .text.prvWriteBytesToBuffer
-                0x000000000000184c       0x88 ./FreeRtos/stream_buffer.o
+                0x000000000000199a       0x88 ./FreeRtos/stream_buffer.o
  .text.prvWriteMessageToBuffer
-                0x00000000000018d4       0x8c ./FreeRtos/stream_buffer.o
+                0x0000000000001a22       0x8c ./FreeRtos/stream_buffer.o
  .text.prvReadBytesFromBuffer
-                0x0000000000001960       0x88 ./FreeRtos/stream_buffer.o
+                0x0000000000001aae       0x88 ./FreeRtos/stream_buffer.o
  .text.prvReadMessageFromBuffer
-                0x00000000000019e8       0x90 ./FreeRtos/stream_buffer.o
+                0x0000000000001b36       0x90 ./FreeRtos/stream_buffer.o
  .text.xStreamBufferGenericCreate
-                0x0000000000001a78       0x70 ./FreeRtos/stream_buffer.o
-                0x0000000000001a78                xStreamBufferGenericCreate
+                0x0000000000001bc6       0x70 ./FreeRtos/stream_buffer.o
+                0x0000000000001bc6                xStreamBufferGenericCreate
  .text.vStreamBufferDelete
-                0x0000000000001ae8       0x14 ./FreeRtos/stream_buffer.o
-                0x0000000000001ae8                vStreamBufferDelete
+                0x0000000000001c36       0x14 ./FreeRtos/stream_buffer.o
+                0x0000000000001c36                vStreamBufferDelete
  .text.xStreamBufferReset
-                0x0000000000001afc       0x40 ./FreeRtos/stream_buffer.o
-                0x0000000000001afc                xStreamBufferReset
+                0x0000000000001c4a       0x40 ./FreeRtos/stream_buffer.o
+                0x0000000000001c4a                xStreamBufferReset
  .text.xStreamBufferResetFromISR
-                0x0000000000001b3c       0x36 ./FreeRtos/stream_buffer.o
-                0x0000000000001b3c                xStreamBufferResetFromISR
+                0x0000000000001c8a       0x36 ./FreeRtos/stream_buffer.o
+                0x0000000000001c8a                xStreamBufferResetFromISR
  .text.xStreamBufferSetTriggerLevel
-                0x0000000000001b72       0x22 ./FreeRtos/stream_buffer.o
-                0x0000000000001b72                xStreamBufferSetTriggerLevel
+                0x0000000000001cc0       0x22 ./FreeRtos/stream_buffer.o
+                0x0000000000001cc0                xStreamBufferSetTriggerLevel
  .text.xStreamBufferSpacesAvailable
-                0x0000000000001b94       0x34 ./FreeRtos/stream_buffer.o
-                0x0000000000001b94                xStreamBufferSpacesAvailable
+                0x0000000000001ce2       0x34 ./FreeRtos/stream_buffer.o
+                0x0000000000001ce2                xStreamBufferSpacesAvailable
  .text.xStreamBufferBytesAvailable
-                0x0000000000001bc8        0x4 ./FreeRtos/stream_buffer.o
-                0x0000000000001bc8                xStreamBufferBytesAvailable
+                0x0000000000001d16        0x4 ./FreeRtos/stream_buffer.o
+                0x0000000000001d16                xStreamBufferBytesAvailable
  .text.xStreamBufferSend
-                0x0000000000001bcc      0x174 ./FreeRtos/stream_buffer.o
-                0x0000000000001bcc                xStreamBufferSend
+                0x0000000000001d1a      0x174 ./FreeRtos/stream_buffer.o
+                0x0000000000001d1a                xStreamBufferSend
  .text.xStreamBufferSendFromISR
-                0x0000000000001d40       0x8a ./FreeRtos/stream_buffer.o
-                0x0000000000001d40                xStreamBufferSendFromISR
+                0x0000000000001e8e       0x8a ./FreeRtos/stream_buffer.o
+                0x0000000000001e8e                xStreamBufferSendFromISR
  .text.xStreamBufferReceive
-                0x0000000000001dca       0xfe ./FreeRtos/stream_buffer.o
-                0x0000000000001dca                xStreamBufferReceive
+                0x0000000000001f18       0xfe ./FreeRtos/stream_buffer.o
+                0x0000000000001f18                xStreamBufferReceive
  .text.xStreamBufferNextMessageLengthBytes
-                0x0000000000001ec8       0x4e ./FreeRtos/stream_buffer.o
-                0x0000000000001ec8                xStreamBufferNextMessageLengthBytes
+                0x0000000000002016       0x4e ./FreeRtos/stream_buffer.o
+                0x0000000000002016                xStreamBufferNextMessageLengthBytes
  .text.xStreamBufferReceiveFromISR
-                0x0000000000001f16       0x88 ./FreeRtos/stream_buffer.o
-                0x0000000000001f16                xStreamBufferReceiveFromISR
+                0x0000000000002064       0x88 ./FreeRtos/stream_buffer.o
+                0x0000000000002064                xStreamBufferReceiveFromISR
  .text.xStreamBufferIsEmpty
-                0x0000000000001f9e       0x16 ./FreeRtos/stream_buffer.o
-                0x0000000000001f9e                xStreamBufferIsEmpty
+                0x00000000000020ec       0x16 ./FreeRtos/stream_buffer.o
+                0x00000000000020ec                xStreamBufferIsEmpty
  .text.xStreamBufferIsFull
-                0x0000000000001fb4       0x2a ./FreeRtos/stream_buffer.o
-                0x0000000000001fb4                xStreamBufferIsFull
+                0x0000000000002102       0x2a ./FreeRtos/stream_buffer.o
+                0x0000000000002102                xStreamBufferIsFull
  .text.xStreamBufferSendCompletedFromISR
-                0x0000000000001fde       0x4c ./FreeRtos/stream_buffer.o
-                0x0000000000001fde                xStreamBufferSendCompletedFromISR
+                0x000000000000212c       0x4c ./FreeRtos/stream_buffer.o
+                0x000000000000212c                xStreamBufferSendCompletedFromISR
  .text.xStreamBufferReceiveCompletedFromISR
-                0x000000000000202a       0x4c ./FreeRtos/stream_buffer.o
-                0x000000000000202a                xStreamBufferReceiveCompletedFromISR
+                0x0000000000002178       0x4c ./FreeRtos/stream_buffer.o
+                0x0000000000002178                xStreamBufferReceiveCompletedFromISR
  .text.uxStreamBufferGetStreamBufferNotificationIndex
-                0x0000000000002076        0x6 ./FreeRtos/stream_buffer.o
-                0x0000000000002076                uxStreamBufferGetStreamBufferNotificationIndex
+                0x00000000000021c4        0x6 ./FreeRtos/stream_buffer.o
+                0x00000000000021c4                uxStreamBufferGetStreamBufferNotificationIndex
  .text.vStreamBufferSetStreamBufferNotificationIndex
-                0x000000000000207c        0x6 ./FreeRtos/stream_buffer.o
-                0x000000000000207c                vStreamBufferSetStreamBufferNotificationIndex
+                0x00000000000021ca        0x6 ./FreeRtos/stream_buffer.o
+                0x00000000000021ca                vStreamBufferSetStreamBufferNotificationIndex
  .text.prvResetNextTaskUnblockTime
-                0x0000000000002082       0x30 ./FreeRtos/tasks.o
+                0x00000000000021d0       0x30 ./FreeRtos/tasks.o
  .text.prvAddCurrentTaskToDelayedList.isra.2
-                0x00000000000020b2       0x9e ./FreeRtos/tasks.o
+                0x0000000000002200       0x9e ./FreeRtos/tasks.o
  .text.prvCheckTasksWaitingTermination
-                0x0000000000002150       0x54 ./FreeRtos/tasks.o
+                0x000000000000229e       0x54 ./FreeRtos/tasks.o
  .text.prvIdleTask
-                0x00000000000021a4       0x12 ./FreeRtos/tasks.o
+                0x00000000000022f2       0x12 ./FreeRtos/tasks.o
  .text.xTaskCreate
-                0x00000000000021b6      0x23a ./FreeRtos/tasks.o
-                0x00000000000021b6                xTaskCreate
+                0x0000000000002304      0x23a ./FreeRtos/tasks.o
+                0x0000000000002304                xTaskCreate
  .text.vTaskDelete
-                0x00000000000023f0       0xba ./FreeRtos/tasks.o
-                0x00000000000023f0                vTaskDelete
+                0x000000000000253e       0xba ./FreeRtos/tasks.o
+                0x000000000000253e                vTaskDelete
  .text.vTaskStartScheduler
-                0x00000000000024aa       0x90 ./FreeRtos/tasks.o
-                0x00000000000024aa                vTaskStartScheduler
+                0x00000000000025f8       0x90 ./FreeRtos/tasks.o
+                0x00000000000025f8                vTaskStartScheduler
  .text.vTaskEndScheduler
-                0x000000000000253a       0x1a ./FreeRtos/tasks.o
-                0x000000000000253a                vTaskEndScheduler
+                0x0000000000002688       0x1a ./FreeRtos/tasks.o
+                0x0000000000002688                vTaskEndScheduler
  .text.vTaskSuspendAll
-                0x0000000000002554        0xc ./FreeRtos/tasks.o
-                0x0000000000002554                vTaskSuspendAll
+                0x00000000000026a2        0xc ./FreeRtos/tasks.o
+                0x00000000000026a2                vTaskSuspendAll
  .text.xTaskGetTickCount
-                0x0000000000002560       0x14 ./FreeRtos/tasks.o
-                0x0000000000002560                xTaskGetTickCount
+                0x00000000000026ae       0x14 ./FreeRtos/tasks.o
+                0x00000000000026ae                xTaskGetTickCount
  .text.xTaskGetTickCountFromISR
-                0x0000000000002574        0xa ./FreeRtos/tasks.o
-                0x0000000000002574                xTaskGetTickCountFromISR
+                0x00000000000026c2        0xa ./FreeRtos/tasks.o
+                0x00000000000026c2                xTaskGetTickCountFromISR
  .text.uxTaskGetNumberOfTasks
-                0x000000000000257e        0x6 ./FreeRtos/tasks.o
-                0x000000000000257e                uxTaskGetNumberOfTasks
+                0x00000000000026cc        0x6 ./FreeRtos/tasks.o
+                0x00000000000026cc                uxTaskGetNumberOfTasks
  .text.pcTaskGetName
-                0x0000000000002584       0x10 ./FreeRtos/tasks.o
-                0x0000000000002584                pcTaskGetName
+                0x00000000000026d2       0x10 ./FreeRtos/tasks.o
+                0x00000000000026d2                pcTaskGetName
  .text.xTaskIncrementTick
-                0x0000000000002594      0x1f8 ./FreeRtos/tasks.o
-                0x0000000000002594                xTaskIncrementTick
+                0x00000000000026e2      0x1f8 ./FreeRtos/tasks.o
+                0x00000000000026e2                xTaskIncrementTick
  .text.xTaskResumeAll
-                0x000000000000278c      0x19a ./FreeRtos/tasks.o
-                0x000000000000278c                xTaskResumeAll
+                0x00000000000028da      0x19a ./FreeRtos/tasks.o
+                0x00000000000028da                xTaskResumeAll
  .text.xTaskDelayUntil
-                0x0000000000002926       0x64 ./FreeRtos/tasks.o
-                0x0000000000002926                xTaskDelayUntil
+                0x0000000000002a74       0x64 ./FreeRtos/tasks.o
+                0x0000000000002a74                xTaskDelayUntil
  .text.vTaskDelay
-                0x000000000000298a       0x28 ./FreeRtos/tasks.o
-                0x000000000000298a                vTaskDelay
+                0x0000000000002ad8       0x28 ./FreeRtos/tasks.o
+                0x0000000000002ad8                vTaskDelay
  .text.xTaskCatchUpTicks
-                0x00000000000029b2       0x30 ./FreeRtos/tasks.o
-                0x00000000000029b2                xTaskCatchUpTicks
+                0x0000000000002b00       0x30 ./FreeRtos/tasks.o
+                0x0000000000002b00                xTaskCatchUpTicks
  .text.vTaskSwitchContext
-                0x00000000000029e2       0x8c ./FreeRtos/tasks.o
-                0x00000000000029e2                vTaskSwitchContext
+                0x0000000000002b30       0x8c ./FreeRtos/tasks.o
+                0x0000000000002b30                vTaskSwitchContext
  .text.vTaskPlaceOnEventList
-                0x0000000000002a6e       0x20 ./FreeRtos/tasks.o
-                0x0000000000002a6e                vTaskPlaceOnEventList
+                0x0000000000002bbc       0x20 ./FreeRtos/tasks.o
+                0x0000000000002bbc                vTaskPlaceOnEventList
  .text.vTaskPlaceOnUnorderedEventList
-                0x0000000000002a8e       0x88 ./FreeRtos/tasks.o
-                0x0000000000002a8e                vTaskPlaceOnUnorderedEventList
+                0x0000000000002bdc       0x88 ./FreeRtos/tasks.o
+                0x0000000000002bdc                vTaskPlaceOnUnorderedEventList
  .text.xTaskRemoveFromEventList
-                0x0000000000002b16      0x14a ./FreeRtos/tasks.o
-                0x0000000000002b16                xTaskRemoveFromEventList
+                0x0000000000002c64      0x14a ./FreeRtos/tasks.o
+                0x0000000000002c64                xTaskRemoveFromEventList
  .text.vTaskRemoveFromUnorderedEventList
-                0x0000000000002c60      0x10e ./FreeRtos/tasks.o
-                0x0000000000002c60                vTaskRemoveFromUnorderedEventList
+                0x0000000000002dae      0x10e ./FreeRtos/tasks.o
+                0x0000000000002dae                vTaskRemoveFromUnorderedEventList
  .text.vTaskSetTimeOutState
-                0x0000000000002d6e       0x20 ./FreeRtos/tasks.o
-                0x0000000000002d6e                vTaskSetTimeOutState
+                0x0000000000002ebc       0x20 ./FreeRtos/tasks.o
+                0x0000000000002ebc                vTaskSetTimeOutState
  .text.vTaskInternalSetTimeOutState
-                0x0000000000002d8e       0x16 ./FreeRtos/tasks.o
-                0x0000000000002d8e                vTaskInternalSetTimeOutState
+                0x0000000000002edc       0x16 ./FreeRtos/tasks.o
+                0x0000000000002edc                vTaskInternalSetTimeOutState
  .text.xTaskCheckForTimeOut
-                0x0000000000002da4       0x58 ./FreeRtos/tasks.o
-                0x0000000000002da4                xTaskCheckForTimeOut
+                0x0000000000002ef2       0x58 ./FreeRtos/tasks.o
+                0x0000000000002ef2                xTaskCheckForTimeOut
  .text.vTaskMissedYield
-                0x0000000000002dfc        0x8 ./FreeRtos/tasks.o
-                0x0000000000002dfc                vTaskMissedYield
+                0x0000000000002f4a        0x8 ./FreeRtos/tasks.o
+                0x0000000000002f4a                vTaskMissedYield
  .text.xTaskGetCurrentTaskHandle
-                0x0000000000002e04        0xa ./FreeRtos/tasks.o
-                0x0000000000002e04                xTaskGetCurrentTaskHandle
+                0x0000000000002f52        0xa ./FreeRtos/tasks.o
+                0x0000000000002f52                xTaskGetCurrentTaskHandle
  .text.xTaskGetCurrentTaskHandleForCore
-                0x0000000000002e0e       0x14 ./FreeRtos/tasks.o
-                0x0000000000002e0e                xTaskGetCurrentTaskHandleForCore
+                0x0000000000002f5c       0x14 ./FreeRtos/tasks.o
+                0x0000000000002f5c                xTaskGetCurrentTaskHandleForCore
  .text.uxTaskResetEventItemValue
-                0x0000000000002e22       0x2e ./FreeRtos/tasks.o
-                0x0000000000002e22                uxTaskResetEventItemValue
+                0x0000000000002f70       0x2e ./FreeRtos/tasks.o
+                0x0000000000002f70                uxTaskResetEventItemValue
  .text.ulTaskGenericNotifyTake
-                0x0000000000002e50      0x102 ./FreeRtos/tasks.o
-                0x0000000000002e50                ulTaskGenericNotifyTake
+                0x0000000000002f9e      0x102 ./FreeRtos/tasks.o
+                0x0000000000002f9e                ulTaskGenericNotifyTake
  .text.xTaskGenericNotifyWait
-                0x0000000000002f52      0x16c ./FreeRtos/tasks.o
-                0x0000000000002f52                xTaskGenericNotifyWait
+                0x00000000000030a0      0x16c ./FreeRtos/tasks.o
+                0x00000000000030a0                xTaskGenericNotifyWait
  .text.xTaskGenericNotify
-                0x00000000000030be      0x1c0 ./FreeRtos/tasks.o
-                0x00000000000030be                xTaskGenericNotify
+                0x000000000000320c      0x1c0 ./FreeRtos/tasks.o
+                0x000000000000320c                xTaskGenericNotify
  .text.xTaskGenericNotifyFromISR
-                0x000000000000327e      0x212 ./FreeRtos/tasks.o
-                0x000000000000327e                xTaskGenericNotifyFromISR
+                0x00000000000033cc      0x212 ./FreeRtos/tasks.o
+                0x00000000000033cc                xTaskGenericNotifyFromISR
  .text.vTaskGenericNotifyGiveFromISR
-                0x0000000000003490      0x156 ./FreeRtos/tasks.o
-                0x0000000000003490                vTaskGenericNotifyGiveFromISR
+                0x00000000000035de      0x156 ./FreeRtos/tasks.o
+                0x00000000000035de                vTaskGenericNotifyGiveFromISR
  .text.xTaskGenericNotifyStateClear
-                0x00000000000035e6       0x2c ./FreeRtos/tasks.o
-                0x00000000000035e6                xTaskGenericNotifyStateClear
+                0x0000000000003734       0x2c ./FreeRtos/tasks.o
+                0x0000000000003734                xTaskGenericNotifyStateClear
  .text.ulTaskGenericNotifyValueClear
-                0x0000000000003612       0x5c ./FreeRtos/tasks.o
-                0x0000000000003612                ulTaskGenericNotifyValueClear
+                0x0000000000003760       0x5c ./FreeRtos/tasks.o
+                0x0000000000003760                ulTaskGenericNotifyValueClear
  .text.vTaskResetState
-                0x000000000000366e       0x42 ./FreeRtos/tasks.o
-                0x000000000000366e                vTaskResetState
+                0x00000000000037bc       0x42 ./FreeRtos/tasks.o
+                0x00000000000037bc                vTaskResetState
+ .text.ADC_Task
+                0x00000000000037fe       0x36 ./main.o
+                0x00000000000037fe                ADC_Task
+ .text.Overcurrent_Task
+                0x0000000000003834       0x24 ./main.o
+                0x0000000000003834                Overcurrent_Task
  .text.UART_Init
-                0x00000000000036b0       0x24 ./main.o
-                0x00000000000036b0                UART_Init
+                0x0000000000003858       0x24 ./main.o
+                0x0000000000003858                UART_Init
  .text.UART_Transmit
-                0x00000000000036d4        0x8 ./main.o
-                0x00000000000036d4                UART_Transmit
+                0x000000000000387c        0x8 ./main.o
+                0x000000000000387c                UART_Transmit
  .text.UART_SendString
-                0x00000000000036dc       0x18 ./main.o
-                0x00000000000036dc                UART_SendString
+                0x0000000000003884       0x18 ./main.o
+                0x0000000000003884                UART_SendString
+ .text.UART_Task
+                0x000000000000389c       0xea ./main.o
+                0x000000000000389c                UART_Task
  .text.startup.main
-                0x00000000000036f4       0x7c ./main.o
-                0x00000000000036f4                main
+                0x0000000000003986       0x68 ./main.o
+                0x0000000000003986                main
+ .text.avr-libc.fplib
+                0x00000000000039ee        0x8 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(divsf3.o)
+                0x00000000000039ee                __divsf3
+ .text.avr-libc.fplib
+                0x00000000000039f6       0xdc c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+                0x0000000000003a16                __divsf3x
+                0x0000000000003a1c                __divsf3_pse
+ .text.avr-libc.fplib
+                0x0000000000003ad2       0x7a c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+                0x0000000000003ad2                __floatunsisf
+                0x0000000000003ad6                __floatsisf
+ .text.avr-libc.fplib
+                0x0000000000003b4c        0xc c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+                0x0000000000003b4c                __fp_inf
+ .text.avr-libc.fplib
+                0x0000000000003b58        0x6 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+                0x0000000000003b58                __fp_nan
+ .text.avr-libc.fplib
+                0x0000000000003b5e        0xe c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+                0x0000000000003b5e                __fp_pscA
+ .text.avr-libc.fplib
+                0x0000000000003b6c        0xe c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+                0x0000000000003b6c                __fp_pscB
+ .text.avr-libc.fplib
+                0x0000000000003b7a       0x22 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
+                0x0000000000003b7a                __fp_round
+ .text.avr-libc.fplib
+                0x0000000000003b9c       0x44 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+                0x0000000000003b9c                __fp_split3
+                0x0000000000003bac                __fp_splitA
+ .text.avr-libc.fplib
+                0x0000000000003be0        0xe c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+                0x0000000000003be0                __fp_zero
+                0x0000000000003be2                __fp_szero
+ .text.avr-libc.fplib
+                0x0000000000003bee        0x8 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+                0x0000000000003bee                __mulsf3
+ .text.avr-libc.fplib
+                0x0000000000003bf6       0xd2 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+                0x0000000000003c14                __mulsf3x
+                0x0000000000003c1a                __mulsf3_pse
  .text.libgcc.mul
-                0x0000000000003770        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_udivmodsi4.o)
+                0x0000000000003cc8        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_udivmodsi4.o)
  .text.libgcc.div
-                0x0000000000003770       0x44 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_udivmodsi4.o)
-                0x0000000000003770                __udivmodsi4
- .text.libgcc   0x00000000000037b4        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_udivmodsi4.o)
+                0x0000000000003cc8       0x44 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_udivmodsi4.o)
+                0x0000000000003cc8                __udivmodsi4
+ .text.libgcc   0x0000000000003d0c        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_udivmodsi4.o)
  .text.libgcc.prologue
-                0x00000000000037b4        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_udivmodsi4.o)
+                0x0000000000003d0c        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_udivmodsi4.o)
  .text.libgcc.builtins
-                0x00000000000037b4        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_udivmodsi4.o)
+                0x0000000000003d0c        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_udivmodsi4.o)
  .text.libgcc.fmul
-                0x00000000000037b4        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_udivmodsi4.o)
+                0x0000000000003d0c        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_udivmodsi4.o)
  .text.libgcc.fixed
-                0x00000000000037b4        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_udivmodsi4.o)
+                0x0000000000003d0c        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_udivmodsi4.o)
  .text.libgcc.mul
-                0x00000000000037b4        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_exit.o)
+                0x0000000000003d0c        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_exit.o)
  .text.libgcc.div
-                0x00000000000037b4        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_exit.o)
- .text.libgcc   0x00000000000037b4        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_exit.o)
+                0x0000000000003d0c        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x0000000000003d0c        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_exit.o)
  .text.libgcc.prologue
-                0x00000000000037b4        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_exit.o)
+                0x0000000000003d0c        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_exit.o)
  .text.libgcc.builtins
-                0x00000000000037b4        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_exit.o)
+                0x0000000000003d0c        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_exit.o)
  .text.libgcc.fmul
-                0x00000000000037b4        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_exit.o)
+                0x0000000000003d0c        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_exit.o)
  .text.libgcc.fixed
-                0x00000000000037b4        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_exit.o)
+                0x0000000000003d0c        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_exit.o)
  .text.libgcc.mul
-                0x00000000000037b4        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_tablejump2.o)
+                0x0000000000003d0c        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_tablejump2.o)
  .text.libgcc.div
-                0x00000000000037b4        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_tablejump2.o)
- .text.libgcc   0x00000000000037b4        0xc c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_tablejump2.o)
-                0x00000000000037b4                __tablejump2__
+                0x0000000000003d0c        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_tablejump2.o)
+ .text.libgcc   0x0000000000003d0c        0xc c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_tablejump2.o)
+                0x0000000000003d0c                __tablejump2__
  .text.libgcc.prologue
-                0x00000000000037c0        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_tablejump2.o)
+                0x0000000000003d18        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_tablejump2.o)
  .text.libgcc.builtins
-                0x00000000000037c0        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_tablejump2.o)
+                0x0000000000003d18        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_tablejump2.o)
  .text.libgcc.fmul
-                0x00000000000037c0        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_tablejump2.o)
+                0x0000000000003d18        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_tablejump2.o)
  .text.libgcc.fixed
-                0x00000000000037c0        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_tablejump2.o)
+                0x0000000000003d18        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_tablejump2.o)
  .text.libgcc.mul
-                0x00000000000037c0        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_copy_data.o)
+                0x0000000000003d18        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_copy_data.o)
  .text.libgcc.div
-                0x00000000000037c0        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_copy_data.o)
- .text.libgcc   0x00000000000037c0        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_copy_data.o)
+                0x0000000000003d18        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x0000000000003d18        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_copy_data.o)
  .text.libgcc.prologue
-                0x00000000000037c0        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_copy_data.o)
+                0x0000000000003d18        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_copy_data.o)
  .text.libgcc.builtins
-                0x00000000000037c0        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_copy_data.o)
+                0x0000000000003d18        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_copy_data.o)
  .text.libgcc.fmul
-                0x00000000000037c0        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_copy_data.o)
+                0x0000000000003d18        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_copy_data.o)
  .text.libgcc.fixed
-                0x00000000000037c0        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_copy_data.o)
+                0x0000000000003d18        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_copy_data.o)
  .text.libgcc.mul
-                0x00000000000037c0        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_clear_bss.o)
+                0x0000000000003d18        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_clear_bss.o)
  .text.libgcc.div
-                0x00000000000037c0        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_clear_bss.o)
- .text.libgcc   0x00000000000037c0        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_clear_bss.o)
+                0x0000000000003d18        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x0000000000003d18        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_clear_bss.o)
  .text.libgcc.prologue
-                0x00000000000037c0        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_clear_bss.o)
+                0x0000000000003d18        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_clear_bss.o)
  .text.libgcc.builtins
-                0x00000000000037c0        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_clear_bss.o)
+                0x0000000000003d18        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_clear_bss.o)
  .text.libgcc.fmul
-                0x00000000000037c0        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_clear_bss.o)
+                0x0000000000003d18        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_clear_bss.o)
  .text.libgcc.fixed
-                0x00000000000037c0        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_clear_bss.o)
- .text.avr-libc.fplib
-                0x00000000000037c0        0x8 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(divsf3.o)
-                0x00000000000037c0                __divsf3
- .text.avr-libc.fplib
-                0x00000000000037c8       0xdc c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
-                0x00000000000037e8                __divsf3x
-                0x00000000000037ee                __divsf3_pse
- .text.avr-libc.fplib
-                0x00000000000038a4       0x7a c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
-                0x00000000000038a4                __floatunsisf
-                0x00000000000038a8                __floatsisf
- .text.avr-libc.fplib
-                0x000000000000391e        0xc c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
-                0x000000000000391e                __fp_inf
- .text.avr-libc.fplib
-                0x000000000000392a        0x6 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
-                0x000000000000392a                __fp_nan
- .text.avr-libc.fplib
-                0x0000000000003930        0xe c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
-                0x0000000000003930                __fp_pscA
- .text.avr-libc.fplib
-                0x000000000000393e        0xe c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
-                0x000000000000393e                __fp_pscB
- .text.avr-libc.fplib
-                0x000000000000394c       0x22 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
-                0x000000000000394c                __fp_round
- .text.avr-libc.fplib
-                0x000000000000396e       0x44 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
-                0x000000000000396e                __fp_split3
-                0x000000000000397e                __fp_splitA
- .text.avr-libc.fplib
-                0x00000000000039b2        0xe c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
-                0x00000000000039b2                __fp_zero
-                0x00000000000039b4                __fp_szero
- .text.avr-libc.fplib
-                0x00000000000039c0        0x8 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
-                0x00000000000039c0                __mulsf3
- .text.avr-libc.fplib
-                0x00000000000039c8       0xd2 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
-                0x00000000000039e6                __mulsf3x
-                0x00000000000039ec                __mulsf3_pse
+                0x0000000000003d18        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_clear_bss.o)
  .text.avr-libc
-                0x0000000000003a9a       0x12 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(memcpy.o)
-                0x0000000000003a9a                memcpy
+                0x0000000000003d18       0x3c c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(dtostrf.o)
+                0x0000000000003d18                dtostrf
  .text.avr-libc
-                0x0000000000003aac       0x60 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(snprintf.o)
-                0x0000000000003aac                snprintf
+                0x0000000000003d54       0x12 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(memcpy.o)
+                0x0000000000003d54                memcpy
  .text.avr-libc
-                0x0000000000003b0c      0x3b4 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
-                0x0000000000003b0c                vfprintf
+                0x0000000000003d66       0x60 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(snprintf.o)
+                0x0000000000003d66                snprintf
  .text.avr-libc
-                0x0000000000003ec0       0x16 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
-                0x0000000000003ec0                strnlen_P
+                0x0000000000003dc6      0x3b4 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+                0x0000000000003dc6                vfprintf
  .text.avr-libc
-                0x0000000000003ed6       0x16 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(strnlen.o)
-                0x0000000000003ed6                strnlen
+                0x000000000000417a      0x2be c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(dtoa_prf.o)
+                0x000000000000417a                dtoa_prf
  .text.avr-libc
-                0x0000000000003eec       0x60 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(fputc.o)
-                0x0000000000003eec                fputc
+                0x0000000000004438      0x1b0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(ftoa_engine.o)
+                0x0000000000004438                __ftoa_engine
  .text.avr-libc
-                0x0000000000003f4c       0xbc c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
-                0x0000000000003f4c                __ultoa_invert
+                0x00000000000045e8       0x16 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
+                0x00000000000045e8                strnlen_P
+ .text.avr-libc
+                0x00000000000045fe       0x16 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(strnlen.o)
+                0x00000000000045fe                strnlen
+ .text.avr-libc
+                0x0000000000004614       0x60 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(fputc.o)
+                0x0000000000004614                fputc
+ .text.avr-libc
+                0x0000000000004674       0xbc c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
+                0x0000000000004674                __ultoa_invert
  .text.libgcc.mul
-                0x0000000000004008        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_prologue.o)
+                0x0000000000004730        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_prologue.o)
  .text.libgcc.div
-                0x0000000000004008        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_prologue.o)
- .text.libgcc   0x0000000000004008        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_prologue.o)
+                0x0000000000004730        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_prologue.o)
+ .text.libgcc   0x0000000000004730        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_prologue.o)
  .text.libgcc.prologue
-                0x0000000000004008       0x38 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_prologue.o)
-                0x0000000000004008                __prologue_saves__
+                0x0000000000004730       0x38 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_prologue.o)
+                0x0000000000004730                __prologue_saves__
  .text.libgcc.builtins
-                0x0000000000004040        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_prologue.o)
+                0x0000000000004768        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_prologue.o)
  .text.libgcc.fmul
-                0x0000000000004040        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_prologue.o)
+                0x0000000000004768        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_prologue.o)
  .text.libgcc.fixed
-                0x0000000000004040        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_prologue.o)
+                0x0000000000004768        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_prologue.o)
  .text.libgcc.mul
-                0x0000000000004040        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_epilogue.o)
+                0x0000000000004768        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_epilogue.o)
  .text.libgcc.div
-                0x0000000000004040        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_epilogue.o)
- .text.libgcc   0x0000000000004040        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_epilogue.o)
+                0x0000000000004768        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc   0x0000000000004768        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_epilogue.o)
  .text.libgcc.prologue
-                0x0000000000004040       0x36 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_epilogue.o)
-                0x0000000000004040                __epilogue_restores__
+                0x0000000000004768       0x36 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_epilogue.o)
+                0x0000000000004768                __epilogue_restores__
  .text.libgcc.builtins
-                0x0000000000004076        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_epilogue.o)
+                0x000000000000479e        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_epilogue.o)
  .text.libgcc.fmul
-                0x0000000000004076        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_epilogue.o)
+                0x000000000000479e        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_epilogue.o)
  .text.libgcc.fixed
-                0x0000000000004076        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_epilogue.o)
-                0x0000000000004076                . = ALIGN (0x2)
+                0x000000000000479e        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_epilogue.o)
+                0x000000000000479e                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x0000000000004076        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_exit.o)
-                0x0000000000004076                _exit
-                0x0000000000004076                exit
+ .fini9         0x000000000000479e        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_exit.o)
+                0x000000000000479e                _exit
+                0x000000000000479e                exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
@@ -868,11 +898,11 @@ END GROUP
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x0000000000004076        0x4 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_exit.o)
+ .fini0         0x000000000000479e        0x4 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_exit.o)
  *(.fini0)
-                0x000000000000407a                _etext = .
+                0x00000000000047a2                _etext = .
 
-.data           0x0000000000800060       0x10 load address 0x000000000000407a
+.data           0x0000000000800060       0x58 load address 0x00000000000047a2
                 0x0000000000800060                PROVIDE (__data_start, .)
  *(.data)
  .data          0x0000000000800060        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/crtatmega32a.o
@@ -888,11 +918,6 @@ END GROUP
  .data          0x0000000000800060        0x0 ./FreeRtos/tasks.o
  .data          0x0000000000800060        0x0 ./FreeRtos/timers.o
  .data          0x0000000000800060        0x0 ./main.o
- .data          0x0000000000800060        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_udivmodsi4.o)
- .data          0x0000000000800060        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_exit.o)
- .data          0x0000000000800060        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_tablejump2.o)
- .data          0x0000000000800060        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_copy_data.o)
- .data          0x0000000000800060        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_clear_bss.o)
  .data          0x0000000000800060        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(divsf3.o)
  .data          0x0000000000800060        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
  .data          0x0000000000800060        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
@@ -905,9 +930,17 @@ END GROUP
  .data          0x0000000000800060        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
  .data          0x0000000000800060        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
  .data          0x0000000000800060        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+ .data          0x0000000000800060        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_udivmodsi4.o)
+ .data          0x0000000000800060        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_exit.o)
+ .data          0x0000000000800060        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_tablejump2.o)
+ .data          0x0000000000800060        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_copy_data.o)
+ .data          0x0000000000800060        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_clear_bss.o)
+ .data          0x0000000000800060        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(dtostrf.o)
  .data          0x0000000000800060        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(memcpy.o)
  .data          0x0000000000800060        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(snprintf.o)
  .data          0x0000000000800060        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+ .data          0x0000000000800060        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(dtoa_prf.o)
+ .data          0x0000000000800060        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(ftoa_engine.o)
  .data          0x0000000000800060        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
  .data          0x0000000000800060        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(strnlen.o)
  .data          0x0000000000800060        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(fputc.o)
@@ -922,135 +955,149 @@ END GROUP
  *(.rodata*)
  .rodata.str1.1
                 0x0000000000800061        0x5 ./FreeRtos/tasks.o
+ .rodata.UART_Task.str1.1
+                0x0000000000800066       0x2e ./main.o
  .rodata.main.str1.1
-                0x0000000000800066        0xa ./main.o
+                0x0000000000800094       0x24 ./main.o
  *(.gnu.linkonce.r*)
-                0x0000000000800070                . = ALIGN (0x2)
-                0x0000000000800070                _edata = .
-                0x0000000000800070                PROVIDE (__data_end, .)
+                0x00000000008000b8                . = ALIGN (0x2)
+                0x00000000008000b8                _edata = .
+                0x00000000008000b8                PROVIDE (__data_end, .)
 
-.bss            0x0000000000800070      0x678
-                0x0000000000800070                PROVIDE (__bss_start, .)
+.bss            0x00000000008000b8      0x67d
+                0x00000000008000b8                PROVIDE (__bss_start, .)
  *(.bss)
- .bss           0x0000000000800070        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/crtatmega32a.o
- .bss           0x0000000000800070        0x0 ./Include/MCAL/ADC/ADC.o
- .bss           0x0000000000800070        0x0 ./Include/Lcd/Lcd.o
- .bss           0x0000000000800070        0x0 ./FreeRtos/croutine.o
- .bss           0x0000000000800070        0x0 ./FreeRtos/event_groups.o
- .bss           0x0000000000800070        0x0 ./FreeRtos/heap_1.o
- .bss           0x0000000000800070        0x0 ./FreeRtos/list.o
- .bss           0x0000000000800070        0x0 ./FreeRtos/port.o
- .bss           0x0000000000800070        0x0 ./FreeRtos/queue.o
- .bss           0x0000000000800070        0x0 ./FreeRtos/stream_buffer.o
- .bss           0x0000000000800070        0x0 ./FreeRtos/tasks.o
- .bss           0x0000000000800070        0x0 ./FreeRtos/timers.o
- .bss           0x0000000000800070        0x0 ./main.o
- .bss           0x0000000000800070        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_udivmodsi4.o)
- .bss           0x0000000000800070        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_exit.o)
- .bss           0x0000000000800070        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_tablejump2.o)
- .bss           0x0000000000800070        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_copy_data.o)
- .bss           0x0000000000800070        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_clear_bss.o)
- .bss           0x0000000000800070        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(divsf3.o)
- .bss           0x0000000000800070        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
- .bss           0x0000000000800070        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
- .bss           0x0000000000800070        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
- .bss           0x0000000000800070        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
- .bss           0x0000000000800070        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
- .bss           0x0000000000800070        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
- .bss           0x0000000000800070        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
- .bss           0x0000000000800070        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
- .bss           0x0000000000800070        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
- .bss           0x0000000000800070        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
- .bss           0x0000000000800070        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
- .bss           0x0000000000800070        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(memcpy.o)
- .bss           0x0000000000800070        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(snprintf.o)
- .bss           0x0000000000800070        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
- .bss           0x0000000000800070        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
- .bss           0x0000000000800070        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(strnlen.o)
- .bss           0x0000000000800070        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(fputc.o)
- .bss           0x0000000000800070        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
- .bss           0x0000000000800070        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_prologue.o)
- .bss           0x0000000000800070        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_epilogue.o)
+ .bss           0x00000000008000b8        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/crtatmega32a.o
+ .bss           0x00000000008000b8        0x0 ./Include/MCAL/ADC/ADC.o
+ .bss           0x00000000008000b8        0x0 ./Include/Lcd/Lcd.o
+ .bss           0x00000000008000b8        0x0 ./FreeRtos/croutine.o
+ .bss           0x00000000008000b8        0x0 ./FreeRtos/event_groups.o
+ .bss           0x00000000008000b8        0x0 ./FreeRtos/heap_1.o
+ .bss           0x00000000008000b8        0x0 ./FreeRtos/list.o
+ .bss           0x00000000008000b8        0x0 ./FreeRtos/port.o
+ .bss           0x00000000008000b8        0x0 ./FreeRtos/queue.o
+ .bss           0x00000000008000b8        0x0 ./FreeRtos/stream_buffer.o
+ .bss           0x00000000008000b8        0x0 ./FreeRtos/tasks.o
+ .bss           0x00000000008000b8        0x0 ./FreeRtos/timers.o
+ .bss           0x00000000008000b8        0x0 ./main.o
+ .bss           0x00000000008000b8        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(divsf3.o)
+ .bss           0x00000000008000b8        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+ .bss           0x00000000008000b8        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+ .bss           0x00000000008000b8        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+ .bss           0x00000000008000b8        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+ .bss           0x00000000008000b8        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+ .bss           0x00000000008000b8        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+ .bss           0x00000000008000b8        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
+ .bss           0x00000000008000b8        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+ .bss           0x00000000008000b8        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+ .bss           0x00000000008000b8        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+ .bss           0x00000000008000b8        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+ .bss           0x00000000008000b8        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_udivmodsi4.o)
+ .bss           0x00000000008000b8        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_exit.o)
+ .bss           0x00000000008000b8        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_tablejump2.o)
+ .bss           0x00000000008000b8        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_copy_data.o)
+ .bss           0x00000000008000b8        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_clear_bss.o)
+ .bss           0x00000000008000b8        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(dtostrf.o)
+ .bss           0x00000000008000b8        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(memcpy.o)
+ .bss           0x00000000008000b8        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(snprintf.o)
+ .bss           0x00000000008000b8        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+ .bss           0x00000000008000b8        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(dtoa_prf.o)
+ .bss           0x00000000008000b8        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(ftoa_engine.o)
+ .bss           0x00000000008000b8        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
+ .bss           0x00000000008000b8        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(strnlen.o)
+ .bss           0x00000000008000b8        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(fputc.o)
+ .bss           0x00000000008000b8        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
+ .bss           0x00000000008000b8        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_prologue.o)
+ .bss           0x00000000008000b8        0x0 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr5\libgcc.a(_epilogue.o)
  *(.bss*)
  .bss.xPassedTicks
-                0x0000000000800070        0x2 ./FreeRtos/croutine.o
+                0x00000000008000b8        0x2 ./FreeRtos/croutine.o
  .bss.xLastTickCount
-                0x0000000000800072        0x2 ./FreeRtos/croutine.o
+                0x00000000008000ba        0x2 ./FreeRtos/croutine.o
  .bss.xCoRoutineTickCount
-                0x0000000000800074        0x2 ./FreeRtos/croutine.o
+                0x00000000008000bc        0x2 ./FreeRtos/croutine.o
  .bss.uxTopCoRoutineReadyPriority
-                0x0000000000800076        0x1 ./FreeRtos/croutine.o
+                0x00000000008000be        0x1 ./FreeRtos/croutine.o
  .bss.pxCurrentCoRoutine
-                0x0000000000800077        0x2 ./FreeRtos/croutine.o
-                0x0000000000800077                pxCurrentCoRoutine
+                0x00000000008000bf        0x2 ./FreeRtos/croutine.o
+                0x00000000008000bf                pxCurrentCoRoutine
  .bss.xPendingReadyCoRoutineList
-                0x0000000000800079        0x9 ./FreeRtos/croutine.o
+                0x00000000008000c1        0x9 ./FreeRtos/croutine.o
  .bss.pxOverflowDelayedCoRoutineList
-                0x0000000000800082        0x2 ./FreeRtos/croutine.o
+                0x00000000008000ca        0x2 ./FreeRtos/croutine.o
  .bss.pxDelayedCoRoutineList
-                0x0000000000800084        0x2 ./FreeRtos/croutine.o
+                0x00000000008000cc        0x2 ./FreeRtos/croutine.o
  .bss.xDelayedCoRoutineList2
-                0x0000000000800086        0x9 ./FreeRtos/croutine.o
+                0x00000000008000ce        0x9 ./FreeRtos/croutine.o
  .bss.xDelayedCoRoutineList1
-                0x000000000080008f        0x9 ./FreeRtos/croutine.o
+                0x00000000008000d7        0x9 ./FreeRtos/croutine.o
  .bss.pxReadyCoRoutineLists
-                0x0000000000800098       0x12 ./FreeRtos/croutine.o
+                0x00000000008000e0       0x12 ./FreeRtos/croutine.o
  .bss.pucAlignedHeap.1975
-                0x00000000008000aa        0x2 ./FreeRtos/heap_1.o
+                0x00000000008000f2        0x2 ./FreeRtos/heap_1.o
  .bss.xNextFreeByte
-                0x00000000008000ac        0x2 ./FreeRtos/heap_1.o
- .bss.ucHeap    0x00000000008000ae      0x5dc ./FreeRtos/heap_1.o
+                0x00000000008000f4        0x2 ./FreeRtos/heap_1.o
+ .bss.ucHeap    0x00000000008000f6      0x5dc ./FreeRtos/heap_1.o
  .bss.uxSchedulerSuspended
-                0x000000000080068a        0x1 ./FreeRtos/tasks.o
+                0x00000000008006d2        0x1 ./FreeRtos/tasks.o
  .bss.xIdleTaskHandles
-                0x000000000080068b        0x2 ./FreeRtos/tasks.o
+                0x00000000008006d3        0x2 ./FreeRtos/tasks.o
  .bss.xNextTaskUnblockTime
-                0x000000000080068d        0x2 ./FreeRtos/tasks.o
+                0x00000000008006d5        0x2 ./FreeRtos/tasks.o
  .bss.uxTaskNumber
-                0x000000000080068f        0x1 ./FreeRtos/tasks.o
+                0x00000000008006d7        0x1 ./FreeRtos/tasks.o
  .bss.xNumOfOverflows
-                0x0000000000800690        0x1 ./FreeRtos/tasks.o
+                0x00000000008006d8        0x1 ./FreeRtos/tasks.o
  .bss.xYieldPendings
-                0x0000000000800691        0x1 ./FreeRtos/tasks.o
+                0x00000000008006d9        0x1 ./FreeRtos/tasks.o
  .bss.xPendedTicks
-                0x0000000000800692        0x2 ./FreeRtos/tasks.o
+                0x00000000008006da        0x2 ./FreeRtos/tasks.o
  .bss.xSchedulerRunning
-                0x0000000000800694        0x1 ./FreeRtos/tasks.o
+                0x00000000008006dc        0x1 ./FreeRtos/tasks.o
  .bss.uxTopReadyPriority
-                0x0000000000800695        0x1 ./FreeRtos/tasks.o
+                0x00000000008006dd        0x1 ./FreeRtos/tasks.o
  .bss.xTickCount
-                0x0000000000800696        0x2 ./FreeRtos/tasks.o
+                0x00000000008006de        0x2 ./FreeRtos/tasks.o
  .bss.uxCurrentNumberOfTasks
-                0x0000000000800698        0x1 ./FreeRtos/tasks.o
+                0x00000000008006e0        0x1 ./FreeRtos/tasks.o
  .bss.uxDeletedTasksWaitingCleanUp
-                0x0000000000800699        0x1 ./FreeRtos/tasks.o
+                0x00000000008006e1        0x1 ./FreeRtos/tasks.o
  .bss.xTasksWaitingTermination
-                0x000000000080069a        0x9 ./FreeRtos/tasks.o
+                0x00000000008006e2        0x9 ./FreeRtos/tasks.o
  .bss.xPendingReadyList
-                0x00000000008006a3        0x9 ./FreeRtos/tasks.o
+                0x00000000008006eb        0x9 ./FreeRtos/tasks.o
  .bss.pxOverflowDelayedTaskList
-                0x00000000008006ac        0x2 ./FreeRtos/tasks.o
+                0x00000000008006f4        0x2 ./FreeRtos/tasks.o
  .bss.pxDelayedTaskList
-                0x00000000008006ae        0x2 ./FreeRtos/tasks.o
+                0x00000000008006f6        0x2 ./FreeRtos/tasks.o
  .bss.xDelayedTaskList2
-                0x00000000008006b0        0x9 ./FreeRtos/tasks.o
+                0x00000000008006f8        0x9 ./FreeRtos/tasks.o
  .bss.xDelayedTaskList1
-                0x00000000008006b9        0x9 ./FreeRtos/tasks.o
+                0x0000000000800701        0x9 ./FreeRtos/tasks.o
  .bss.pxReadyTasksLists
-                0x00000000008006c2       0x24 ./FreeRtos/tasks.o
+                0x000000000080070a       0x24 ./FreeRtos/tasks.o
  .bss.pxCurrentTCB
-                0x00000000008006e6        0x2 ./FreeRtos/tasks.o
-                0x00000000008006e6                pxCurrentTCB
+                0x000000000080072e        0x2 ./FreeRtos/tasks.o
+                0x000000000080072e                pxCurrentTCB
+ .bss.overcurrent_flag
+                0x0000000000800730        0x1 ./main.o
+                0x0000000000800730                overcurrent_flag
+ .bss.xOverCurrent_Task_Handle
+                0x0000000000800731        0x2 ./main.o
+                0x0000000000800731                xOverCurrent_Task_Handle
+ .bss.xADC_Task_Handle
+                0x0000000000800733        0x2 ./main.o
+                0x0000000000800733                xADC_Task_Handle
  *(COMMON)
-                0x00000000008006e8                PROVIDE (__bss_end, .)
-                0x000000000000407a                __data_load_start = LOADADDR (.data)
-                0x000000000000408a                __data_load_end = (__data_load_start + SIZEOF (.data))
+                0x0000000000800735                PROVIDE (__bss_end, .)
+                0x00000000000047a2                __data_load_start = LOADADDR (.data)
+                0x00000000000047fa                __data_load_end = (__data_load_start + SIZEOF (.data))
 
-.noinit         0x00000000008006e8        0x0
+.noinit         0x0000000000800735        0x0
                 [!provide]                        PROVIDE (__noinit_start, .)
  *(.noinit*)
                 [!provide]                        PROVIDE (__noinit_end, .)
-                0x00000000008006e8                _end = .
+                0x0000000000800735                _end = .
                 [!provide]                        PROVIDE (__heap_start, .)
 
 .eeprom         0x0000000000810000        0x0
@@ -1072,11 +1119,35 @@ END GROUP
 .user_signatures
  *(.user_signatures*)
 
-.stab
+.stab           0x0000000000000000     0xa77c
  *(.stab)
+ .stab          0x0000000000000000      0x7e0 ./Include/MCAL/ADC/ADC.o
+ .stab          0x00000000000007e0      0x6fc ./Include/Lcd/Lcd.o
+                                        0x8c4 (size before relaxing)
+ .stab          0x0000000000000edc      0xcb4 ./FreeRtos/croutine.o
+                                        0xe7c (size before relaxing)
+ .stab          0x0000000000001b90      0xcb4 ./FreeRtos/event_groups.o
+                                       0x1008 (size before relaxing)
+ .stab          0x0000000000002844      0x4d4 ./FreeRtos/heap_1.o
+                                        0x9b4 (size before relaxing)
+ .stab          0x0000000000002d18      0x624 ./FreeRtos/list.o
+                                        0xa2c (size before relaxing)
+ .stab          0x000000000000333c      0x6e4 ./FreeRtos/port.o
+                                        0xbb8 (size before relaxing)
+ .stab          0x0000000000003a20     0x1ff8 ./FreeRtos/queue.o
+                                       0x2514 (size before relaxing)
+ .stab          0x0000000000005a18     0x1608 ./FreeRtos/stream_buffer.o
+                                       0x1a7c (size before relaxing)
+ .stab          0x0000000000007020     0x2ab4 ./FreeRtos/tasks.o
+                                       0x2fc4 (size before relaxing)
+ .stab          0x0000000000009ad4      0x354 ./FreeRtos/timers.o
+                                        0x894 (size before relaxing)
+ .stab          0x0000000000009e28      0x954 ./main.o
+                                        0xbe8 (size before relaxing)
 
-.stabstr
+.stabstr        0x0000000000000000     0x660d
  *(.stabstr)
+ .stabstr       0x0000000000000000     0x660d ./Include/MCAL/ADC/ADC.o
 
 .stab.excl
  *(.stab.excl)
@@ -1105,9 +1176,11 @@ END GROUP
  .comment       0x0000000000000030       0x31 ./FreeRtos/tasks.o
  .comment       0x0000000000000030       0x31 ./FreeRtos/timers.o
  .comment       0x0000000000000030       0x31 ./main.o
+ .comment       0x0000000000000030       0x31 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(dtostrf.o)
  .comment       0x0000000000000030       0x31 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(snprintf.o)
  .comment       0x0000000000000030       0x2c c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
                                          0x2d (size before relaxing)
+ .comment       0x000000000000005c       0x31 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(dtoa_prf.o)
  .comment       0x000000000000005c       0x31 c:/tools/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5\libc.a(fputc.o)
 
 .note.gnu.avr.deviceinfo

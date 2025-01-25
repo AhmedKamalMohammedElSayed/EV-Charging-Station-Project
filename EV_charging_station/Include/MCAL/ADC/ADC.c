@@ -114,7 +114,7 @@ uint16_t ADC_READ(uint8_t channel)
 // Calculate the actual voltage from the ADC value
 float ADC_GetVoltage(uint16_t adc_value) {
     // Calculate voltage at the ADC pin
-    float v_adc = (adc_value / ADC_RESOLUTION) * VREF;
+    float v_adc = (float)(adc_value / ADC_RESOLUTION) * VREF;
 
     // Scale the voltage using the voltage divider ratio
     return v_adc ;
