@@ -45,7 +45,7 @@ int main(void) {
 		voltage = ADC_GetVoltage(adc_value);
 
 		// Format and send the values via UART
-		snprintf(buffer, sizeof(buffer), "ADC: %d\n", adc_value );
+		snprintf(buffer, sizeof(buffer), "ADC: %d\r\n", adc_value );
 		UART_SendString(buffer);
 
 //        DDRA |= (1<< PA7);

@@ -4548,7 +4548,7 @@ Disassembly of section .text:
     2512:	10 92 97 06 	sts	0x0697, r1	; 0x800697 <xTickCount+0x1>
     2516:	10 92 96 06 	sts	0x0696, r1	; 0x800696 <xTickCount>
     251a:	0e 94 18 06 	call	0xc30	; 0xc30 <xPortStartScheduler>
-    251e:	80 91 60 00 	lds	r24, 0x0060	; 0x800060 <__DATA_REGION_ORIGIN__>
+    251e:	80 91 60 00 	lds	r24, 0x0060	; 0x800060 <__data_start>
     2522:	28 96       	adiw	r28, 0x08	; 8
     2524:	0f b6       	in	r0, 0x3f	; 63
     2526:	f8 94       	cli
