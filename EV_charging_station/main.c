@@ -257,7 +257,7 @@ void prd_LED_MANAGEMENT(void *pvParameters) {
 void prd_Buttons(void *pvParameters) {
     // TickType_t xLastWakeTime = xTaskGetTickCount(); 
     while (1) {
-        // PIND |= (1 << PD2); //toggle PD2
+        PIND |= (1 << PD2); //toggle PD2
         if(charging_state != IDLE){
             
             // If start is pressed
