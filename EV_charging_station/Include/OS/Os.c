@@ -10,6 +10,7 @@
 #include "ADC.h"
 #include "Logic.h"
 #include <util/delay.h>
+#include "avr/interrupt.h"
 
 
 
@@ -21,7 +22,7 @@ void TaskDisplayRefresh(void *pvParameters) {
 
 	// Initialize the xLastWakeTime with the current time
 	xLastWakeTime = xTaskGetTickCount();
-//	Charge_Logic();
+//
 
 	while (1) {
 
@@ -63,62 +64,81 @@ void TaskFaultDetection(void *pvParameters) {
 	}
 }
 void TaskChargingStart(void *pvParameters) {
-	TickType_t xLastWakeTime; // Stores the last wake time
-	const TickType_t xFrequency = pdMS_TO_TICKS(500); // Task frequency: 100ms
-
-	// Initialize the xLastWakeTime with the current time
-	xLastWakeTime = xTaskGetTickCount();
-    // Configure PC0 as output
-    DDRC |= (1 << PC0);
-
-    while (1) {
-        // Simulate charging logic (set PC0 HIGH)
-        PORTC |= (1 << PC0);
-
-        // Delay for 500ms
-		vTaskDelayUntil(&xLastWakeTime, xFrequency);
-
-        // Signal TaskStopSession by giving the semaphore
-        xSemaphoreGive(chargingSemaphore);
-
-        // Suspend this task after signaling
-        vTaskSuspend(NULL);
+    uint8_t event;
+    for (;;) {
+        if (xQueueReceive(buttonQueue, &event, portMAX_DELAY)) {
+            if (event == START_BUTTON_EVENT) {
+                Charge_Logic();
+//                vTaskDelay(pdMS_TO_TICKS(500)); // Simulate stop logic duration
+            }
+        }
     }
 }
 
-
-// Stop Session Task (100ms)
 void TaskStopSession(void *pvParameters) {
-	TickType_t xLastWakeTime; // Stores the last wake time
-	const TickType_t xFrequency = pdMS_TO_TICKS(2000); // Task frequency: 100ms
-
-	// Initialize the xLastWakeTime with the current time
-	xLastWakeTime = xTaskGetTickCount();
-    while (1) {
-        // Wait for the semaphore from TaskChargingStart
-        if (xSemaphoreTake(chargingSemaphore, portMAX_DELAY) == pdTRUE) {
-            // Execute stop session logic
-            while (1) {
+    uint8_t event;
+    for (;;) {
+        if (xQueueReceive(buttonQueue, &event, portMAX_DELAY)) {
+            if (event == STOP_BUTTON_EVENT) {
                 Stop_Charge_Logic();
-        		vTaskDelayUntil(&xLastWakeTime, xFrequency);
+//                vTaskDelay(pdMS_TO_TICKS(200)); // Simulate stop logic duration
             }
         }
     }
 }
 
 
+
+
+#define DEBOUNCE_TIME_MS 20  // 20 ms debounce time
+
+ISR(INT0_vect) {
+
+        DDRD |= (1 << PD4);  // Set PC1 as output
+	   PORTD |= (1 << PD4); // Turn on alternative indicator
+
+        BaseType_t xHigherPriorityTaskWoken = pdFALSE;
+        uint8_t event = START_BUTTON_EVENT;
+        xQueueSendFromISR(buttonQueue, &event, &xHigherPriorityTaskWoken);
+
+        if (xHigherPriorityTaskWoken) {
+            portYIELD();
+        }
+
+}
+
+
+
+ISR(INT1_vect) { // Stop Button Interrupt
+
+		BaseType_t xHigherPriorityTaskWoken = pdFALSE;
+		uint8_t event = STOP_BUTTON_EVENT;
+		xQueueSendFromISR(buttonQueue, &event, &xHigherPriorityTaskWoken);
+		if (xHigherPriorityTaskWoken) {
+			portYIELD();
+		}
+
+}
+
+
 void Os_Init(void) {
-	 // Create the event group
-    chargingSemaphore = xSemaphoreCreateBinary();
+
+	// Create Queue
+	buttonQueue = xQueueCreate(5, sizeof(uint8_t));
+	if (buttonQueue == NULL) {
+		// Handle Queue Creation Failure
+	}
 
 	// Task creation
 	xTaskCreate(TaskChargingStart, "ChargingStart", 128, NULL, 3, &TaskChargingStartHandle);
 
-	xTaskCreate(TaskStopSession, "StopSession", 128, NULL, 2, &TaskStopSessionHandle);
+
+	xTaskCreate(TaskStopSession, "StopSession", 128, NULL, 3, &TaskStopSessionHandle);
 	xTaskCreate(TaskDisplayRefresh, "DisplayRefresh", 128, NULL, 1, &TaskDisplayRefreshHandle);
 	//xTaskCreate(TaskUserCommand, "UserCommand", 128, NULL, 2, &TaskUserCommandHandle);
 	//xTaskCreate(TaskFaultDetection, "FaultDetection", 128, NULL, 4, &TaskFaultDetectionHandle);
 
 	vTaskStartScheduler();
+//	vTaskDelay(pdMS_TO_TICKS(100));
 
 }

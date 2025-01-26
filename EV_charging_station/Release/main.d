@@ -18,11 +18,13 @@ main.o: ../main.c \
  C:\Users\medo4\eclipse-workspace\EV_charging_station\FreeRtos\include/task.h \
  C:\Users\medo4\eclipse-workspace\EV_charging_station\FreeRtos\include/semphr.h \
  C:\Users\medo4\eclipse-workspace\EV_charging_station\FreeRtos\include/queue.h \
+ C:\Users\medo4\eclipse-workspace\EV_charging_station\FreeRtos\include/queue.h \
  C:\Users\medo4\eclipse-workspace\EV_charging_station\Include\MCAL\Gpio/Gpio_Config.h \
  C:\Users\medo4\eclipse-workspace\EV_charging_station\Include\MCAL\Gpio/Gpio.h \
  C:\Users\medo4\eclipse-workspace\EV_charging_station\Include\COMMUNICATION\Uart/Uart.h \
  C:\Users\medo4\eclipse-workspace\EV_charging_station\Include\LOGIC\Polling/poller.h \
- C:\Users\medo4\eclipse-workspace\EV_charging_station\Include\Configrations/Std_Types.h
+ C:\Users\medo4\eclipse-workspace\EV_charging_station\Include\Configrations/Std_Types.h \
+ C:\Users\medo4\eclipse-workspace\EV_charging_station\Include\LOGIC/Logic.h
 
 C:\Users\medo4\eclipse-workspace\EV_charging_station\FreeRtos\include/FreeRTOS.h:
 
@@ -62,6 +64,8 @@ C:\Users\medo4\eclipse-workspace\EV_charging_station\FreeRtos\include/semphr.h:
 
 C:\Users\medo4\eclipse-workspace\EV_charging_station\FreeRtos\include/queue.h:
 
+C:\Users\medo4\eclipse-workspace\EV_charging_station\FreeRtos\include/queue.h:
+
 C:\Users\medo4\eclipse-workspace\EV_charging_station\Include\MCAL\Gpio/Gpio_Config.h:
 
 C:\Users\medo4\eclipse-workspace\EV_charging_station\Include\MCAL\Gpio/Gpio.h:
@@ -71,3 +75,5 @@ C:\Users\medo4\eclipse-workspace\EV_charging_station\Include\COMMUNICATION\Uart/
 C:\Users\medo4\eclipse-workspace\EV_charging_station\Include\LOGIC\Polling/poller.h:
 
 C:\Users\medo4\eclipse-workspace\EV_charging_station\Include\Configrations/Std_Types.h:
+
+C:\Users\medo4\eclipse-workspace\EV_charging_station\Include\LOGIC/Logic.h:

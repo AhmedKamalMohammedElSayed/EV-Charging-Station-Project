@@ -8,12 +8,14 @@
 #include "Gpio_Config.h"
 #include "Uart.h"
 #include "poller.h"
+#include "Logic.h"
 #include <util/delay.h>
 
 
 int main(void) {
 
-	
+	// Initialize buttons for interrupts
+		Button_Init();
 		LCD_Init();
 
 		ADC_INIT(128, AREF);

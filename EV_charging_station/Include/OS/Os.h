@@ -12,14 +12,15 @@
 #include "task.h"
 #include "event_groups.h"
 #include "semphr.h"
+#include "queue.h"
 
-SemaphoreHandle_t chargingSemaphore;
 
+#define START_BUTTON_EVENT 1
+#define STOP_BUTTON_EVENT 2
+#define DEBOUNCE_TIME_MS 20
 
-EventGroupHandle_t eventGroup;
-
-// Define event bit masks
-#define EVENT_CHARGING_DONE (1 << 0) // Bit 0 for Charging Done
+// Queue Handle
+QueueHandle_t buttonQueue;
 
 
 TaskHandle_t TaskChargingStartHandle, TaskStopSessionHandle, TaskDisplayRefreshHandle, TaskUserCommandHandle, TaskFaultDetectionHandle;

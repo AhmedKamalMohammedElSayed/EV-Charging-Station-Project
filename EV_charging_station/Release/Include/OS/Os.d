@@ -13,6 +13,7 @@ Include/OS/Os.o: ../Include/OS/Os.c ../Include/OS/Os.h \
  C:\Users\medo4\eclipse-workspace\EV_charging_station\FreeRtos\include/task.h \
  C:\Users\medo4\eclipse-workspace\EV_charging_station\FreeRtos\include/semphr.h \
  C:\Users\medo4\eclipse-workspace\EV_charging_station\FreeRtos\include/queue.h \
+ C:\Users\medo4\eclipse-workspace\EV_charging_station\FreeRtos\include/queue.h \
  C:\Users\medo4\eclipse-workspace\EV_charging_station\Include\HAL\Lcd/Lcd.h \
  C:\Users\medo4\eclipse-workspace\EV_charging_station\Include\MCAL\Gpio/Gpio.h \
  C:\Users\medo4\eclipse-workspace\EV_charging_station\Include\MCAL\ADC/ADC_Config.h \
@@ -46,6 +47,8 @@ C:\Users\medo4\eclipse-workspace\EV_charging_station\FreeRtos\include/timers.h:
 C:\Users\medo4\eclipse-workspace\EV_charging_station\FreeRtos\include/task.h:
 
 C:\Users\medo4\eclipse-workspace\EV_charging_station\FreeRtos\include/semphr.h:
+
+C:\Users\medo4\eclipse-workspace\EV_charging_station\FreeRtos\include/queue.h:
 
 C:\Users\medo4\eclipse-workspace\EV_charging_station\FreeRtos\include/queue.h:
 
