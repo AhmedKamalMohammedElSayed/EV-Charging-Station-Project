@@ -257,6 +257,7 @@ void prd_LED_MANAGEMENT(void *pvParameters) {
 void prd_Buttons(void *pvParameters) {
     // TickType_t xLastWakeTime = xTaskGetTickCount(); 
     while (1) {
+        // PIND |= (1 << PD2); //toggle PD2
         if(charging_state != IDLE){
             
             // If start is pressed
@@ -287,7 +288,7 @@ int main(void) {
 
     // DDRC |= (0x7F); // Set PC0-7 as output
     DDRC |= (1 << PC0) | (1 << PC1) | (1 << PC2) | (1 << PC3) | (1 << PC4) | (1 << PC5) | (1 << PC6) | (1 << PC7); // Set PC0-7 as output
-
+    DDRD |= (1 << PD2); // Set PD2 as output
     // Create the ADC reading task
     xTaskCreate(ADC_Task, "ADC Task", 128, NULL, 1, &xADC_Task_Handle);
 
