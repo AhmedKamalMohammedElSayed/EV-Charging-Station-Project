@@ -304,10 +304,10 @@ Disassembly of section .text:
      242:	80 91 34 01 	lds	r24, 0x0134	; 0x800134 <__data_end>
      246:	81 13       	cpse	r24, r17
      248:	1d c0       	rjmp	.+58     	; 0x284 <TaskDisplayRefresh+0x9e>
-     24a:	80 91 60 00 	lds	r24, 0x0060	; 0x800060 <__DATA_REGION_ORIGIN__>
-     24e:	90 91 61 00 	lds	r25, 0x0061	; 0x800061 <__DATA_REGION_ORIGIN__+0x1>
-     252:	a0 91 62 00 	lds	r26, 0x0062	; 0x800062 <__DATA_REGION_ORIGIN__+0x2>
-     256:	b0 91 63 00 	lds	r27, 0x0063	; 0x800063 <__DATA_REGION_ORIGIN__+0x3>
+     24a:	80 91 60 00 	lds	r24, 0x0060	; 0x800060 <__data_start>
+     24e:	90 91 61 00 	lds	r25, 0x0061	; 0x800061 <__data_start+0x1>
+     252:	a0 91 62 00 	lds	r26, 0x0062	; 0x800062 <__data_start+0x2>
+     256:	b0 91 63 00 	lds	r27, 0x0063	; 0x800063 <__data_start+0x3>
      25a:	8d 83       	std	Y+5, r24	; 0x05
      25c:	9e 83       	std	Y+6, r25	; 0x06
      25e:	af 83       	std	Y+7, r26	; 0x07
@@ -343,10 +343,10 @@ Disassembly of section .text:
      2a4:	9a 81       	ldd	r25, Y+2	; 0x02
      2a6:	ab 81       	ldd	r26, Y+3	; 0x03
      2a8:	bc 81       	ldd	r27, Y+4	; 0x04
-     2aa:	80 93 60 00 	sts	0x0060, r24	; 0x800060 <__DATA_REGION_ORIGIN__>
-     2ae:	90 93 61 00 	sts	0x0061, r25	; 0x800061 <__DATA_REGION_ORIGIN__+0x1>
-     2b2:	a0 93 62 00 	sts	0x0062, r26	; 0x800062 <__DATA_REGION_ORIGIN__+0x2>
-     2b6:	b0 93 63 00 	sts	0x0063, r27	; 0x800063 <__DATA_REGION_ORIGIN__+0x3>
+     2aa:	80 93 60 00 	sts	0x0060, r24	; 0x800060 <__data_start>
+     2ae:	90 93 61 00 	sts	0x0061, r25	; 0x800061 <__data_start+0x1>
+     2b2:	a0 93 62 00 	sts	0x0062, r26	; 0x800062 <__data_start+0x2>
+     2b6:	b0 93 63 00 	sts	0x0063, r27	; 0x800063 <__data_start+0x3>
      2ba:	df cf       	rjmp	.-66     	; 0x27a <TaskDisplayRefresh+0x94>
      2bc:	86 e9       	ldi	r24, 0x96	; 150
      2be:	90 e0       	ldi	r25, 0x00	; 0
@@ -1734,6 +1734,7 @@ void poll(void) {
      9d0:	8e ee       	ldi	r24, 0xEE	; 238
      9d2:	90 e0       	ldi	r25, 0x00	; 0
      9d4:	0e 94 a0 07 	call	0xf40	; 0xf40 <UART_Print>
+					// This should notify the Overcurrent task if this condition is met
 				}
 				
 				adc_connection_check = ADC_READ(2);
@@ -1750,6 +1751,8 @@ void poll(void) {
 				} else if (adc_connection_check > CONNECTION_THRESHOLD) {
 					UART_Print("NOT CONNECTED!\r\n");
      9ea:	0e 94 a0 07 	call	0xf40	; 0xf40 <UART_Print>
+					// This should notify the Sudden disconnect task if 
+					// this condition is met
 				}
 //
 				// Print results to virtual terminal
