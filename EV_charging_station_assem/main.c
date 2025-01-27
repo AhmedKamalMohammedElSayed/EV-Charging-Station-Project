@@ -18,12 +18,14 @@ int main(void) {
 		Button_Init();
 //		LCD_Init();
 
+		DDRD |= (1 << PD6);
+
 		ADC_INIT(128, AREF);
 
-//		poller_Init();
-//
-//		poller_SetPollTime(20);
-//		Poller__StartPolling();
+		poller_Init();
+
+		poller_SetPollTime(50);
+		Poller__StartPolling();
 
 		
 

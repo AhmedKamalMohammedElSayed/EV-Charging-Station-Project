@@ -12,6 +12,9 @@
 #define VREF 5.0                 // Reference voltage in volts
 #define ADC_RESOLUTION 1023.0    // ADC resolution (10-bit)
 
+#define OVERCURRENT_THRESHOLD 25
+#define CONNECTION_THRESHOLD 900
+
 #define AREF 0                 // 0 0
 #define AVCC 1                 // 0 1
 #define INTERNAL 3             // 1 1

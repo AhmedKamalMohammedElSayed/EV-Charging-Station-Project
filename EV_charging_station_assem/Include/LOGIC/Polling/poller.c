@@ -29,13 +29,34 @@ void poll(void) {
 						// Variables
 
 				uint16_t adc_value = 0;  // Raw ADC value
+				uint16_t adc_OC_Check = 0;  // ADC value to check for overcurrent
+				uint16_t adc_connection_check = 0;  // ADC value to check for connected load
+
 				float adc_voltage = 0;
+
+
 //
 //				 Read the ADC value from channel 0 (ADC0)
 				adc_value = ADC_READ(0);
 //				 Convert ADC value to voltage
 				adc_voltage = ADC_GetVoltage(adc_value);
 				cap_percentage = calculateChargePercentage(adc_voltage);
+
+				adc_OC_Check = ADC_READ(1);
+				if (adc_OC_Check > OVERCURRENT_THRESHOLD) {
+					UART_Print("Overcurrent!\r\n");
+					// This should notify the Overcurrent task if this condition is met
+				}
+				
+				adc_connection_check = ADC_READ(2);
+				if (adc_connection_check < CONNECTION_THRESHOLD) {
+					UART_Print("CONNECTED!\r\n");
+				} else if (adc_connection_check > CONNECTION_THRESHOLD) {
+					UART_Print("NOT CONNECTED!\r\n");
+
+					// This should notify the Sudden disconnect task if 
+					// this condition is met
+				}
 //
 				// Print results to virtual terminal
 				UART_Print("Charge Percentage: ");

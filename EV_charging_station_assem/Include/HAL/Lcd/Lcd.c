@@ -23,14 +23,14 @@ void LCD_Command(unsigned char cmnd) {
     Proxy_WritePort(&lcdDataProxy, (Proxy_ReadPort(&lcdDataProxy) & 0x0F) | (cmnd & 0xF0));
     Proxy_ClearPin(&lcdControlProxy, RS); // RS=0, command register
     Proxy_SetPin(&lcdControlProxy, EN);  // Enable pulse
-    _delay_us(1);
+    _delay_ms(1);
     Proxy_ClearPin(&lcdControlProxy, EN);
 //    _delay_us(200);
 
     // Send lower nibble
     Proxy_WritePort(&lcdDataProxy, (Proxy_ReadPort(&lcdDataProxy) & 0x0F) | (cmnd << 4));
     Proxy_SetPin(&lcdControlProxy, EN);
-    _delay_us(1);
+    _delay_ms(1);
     Proxy_ClearPin(&lcdControlProxy, EN);
     _delay_ms(2);
 }

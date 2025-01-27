@@ -29,6 +29,7 @@ Include/COMMUNICATION/Uart \
 Include/HAL/Lcd \
 Include/LOGIC \
 Include/LOGIC/Polling \
+Include/LOGIC/observer \
 Include/MCAL/ADC \
 Include/MCAL/Gpio \
 Include/MCAL/Timer \

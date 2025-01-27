@@ -12,6 +12,7 @@ RM := rm -rf
 -include Include/MCAL/Timer/subdir.mk
 -include Include/MCAL/Gpio/subdir.mk
 -include Include/MCAL/ADC/subdir.mk
+-include Include/LOGIC/observer/subdir.mk
 -include Include/LOGIC/Polling/subdir.mk
 -include Include/LOGIC/subdir.mk
 -include Include/HAL/Lcd/subdir.mk
