@@ -12,7 +12,7 @@
 #include "task.h"
 #include "event_groups.h"
 #include "semphr.h"
-#include "queue.h"
+#include "queue.h" 
 #include "poller.h"
 
 
@@ -25,17 +25,10 @@
 extern float cap_percentage ;
 float percentage;
 
-// Queue Handle
-QueueHandle_t buttonQueue;
-// Semaphores and Task Handle
-SemaphoreHandle_t lcdSemaphore;
-SemaphoreHandle_t stateSemaphore;
 
 
 
 
-
-TaskHandle_t TaskChargingStartHandle, TaskStopSessionHandle, taskHandleDisplayRefresh, TaskUserCommandHandle, TaskFaultDetectionHandle;
 
 void TaskChargingStart(void *pvParameters);
 void TaskStopSession(void *pvParameters);

@@ -11,18 +11,8 @@
 #include "Logic.h"
 #include <util/delay.h>
 #include "avr/interrupt.h"
+#include "OS_Config.h"
 
-
-// Define system states
-typedef enum {
-    NONE,
-    CHARGING,
-    DISCHARGING,
-    FAULT_DETECTION
-} SystemState;
-
-// Global variable for system state
-volatile SystemState globalState = NONE; // Default state
 
 
 //// Interrupt Service Routine for START Button (INT0)
@@ -49,70 +39,119 @@ ISR(INT1_vect) {
 
 // Task to Refresh LCD Display
 void TaskDisplayRefresh(void *pvParameters) {
-    // TickType_t xLastWakeTime = xTaskGetTickCount(); // Initialize with the current tick count
-	// const TickType_t xFrequency = pdMS_TO_TICKS(100);
+	 TickType_t xLastWakeTime = xTaskGetTickCount(); // Initialize with the current tick count
 
-    static SystemState lastState = NONE; // Remember the last displayed state
-    static float lastPercentage = -1.0f; // Remember the last capacity percentage
+	const TickType_t xFrequency = pdMS_TO_TICKS(100);
+
+	SystemState localState;
 
     for(;;) {
-        PIND |= (1<<PD6);
-        // If state has changed or needs to be updated, refresh LCD
-        SystemState localState;
-        float localPercentage = cap_percentage; // Capture percentage at the start
-        
-        if (xSemaphoreTake(stateSemaphore, portMAX_DELAY) == pdTRUE) {
-            localState = globalState;
-            xSemaphoreGive(stateSemaphore); // Release the state semaphore
-        }
 
-        // Only update the LCD if the state or percentage has changed
-        if (localState != lastState || localPercentage != lastPercentage) {
-            // Update only the necessary parts of the display
-            if (localState != lastState) {
-                LCD_Clear(); // Clear only if state has changed
-                LCD_String("State:");
-                switch (localState) {
-                    case NONE:
-                        LCD_String("NONE");
-                        break;
-                    case CHARGING:
-                        LCD_String("Charge");
-                        LCD_Command(0xC0); // Move to second line
-                        LCD_String("Percent: ");
-                        LCD_Float(localPercentage);
-                        LCD_String("%");
-                        break;
-                    case DISCHARGING:
-                        LCD_String("Discharge");
-                        LCD_Command(0xC0); // Move to second line
-                        LCD_String("Percent: ");
-                        LCD_Float(localPercentage);
-                        LCD_String("%");
-                        break;
-                    case FAULT_DETECTION:
-                        LCD_String("Fault");
-                        break;
-                }
-            } else if ((localPercentage != lastPercentage) && (localState != NONE)) {
-                // Only update the percentage value if it has changed
-                LCD_Command(0xC0); // Move to second line
-                LCD_String("Percent: ");
-                LCD_Float(localPercentage);
-                LCD_String("%");
+			DDRD |= (1 << PD6);
+
+			PORTD ^= (1<<PD6);
+		    LCD_Clear(); // Only clear when the state changes
+
+
+
+            LCD_String("State:"); // Print label
+
+            // Safely access the global system state
+            if (xSemaphoreTake(stateSemaphore, pdMS_TO_TICKS(10)) == pdTRUE) {
+
+                localState = globalState;
+                xSemaphoreGive(stateSemaphore); // Release the state semaphore
             }
+            // Update the display based on the current system state
+            switch (localState) {
+                case IDLE:
+                    LCD_String("IDLE"); // Display NONE state
+                    break;
+                case READY:
+                    LCD_String("READY");
+                    break;
+                case CHARGING:
+                    LCD_String("Charge"); // Display CHARGING state
+                    LCD_Command(0xC0); // Move to the second line
+                    LCD_String("Percentage: ");
+					LCD_Float(cap_percentage); // Display real-time capacity percentage
+					LCD_String(" %");
+                    break;
+                case DISCHARGING:
+                    LCD_String("Discharge"); // Display DISCHARGING state
+                    LCD_Command(0xC0); // Move to the second line
+                    LCD_String("Percentage: ");
+                    LCD_Float(cap_percentage); // Display real-time capacity percentage
+                    LCD_String(" %");
+                    break;
+                case FAULT_DETECTION:
+                    LCD_String("FAULT"); // Display FAULT state
+                    LCD_Command(0xC0); // Move to the second line
+                    if (is_overcurrent){
+                        LCD_String("OVERCURRENT!");
+                    } else if (is_sudden_disconnect){
+                        LCD_String("SUDDEN DISCONNECT");
+                    }
+                    break;
+            }
+            // Convert the period from ticks to milliseconds
+			uint32_t periodMs = pdTICKS_TO_MS(xFrequency);
 
-            // Store the current state and percentage for the next iteration
-            lastState = localState;
-            lastPercentage = localPercentage;
-        }
-            vTaskDelay(pdMS_TO_TICKS(90));
-        }
-        // Wait until the next cycle (ensures periodic execution)
+            vTaskDelayUntil(&xLastWakeTime, xFrequency);
     }
-//        vTaskDelay(xFrequency);
+}
 
 
+
+
+
+void VehicleCheckTask(void *pvParameters) {
+    // TickType_t xLastWakeTime = xTaskGetTickCount(); 
+    
+    static uint16_t adc_OC_Check_value = 0;
+    static uint16_t adc_connection_check = 0;
+    uint8_t local_state = globalState;
+    
+    while (1) {
+        
+        adc_connection_check = ADC_READ(VEHICLE_CONNECTION_CHECK_PIN);
+        adc_OC_Check_value = ADC_READ(VEHICLE_OVERCURRENT_CHECK_PIN);
+
+
+        // Check if the ADC value is above the threshold
+        if (adc_connection_check < CONNECTION_THRESHOLD) {
+            is_connected = 1;
+            if (local_state == IDLE) {
+                
+                local_state = READY;
+                
+            }
+        
+        } else if (adc_OC_Check_value > OVERCURRENT_THRESHOLD){
+            is_overcurrent = 1;
+            local_state = FAULT_DETECTION;
+
+        } else {
+            is_connected = 0;
+            if ((local_state == CHARGING)) {    
+                // charging_state = STOP;
+                // xTaskNotifyGive(xSuddenDisconnect_Task_Handle);
+                is_sudden_disconnect = 1;
+                local_state = FAULT_DETECTION
+            } else {
+                local_state = IDLE;
+            }
+        }
+
+        if (xSemaphoreTake(stateSemaphore, portMAX_DELAY) == pdTRUE) {
+            globalState = local_state;
+            xSemaphoreGive(stateSemaphore);
+        }
+
+        // vTaskDelayUntil(&xLastWakeTime, pdMS_TO_TICKS(VEHICLE_CHECK_PERIOD));
+        vTaskDelay(pdMS_TO_TICKS(200));
+    }
+}
 
 
 
@@ -165,14 +204,10 @@ void SuddenDisconnect_Task(void *pvParameters) {
     while (1) {
         ulTaskNotifyTake(pdTRUE, portMAX_DELAY);
 
-        // SET FLAG
-//        suddenDisconnect_flag = 1;
-//        charging_state = STOP;
         PORTC |= (1 << PC7); // Set PC7 "Disconnected" to high
         vTaskDelay(pdMS_TO_TICKS(2000));
         PORTC &= ~(1 << PC7);  // Set PC7 "Disconnected" to low
-//        suddenDisconnect_flag = 0;
-//        charging_state = IDLE;
+
     }
 }
 
@@ -182,16 +217,10 @@ void Overcurrent_Task(void *pvParameters) {
         // Wait for the overcurrent flag to be set
         ulTaskNotifyTake(pdTRUE, portMAX_DELAY);
 
-//        overcurrent_flag = 1;
-
-        // Stop Charging
-//        charging_state = STOP;
-
         PORTC |= (1 << PC0); // Set PC0 to high
         vTaskDelay(pdMS_TO_TICKS(1000));
         PORTC &= ~(1 << PC0);  // Set PC0 to low
 
-//        overcurrent_flag = 0;
     }
 }
 
@@ -210,30 +239,22 @@ void Os_Init(void) {
     // Initialize peripherals
 	LCD_Init();
 
-////     Create binary semaphore for LCD access
-//    lcdSemaphore = xSemaphoreCreateBinary();
-//    if (lcdSemaphore == NULL) {
-//        while (1); // Handle semaphore creation failure
-//    }
-//    xSemaphoreGive(lcdSemaphore);
+
 
     // Create binary semaphore for global state
     stateSemaphore = xSemaphoreCreateBinary();
-//    if (stateSemaphore == NULL) {
-//        while (1); // Handle semaphore creation failure
-//    }
+
     xSemaphoreGive(stateSemaphore);
 
     // Create the button queue
     buttonQueue = xQueueCreate(5, sizeof(uint8_t));
-//    if (buttonQueue == NULL) {
-//        while (1); // Handle queue creation failure
-//    }
 
 //     Create tasks
     xTaskCreate(TaskDisplayRefresh, "DisplayRefresh", 128, NULL, 4, &taskHandleDisplayRefresh);
     xTaskCreate(TaskChargingStart, "ChargingStart", 128, NULL, 3, NULL);
     xTaskCreate(TaskStopSession, "StopSession", 128, NULL, 3, NULL);
+    xTaskCreate(VehicleCheckTask, "VehicleCheck", 128, NULL, 3, &VehicleCheckTaskHandle);
+    
 //    xTaskCreate(prd_Buttons, "prd_Buttons", 128, NULL, 4, NULL);
 
     // Start the scheduler
