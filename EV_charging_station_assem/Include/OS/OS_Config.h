@@ -12,6 +12,7 @@
 #include "task.h"  
 #include "semphr.h"
 #include "queue.h" 
+#include "OS_Config.h"
 
 
 
@@ -33,15 +34,15 @@ typedef enum {
 
 // FLAGS
 
-uint8_t is_connected = 0;
-uint8_t is_sudden_disconnect = 0;
-uint8_t is_overcurrent = 0;
+uint8_t is_connected;
+uint8_t is_sudden_disconnect;
+uint8_t is_overcurrent;
 
 
 
 
 // Global variable for system state
-volatile SystemState globalState = IDLE; // Default state
+volatile SystemState globalState; // Default state
 
 
 TaskHandle_t TaskChargingStartHandle, TaskStopSessionHandle, taskHandleDisplayRefresh, TaskUserCommandHandle, TaskFaultDetectionHandle;

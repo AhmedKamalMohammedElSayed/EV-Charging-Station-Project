@@ -21,6 +21,8 @@ main.o: ../main.c \
  C:\Users\Horizon\Documents\GitHub\EV-Charging-Station-Project\EV_charging_station_assem\FreeRtos\include/queue.h \
  C:\Users\Horizon\Documents\GitHub\EV-Charging-Station-Project\EV_charging_station_assem\Include\LOGIC\Polling/poller.h \
  C:\Users\Horizon\Documents\GitHub\EV-Charging-Station-Project\EV_charging_station_assem\Include\Configrations/Std_Types.h \
+ C:\Users\Horizon\Documents\GitHub\EV-Charging-Station-Project\EV_charging_station_assem\Include\OS/OS_Config.h \
+ C:\Users\Horizon\Documents\GitHub\EV-Charging-Station-Project\EV_charging_station_assem\Include\OS/OS_Config.h \
  C:\Users\Horizon\Documents\GitHub\EV-Charging-Station-Project\EV_charging_station_assem\Include\MCAL\Gpio/Gpio_Config.h \
  C:\Users\Horizon\Documents\GitHub\EV-Charging-Station-Project\EV_charging_station_assem\Include\MCAL\Gpio/Gpio.h \
  C:\Users\Horizon\Documents\GitHub\EV-Charging-Station-Project\EV_charging_station_assem\Include\COMMUNICATION\Uart/Uart.h \
@@ -69,6 +71,10 @@ C:\Users\Horizon\Documents\GitHub\EV-Charging-Station-Project\EV_charging_statio
 C:\Users\Horizon\Documents\GitHub\EV-Charging-Station-Project\EV_charging_station_assem\Include\LOGIC\Polling/poller.h:
 
 C:\Users\Horizon\Documents\GitHub\EV-Charging-Station-Project\EV_charging_station_assem\Include\Configrations/Std_Types.h:
+
+C:\Users\Horizon\Documents\GitHub\EV-Charging-Station-Project\EV_charging_station_assem\Include\OS/OS_Config.h:
+
+C:\Users\Horizon\Documents\GitHub\EV-Charging-Station-Project\EV_charging_station_assem\Include\OS/OS_Config.h:
 
 C:\Users\Horizon\Documents\GitHub\EV-Charging-Station-Project\EV_charging_station_assem\Include\MCAL\Gpio/Gpio_Config.h:
 

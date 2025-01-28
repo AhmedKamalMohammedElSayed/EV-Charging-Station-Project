@@ -10,7 +10,7 @@
 #include <avr/interrupt.h>
 #include <util/delay.h>
 #include "Logic.h"
-#include "OS_Config.h"
+
 
 uint16 static pollCounter =0;
 uint16 static pollTimeCounter=0;
@@ -48,9 +48,14 @@ void poll(void) {
 
 				adc_OC_Check_value = ADC_READ(VEHICLE_OVERCURRENT_CHECK_PIN);
 
-				if ((adc_OC_Check_value > OVERCURRENT_THRESHOLD) || (adc_connection_check < CONNECTION_THRESHOLD)){
+				if ((adc_OC_Check_value > OVERCURRENT_THRESHOLD)){
+					xTaskNotifyGive(Overcurrent_TaskHandle);
+				}
+
+				if ((adc_connection_check < CONNECTION_THRESHOLD) && (is_connected == 0)){
 					xTaskNotifyGive(VehicleCheckTaskHandle);
 				}
+
 				// adc_OC_Check = ADC_READ(1);
 				// if (adc_OC_Check > OVERCURRENT_THRESHOLD) {
 				// 	UART_Print("Overcurrent!\r\n");

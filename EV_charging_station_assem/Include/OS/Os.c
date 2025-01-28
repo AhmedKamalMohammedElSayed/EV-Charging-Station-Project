@@ -11,11 +11,20 @@
 #include "Logic.h"
 #include <util/delay.h>
 #include "avr/interrupt.h"
-#include "OS_Config.h"
+
+uint8_t is_connected = 0;
+uint8_t is_sudden_disconnect = 0;
+uint8_t is_overcurrent = 0;
 
 
 
-//// Interrupt Service Routine for START Button (INT0)
+
+// Global variable for system state
+volatile SystemState globalState = IDLE; // Default state
+
+
+
+
 ISR(INT0_vect) {
     BaseType_t xHigherPriorityTaskWoken = pdFALSE;
     uint8_t event = START_BUTTON_EVENT;
@@ -106,11 +115,12 @@ void TaskDisplayRefresh(void *pvParameters) {
 
 
 void VehicleCheckTask(void *pvParameters) {
+    ulTaskNotifyTake(pdTRUE, portMAX_DELAY);
     // TickType_t xLastWakeTime = xTaskGetTickCount(); 
     
     static uint16_t adc_OC_Check_value = 0;
     static uint16_t adc_connection_check = 0;
-    uint8_t local_state = globalState;
+    SystemState local_state = globalState;
     
     while (1) {
         
@@ -121,30 +131,33 @@ void VehicleCheckTask(void *pvParameters) {
         // Check if the ADC value is above the threshold
         if (adc_connection_check < CONNECTION_THRESHOLD) {
             is_connected = 1;
-            if (local_state == IDLE) {
+            if ((globalState == IDLE)) {
                 
                 local_state = READY;
                 
             }
-        
+        } else if (adc_connection_check > CONNECTION_THRESHOLD){
+            is_connected = 0;
+            if ((globalState == CHARGING)) {    
+                // charging_state = STOP;
+                // xTaskNotifyGive(xSuddenDisconnect_Task_Handle);
+                is_sudden_disconnect = 1;
+                local_state = FAULT_DETECTION;
+            } else {
+                local_state = IDLE;
+            }
         } else if (adc_OC_Check_value > OVERCURRENT_THRESHOLD){
             is_overcurrent = 1;
             local_state = FAULT_DETECTION;
 
-        } else {
-            is_connected = 0;
-            if ((local_state == CHARGING)) {    
-                // charging_state = STOP;
-                // xTaskNotifyGive(xSuddenDisconnect_Task_Handle);
-                is_sudden_disconnect = 1;
-                local_state = FAULT_DETECTION
-            } else {
-                local_state = IDLE;
-            }
         }
 
         if (xSemaphoreTake(stateSemaphore, portMAX_DELAY) == pdTRUE) {
-            globalState = local_state;
+            if (globalState != local_state) {
+                
+                globalState = local_state;
+                
+            }
             xSemaphoreGive(stateSemaphore);
         }
 
@@ -217,9 +230,15 @@ void Overcurrent_Task(void *pvParameters) {
         // Wait for the overcurrent flag to be set
         ulTaskNotifyTake(pdTRUE, portMAX_DELAY);
 
-        PORTC |= (1 << PC0); // Set PC0 to high
+        is_overcurrent = 1;
+        
+        if (xSemaphoreTake(stateSemaphore, portMAX_DELAY) == pdTRUE) {
+            globalState = FAULT_DETECTION;
+            xSemaphoreGive(stateSemaphore);
+        }
+        // PORTC |= (1 << PC0); // Set PC0 to high
         vTaskDelay(pdMS_TO_TICKS(1000));
-        PORTC &= ~(1 << PC0);  // Set PC0 to low
+        // PORTC &= ~(1 << PC0);  // Set PC0 to low
 
     }
 }
@@ -251,9 +270,10 @@ void Os_Init(void) {
 
 //     Create tasks
     xTaskCreate(TaskDisplayRefresh, "DisplayRefresh", 128, NULL, 4, &taskHandleDisplayRefresh);
-    xTaskCreate(TaskChargingStart, "ChargingStart", 128, NULL, 3, NULL);
-    xTaskCreate(TaskStopSession, "StopSession", 128, NULL, 3, NULL);
-    xTaskCreate(VehicleCheckTask, "VehicleCheck", 128, NULL, 3, &VehicleCheckTaskHandle);
+    xTaskCreate(TaskChargingStart, "ChargingStart", 128, NULL, 2, NULL);
+    xTaskCreate(TaskStopSession, "StopSession", 128, NULL, 2, NULL);
+    xTaskCreate(VehicleCheckTask, "VehicleCheck", 128, NULL, 2, &VehicleCheckTaskHandle);
+    xTaskCreate(Overcurrent_Task, "Overcurrent Task", 128, NULL, 4, &Overcurrent_TaskHandle);
     
 //    xTaskCreate(prd_Buttons, "prd_Buttons", 128, NULL, 4, NULL);
 
