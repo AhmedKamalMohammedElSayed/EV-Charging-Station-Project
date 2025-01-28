@@ -120,9 +120,9 @@ void VehicleCheckTask(void *pvParameters) {
     
     static uint16_t adc_OC_Check_value = 0;
     static uint16_t adc_connection_check = 0;
-    SystemState local_state = globalState;
     
     while (1) {
+        SystemState local_state = globalState;
         
         adc_connection_check = ADC_READ(VEHICLE_CONNECTION_CHECK_PIN);
         adc_OC_Check_value = ADC_READ(VEHICLE_OVERCURRENT_CHECK_PIN);
@@ -143,13 +143,9 @@ void VehicleCheckTask(void *pvParameters) {
                 // xTaskNotifyGive(xSuddenDisconnect_Task_Handle);
                 is_sudden_disconnect = 1;
                 local_state = FAULT_DETECTION;
-            } else {
+            } else if ( globalState != FAULT_DETECTION){ 
                 local_state = IDLE;
             }
-        } else if (adc_OC_Check_value > OVERCURRENT_THRESHOLD){
-            is_overcurrent = 1;
-            local_state = FAULT_DETECTION;
-
         }
 
         if (xSemaphoreTake(stateSemaphore, portMAX_DELAY) == pdTRUE) {
@@ -175,11 +171,22 @@ void TaskChargingStart(void *pvParameters) {
     for (;;) {
         if (xQueueReceive(buttonQueue, &event, portMAX_DELAY)) {
             if (event == START_BUTTON_EVENT) {
-                Charge_Logic();
+                if (globalState == FAULT_DETECTION) {
+                    is_overcurrent = 0;
+                    is_sudden_disconnect = 0;
+                    if (xSemaphoreTake(stateSemaphore, portMAX_DELAY) == pdTRUE) {
+                        globalState = IDLE;
+                        xSemaphoreGive(stateSemaphore);
+                    }
+                    
+                } else if (globalState == READY || globalState == DISCHARGING) {
+                    Charge_Logic();
 
-                if (xSemaphoreTake(stateSemaphore, portMAX_DELAY) == pdTRUE) {
-                    globalState = CHARGING;
-                    xSemaphoreGive(stateSemaphore);
+                    if (xSemaphoreTake(stateSemaphore, portMAX_DELAY) == pdTRUE) {
+                        globalState = CHARGING;
+                        xSemaphoreGive(stateSemaphore);
+                    }
+                    
                 }
 
 
